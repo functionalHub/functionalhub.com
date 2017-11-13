@@ -1,0 +1,59 @@
+{namespace main}
+
+/**
+ * @param content
+ * @param? elementClasses
+ */
+{template .render}
+	<div class="{$elementClasses ?: 'main'}">
+		<main class="content">
+			{$content}
+		</main>
+	</div>
+{/template}
+
+/**
+ * @param site
+ */
+{template .menu}
+	{call ElectricNavigation.render}
+		{param depth: 1 /}
+		{param elementClasses: 'nav navbar-nav navbar-right' /}
+		{param linkClasses: 'nav-link' /}
+		{param listItemClasses: 'nav-item' /}
+		{param section: $site.index /}
+	{/call}
+{/template}
+
+/**
+ *
+ */
+{template .sidebar}
+	<div class="sidebar">
+		<ul class="nav navbar-light navbar-expand-lg flex-column">
+			<button class="navbar-toggler sidebar-toggler" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<li class="nav-item text-truncate">
+				<span class="nav-link">
+					<img src="/images/functional_hub_isotipo.png" width="32" /><span class="magic logo pl-2">FUNCTIONAL <strong>HUB</strong></span>
+				</span>
+			</li>
+			<li class="nav-item text-truncate bg-js">
+				<a class="nav-link text-white" href="#">
+					J<span class="magic">ava</span>S<span class="magic">script</span>
+				</a>
+			</li>
+			<li class="nav-item text-truncate bg-kotlin">
+				<a class="nav-link text-white" href="#">
+					K<span class="magic">ORLIN</span>
+				</a>
+			</li>
+			<li class="nav-item text-truncate bg-swift">
+				<a class="nav-link text-white" href="#">
+					SW<span class="magic">IFT</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+{/template}

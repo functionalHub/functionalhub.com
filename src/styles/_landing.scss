@@ -1,0 +1,53 @@
+.container-animated {
+	min-height: 100vh;
+	position: relative;
+
+	.mac-centered {
+		position: absolute;
+		top: calc(35% - 60px);
+	}
+
+	&.waves {
+		background-image: url('/images/fondo_tiles.svg');
+		background-repeat: repeat-x;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+}
+
+.navbar-brand img {
+	@include media-breakpoint-down(md) {
+		max-width: 200px;
+	}
+}
+
+.display-4 {
+	@include media-breakpoint-down(md) {
+		font-size: 40px;
+	}
+
+	@include media-breakpoint-down(xs) {
+		font-size: 34px;
+	}
+}
+
+.navbar {
+	z-index: 1;
+}
+
+video {
+	width: 100%;
+	max-width: 500px;
+}
+
+.monad {
+	@include media-breakpoint-down(xs) {
+		max-width: 266px;
+	}
+
+	position: absolute;
+	right: 15%;
+	bottom: -17px;
+	z-index: 1;
+	width: 360px;
+}
