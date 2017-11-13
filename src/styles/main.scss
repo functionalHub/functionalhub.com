@@ -1,0 +1,42 @@
+@import "variables";
+
+@import "bootstrap";
+
+@import "footer";
+@import "navbar";
+@import "sidebar";
+@import "landing";
+
+body {
+	background-color: $bg-color;
+	font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card {
+	border-radius: 0;
+}
+
+.card-box {
+	min-height: 50vh;
+
+	&:hover {
+		text-decoration: none;
+		transition: all 0.1s ease-in-out;
+	}
+
+	h3 {
+		font-weight: 300;
+	}
+}
+
+.bg-swift {
+	background: linear-gradient($color-swift-a, $color-swift-b);
+}
+
+.bg-kotlin {
+	background: linear-gradient($color-kotlin-a, $color-kotlin-b);
+}
+
+.bg-js {
+	background: radial-gradient($color-js-a, $color-js-b);
+}
