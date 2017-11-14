@@ -8,7 +8,7 @@ require('gulp-storage')(gulp);
 
 const storage = gulp.storage;
 
-storage.create('claycss', 'claycss.json');
+storage.create('functionalhub', 'functionalhub.json');
 
 const CLAY_PATH = 'clayPath';
 
