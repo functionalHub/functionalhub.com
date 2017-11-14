@@ -45,8 +45,8 @@ body {
 
 	.nav-item {
 		width: $sidebar-width;
-		line-height: $sidebar-width - 16px; // default nav-item padding
-		max-height: $sidebar-width;
+		line-height: $sidebar-width - 20px;
+		height: $sidebar-width;
 		text-align: center;
 		transition: all 0.3s ease;
 		overflow: hidden;
@@ -59,7 +59,7 @@ body {
 			max-height: $sidebar-width-mobile;
 
 			.nav-link {
-				padding: 8px 11px;
+				padding: 6px 12px;
 			}
 		}
 
