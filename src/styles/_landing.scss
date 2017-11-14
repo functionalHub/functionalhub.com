@@ -14,8 +14,14 @@
 	&.waves {
 		background-image: url('/images/fondo_tiles.svg');
 		background-repeat: repeat-x;
-		background-size: 100%;
 		background-attachment: fixed;
+		background-position: center 0;
+		background-size: 300%;
+
+		@include media-breakpoint-up(md) {
+			background-size: 100%;
+			background-position: 64px 0;
+		}
 	}
 }
 
