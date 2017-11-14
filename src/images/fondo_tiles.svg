@@ -1,21 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1420px" height="604px" viewBox="0 0 1420 604" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>fondo_tiles</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" stop-opacity="0.165279665" offset="0%"></stop>
-            <stop stop-color="#FFFFFF" stop-opacity="0.550979393" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.11939538">
-        <g id="Desktop-HD-Copy" transform="translate(-20.000000, 0.000000)" fill="url(#linearGradient-1)">
-            <g id="fondo_tiles" transform="translate(743.000000, 102.500000) scale(-1, 1) translate(-743.000000, -102.500000) translate(20.000000, -399.000000)">
-                <g id="Shape">
-                    <path d="M1439.65156,1003 C1441.75346,1003 1443.8524,1003 1445.94839,1003 L1446,0 L0,0 L0,454.506943 C1.99289413,454.506943 3.98861086,454.506943 5.9871502,454.506943 C206.190012,454.828134 364.797879,477.318774 486.043047,521.978862 C608.125857,566.960142 687.059894,636.495423 722.84516,730.584705 C756.325029,826.806127 834.674115,896.272629 957.892419,938.984211 C1081.07631,981.661404 1241.66269,1003 1439.65156,1003 Z" fill-rule="nonzero"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1420 604" style="enable-background:new 0 0 1420 604;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.2574;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{opacity:0.1194;}
+	.st3{fill:url(#SVGID_2_);}
+</style>
+<title>fondo_tiles</title>
+<desc>Created with Sketch.</desc>
+<title>fondo_tiles</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="tiles">
+		<g id="fondo_tiles" class="st0">
+			<g id="Shape">
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="412.2061" y1="723.1722" x2="412.2061" y2="722.1722" gradientTransform="matrix(1446 0 0 -1003 -595340 724939.6875)">
+					<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.1653"/>
+					<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.551"/>
+				</linearGradient>
+				<path class="st1" d="M1426.7,601c2.1,0,4.2,0,6.3,0l0.1-1003H-13V52.5c2,0,4,0,6,0C193.2,52.8,351.8,75.3,473,120
+					c122.1,45,201,114.5,236.8,208.6c33.5,96.2,111.8,165.7,235,208.4C1068.1,579.6,1228.7,601,1426.7,601z"/>
+			</g>
+		</g>
+		
+			<g id="fondo_tiles_1_" transform="translate(723.000000, 501.500000) scale(-1, 1) translate(-723.000000, -501.500000) " class="st2">
+			<g id="Shape_1_">
+				
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1033.2061" y1="723.1722" x2="1033.2061" y2="722.1722" gradientTransform="matrix(-1446 0 0 -1003 1494752 724939.6875)">
+					<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.1653"/>
+					<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.551"/>
+				</linearGradient>
+				<path class="st3" d="M1452.7,601c2.1,0,4.2,0,6.3,0l0.1-1003H13V52.5c2,0,4,0,6,0C219.2,52.8,377.8,75.3,499,120
+					c122.1,45,201,114.5,236.8,208.6c33.5,96.2,111.8,165.7,235,208.4C1094.1,579.6,1254.7,601,1452.7,601z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
