@@ -5898,6 +5898,42 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInUp {
+  animation-name: fadeInUp; }
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-20%, 0, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInLeft {
+  animation-name: fadeInLeft; }
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.9, 0.9, 0.9); }
+  50% {
+    opacity: 1; } }
+
+.zoomIn {
+  animation-name: zoomIn; }
+
 .footer a {
   color: #FFF; }
 
@@ -5957,13 +5993,13 @@ body {
         font-size: 1.2rem;
         opacity: 0; }
 
-.container-animated {
+.container-full-height {
   min-height: 100vh;
   position: relative; }
-  .container-animated .mac-centered {
+  .container-full-height .mac-centered {
     position: absolute;
     top: calc(35% - 60px); }
-  .container-animated.waves {
+  .container-full-height.waves {
     background-image: url("/images/fondo_tiles.svg");
     background-repeat: repeat-x;
     background-size: 100%;

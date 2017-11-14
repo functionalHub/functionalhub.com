@@ -11399,7 +11399,7 @@ if (goog.DEBUG) {
 function $pageContent(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   ie_open('div', null, null,
-      'class', 'container-animated waves');
+      'class', 'container-full-height waves');
     ie_open('div', null, null,
         'class', 'container');
       $header(opt_data, null, opt_ijData);
@@ -11408,17 +11408,19 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         ie_open('div', null, null,
             'id', 'mac-type-copy');
           ie_open('p', null, null,
-              'class', 'display-4 text-light mb-1');
+              'class', 'display-4 text-light mb-1 wow fadeInUp');
             itext('Learn functional programming');
           ie_close('p');
           ie_open('p', null, null,
-              'class', 'display-4 text-light mb-1');
+              'class', 'display-4 text-light mb-1 wow fadeInUp',
+              'data-wow-delay', '0.1s');
             itext('in ');
             ie_void('strong', null, null,
                 'class', 'malarkey');
           ie_close('p');
           ie_open('p', null, null,
-              'class', 'display-4 text-light mb-1');
+              'class', 'display-4 text-light mb-1 wow fadeInUp',
+              'data-wow-delay', '0.2s');
             itext('in a simple and practical way');
           ie_close('p');
         ie_close('div');
@@ -11444,7 +11446,79 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'type', 'video/ogg');
         ie_close('source');
       ie_close('video');
+      ie_open('div', null, null,
+          'class', 'container mt-5');
+        ie_open('p', null, null,
+            'class', 'h2 wow fadeInUp',
+            'data-wow-delay', '4s');
+          itext('Do you think that Functional Programming is the new trendy buzzword?');
+        ie_close('p');
+        ie_open('p', null, null,
+            'class', 'h3 wow fadeInUp',
+            'data-wow-delay', '4.3s');
+          itext('Something to be used by cool kids that want to be always in the cutting edge?');
+        ie_close('p');
+        ie_open('p', null, null,
+            'class', 'wow fadeInUp',
+            'data-wow-delay', '4.6s');
+          itext('Then you should know that Functional Programming was invented long time ago, and it came back to stay, because the current challenges in software engineering require new approaches to think and to code differently. Functional programming is the next "Big  Thing" for a software developer: are you going to lag behind?');
+        ie_close('p');
+      ie_close('div');
     ie_close('div');
+  ie_close('div');
+  ie_open('div', null, null,
+      'id', 'carouselExampleControls',
+      'class', 'carousel slide',
+      'data-ride', 'carousel');
+    ie_open('div', null, null,
+        'class', 'carousel-inner');
+      ie_open('div', null, null,
+          'class', 'carousel-item active');
+        ie_open('img', null, null,
+            'class', 'd-block w-100',
+            'data-src', 'holder.js/800x400?auto=yes&bg=777&fg=555&text=First slide',
+            'alt', 'First slide [800x400]',
+            'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba75327f%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba75327f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+            'data-holder-rendered', 'true');
+        ie_close('img');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'carousel-item');
+        ie_open('img', null, null,
+            'class', 'd-block w-100',
+            'data-src', 'holder.js/800x400?auto=yes&bg=555&fg=333&text=Third slide',
+            'alt', 'Third slide [800x400]',
+            'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba753283%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba753283%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+            'data-holder-rendered', 'true');
+        ie_close('img');
+      ie_close('div');
+    ie_close('div');
+    ie_open('a', null, null,
+        'class', 'carousel-control-prev',
+        'href', '#carouselExampleControls',
+        'role', 'button',
+        'data-slide', 'prev');
+      ie_void('span', null, null,
+          'class', 'carousel-control-prev-icon',
+          'aria-hidden', 'true');
+      ie_open('span', null, null,
+          'class', 'sr-only');
+        itext('Previous');
+      ie_close('span');
+    ie_close('a');
+    ie_open('a', null, null,
+        'class', 'carousel-control-next',
+        'href', '#carouselExampleControls',
+        'role', 'button',
+        'data-slide', 'next');
+      ie_void('span', null, null,
+          'class', 'carousel-control-next-icon',
+          'aria-hidden', 'true');
+      ie_open('span', null, null,
+          'class', 'sr-only');
+        itext('Next');
+      ie_close('span');
+    ie_close('a');
   ie_close('div');
   ie_open('div', null, null,
       'class', 'container-fluid');
