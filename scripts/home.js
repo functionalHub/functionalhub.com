@@ -10,9 +10,6 @@ $(window).scroll(function() {
 	}
 });
 
-
-
-
 new WOW().init();
 
 var elem = document.querySelector('.malarkey');
