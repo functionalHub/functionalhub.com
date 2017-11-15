@@ -16305,19 +16305,19 @@ var iattr = IncrementalDom.attr;
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
   var $$temp;
-  var localCurrentDepth__soy3 = ($$temp = opt_data.currentDepth) == null ? 0 : $$temp;
+  var localCurrentDepth__soy19 = ($$temp = opt_data.currentDepth) == null ? 0 : $$temp;
   if (opt_data.section.children) {
-    var childIdList22 = opt_data.section.childIds;
-    var childIdListLen22 = childIdList22.length;
-    for (var childIdIndex22 = 0; childIdIndex22 < childIdListLen22; childIdIndex22++) {
-      var childIdData22 = childIdList22[childIdIndex22];
-      var page__soy6 = opt_data.section.children[childIdData22];
-      if (! page__soy6.hidden) {
+    var childIdList38 = opt_data.section.childIds;
+    var childIdListLen38 = childIdList38.length;
+    for (var childIdIndex38 = 0; childIdIndex38 < childIdListLen38; childIdIndex38++) {
+      var childIdData38 = childIdList38[childIdIndex38];
+      var page__soy22 = opt_data.section.children[childIdData38];
+      if (! page__soy22.hidden) {
         ie_open('li', null, null,
-            'class', 'nav-item ' + (page__soy6.active ? 'active ' : '') + (page__soy6.children ? 'nav-heading' : ''));
-          $anchor(soy.$$assignDefaults({page: page__soy6}, opt_data), null, opt_ijData);
-          if (! opt_data.depth || localCurrentDepth__soy3 + 1 < opt_data.depth) {
-            $render({currentDepth: localCurrentDepth__soy3 + 1, depth: opt_data.depth, section: page__soy6}, null, opt_ijData);
+            'class', 'nav-item ' + (page__soy22.active ? 'active ' : '') + (page__soy22.children ? 'nav-heading' : ''));
+          $anchor(soy.$$assignDefaults({page: page__soy22}, opt_data), null, opt_ijData);
+          if (! opt_data.depth || localCurrentDepth__soy19 + 1 < opt_data.depth) {
+            $render({currentDepth: localCurrentDepth__soy19 + 1, depth: opt_data.depth, section: page__soy22}, null, opt_ijData);
           }
         ie_close('li');
       }
@@ -16356,8 +16356,8 @@ function $anchor(opt_data, opt_ignored, opt_ijData) {
           'href', 'javascript:;');
       }
       ie_open('span');
-        var dyn0 = opt_data.page.title;
-        if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
+        var dyn1 = opt_data.page.title;
+        if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
       ie_close('span');
       if (opt_data.page.children) {
         ie_open('svg', null, null,

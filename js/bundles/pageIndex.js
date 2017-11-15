@@ -2008,8 +2008,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn1 = opt_data.content;
-      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
+      var dyn0 = opt_data.content;
+      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
     ie_close('main');
   ie_close('div');
 }
@@ -2072,6 +2072,36 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
+          'class', 'nav-item text-truncate bg-kotlin');
+        ie_open('a', null, null,
+            'class', 'nav-link text-white',
+            'href', '#');
+          ie_open('img', null, null,
+              'src', '/images/Logo_kotlin.png',
+              'width', '32');
+          ie_close('img');
+          ie_open('span', null, null,
+              'class', 'ml-2 magic');
+            itext('KORLIN');
+          ie_close('span');
+        ie_close('a');
+      ie_close('li');
+      ie_open('li', null, null,
+          'class', 'nav-item text-truncate bg-swift');
+        ie_open('a', null, null,
+            'class', 'nav-link text-white',
+            'href', '#');
+          ie_open('img', null, null,
+              'src', '/images/Logo_swift.png',
+              'width', '32');
+          ie_close('img');
+          ie_open('span', null, null,
+              'class', 'ml-2 magic');
+            itext('SWIFT');
+          ie_close('span');
+        ie_close('a');
+      ie_close('li');
+      ie_open('li', null, null,
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
@@ -2085,30 +2115,6 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_open('span', null, null,
               'class', 'magic');
             itext('script');
-          ie_close('span');
-        ie_close('a');
-      ie_close('li');
-      ie_open('li', null, null,
-          'class', 'nav-item text-truncate bg-kotlin');
-        ie_open('a', null, null,
-            'class', 'nav-link text-white',
-            'href', '#');
-          itext('K');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('ORLIN');
-          ie_close('span');
-        ie_close('a');
-      ie_close('li');
-      ie_open('li', null, null,
-          'class', 'nav-item text-truncate bg-swift');
-        ie_open('a', null, null,
-            'class', 'nav-link text-white',
-            'href', '#');
-          itext('SW');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('IFT');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11435,6 +11441,17 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       'class', 'd-flex align-items-center');
     ie_open('div', null, null,
         'class', 'col mx-auto card text-center pb-5');
+      ie_open('div', null, null,
+          'class', 'container mt-5');
+        ie_open('p', null, null,
+            'class', 'h2 m-sm-5 wow zoomIn');
+          itext('Do you think that ');
+          ie_open('strong');
+            itext('Functional Programming');
+          ie_close('strong');
+          itext(' is the new trendy buzzword?');
+        ie_close('p');
+      ie_close('div');
       ie_open('video', null, null,
           'class', 'video mb-5 mt-2 mx-auto');
         ie_open('source', null, null,
@@ -11449,165 +11466,175 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'container mt-5');
         ie_open('p', null, null,
-            'class', 'h2 wow fadeInUp',
+            'class', 'h4 mt-sm-5 ml-sm-5 mr-sm-5 wow zoomIn',
             'data-wow-delay', '4s');
-          itext('Do you think that Functional Programming is the new trendy buzzword?');
-        ie_close('p');
-        ie_open('p', null, null,
-            'class', 'h3 wow fadeInUp',
-            'data-wow-delay', '4.3s');
-          itext('Something to be used by cool kids that want to be always in the cutting edge?');
-        ie_close('p');
-        ie_open('p', null, null,
-            'class', 'wow fadeInUp',
-            'data-wow-delay', '4.6s');
-          itext('Then you should know that Functional Programming was invented long time ago, and it came back to stay, because the current challenges in software engineering require new approaches to think and to code differently. Functional programming is the next "Big  Thing" for a software developer: are you going to lag behind?');
-        ie_close('p');
-      ie_close('div');
-    ie_close('div');
-  ie_close('div');
-  ie_open('div', null, null,
-      'id', 'carouselExampleControls',
-      'class', 'carousel slide',
-      'data-ride', 'carousel');
-    ie_open('div', null, null,
-        'class', 'carousel-inner');
-      ie_open('div', null, null,
-          'class', 'carousel-item active');
-        ie_open('img', null, null,
-            'class', 'd-block w-100',
-            'data-src', 'holder.js/800x400?auto=yes&bg=777&fg=555&text=First slide',
-            'alt', 'First slide [800x400]',
-            'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba75327f%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba75327f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-            'data-holder-rendered', 'true');
-        ie_close('img');
+          itext('Then you should know that ');
+          ie_open('strong');
+            itext('Functional Programming');
+          ie_close('strong');
+          itext(' was invented long time ago, and it came back to stay, because the current challenges in software engineering require new approaches to think and to code differently. Functional programming is the next "');
+          ie_open('strong');
+            itext('Big Thing');
+          ie_close('strong');
+          itext('" for a software developer:');
+          ie_open('br/');
+            ie_open('span', null, null,
+                'class', 'h3');
+            ie_close('p');
+            ie_open('p', null, null,
+                'class', 'h3 mb-sm-5 wow zoomIn',
+                'data-wow-delay', '4.3s');
+              ie_open('strong');
+                itext('are you going to lag behind?');
+              ie_close('strong');
+            ie_close('p');
+          ie_close('div');
+        ie_close('div');
       ie_close('div');
       ie_open('div', null, null,
-          'class', 'carousel-item');
-        ie_open('img', null, null,
-            'class', 'd-block w-100',
-            'data-src', 'holder.js/800x400?auto=yes&bg=555&fg=333&text=Third slide',
-            'alt', 'Third slide [800x400]',
-            'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba753283%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba753283%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-            'data-holder-rendered', 'true');
-        ie_close('img');
+          'id', 'carouselExampleControls',
+          'class', 'carousel slide',
+          'data-ride', 'carousel');
+        ie_open('div', null, null,
+            'class', 'carousel-inner');
+          ie_open('div', null, null,
+              'class', 'carousel-item active');
+            ie_open('img', null, null,
+                'class', 'd-block w-100',
+                'data-src', 'holder.js/800x400?auto=yes&bg=777&fg=555&text=First slide',
+                'alt', 'First slide [800x400]',
+                'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba75327f%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba75327f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+                'data-holder-rendered', 'true');
+            ie_close('img');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'carousel-item');
+            ie_open('img', null, null,
+                'class', 'd-block w-100',
+                'data-src', 'holder.js/800x400?auto=yes&bg=555&fg=333&text=Third slide',
+                'alt', 'Third slide [800x400]',
+                'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba753283%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba753283%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
+                'data-holder-rendered', 'true');
+            ie_close('img');
+          ie_close('div');
+        ie_close('div');
+        ie_open('a', null, null,
+            'class', 'carousel-control-prev',
+            'href', '#carouselExampleControls',
+            'role', 'button',
+            'data-slide', 'prev');
+          ie_void('span', null, null,
+              'class', 'carousel-control-prev-icon',
+              'aria-hidden', 'true');
+          ie_open('span', null, null,
+              'class', 'sr-only');
+            itext('Previous');
+          ie_close('span');
+        ie_close('a');
+        ie_open('a', null, null,
+            'class', 'carousel-control-next',
+            'href', '#carouselExampleControls',
+            'role', 'button',
+            'data-slide', 'next');
+          ie_void('span', null, null,
+              'class', 'carousel-control-next-icon',
+              'aria-hidden', 'true');
+          ie_open('span', null, null,
+              'class', 'sr-only');
+            itext('Next');
+          ie_close('span');
+        ie_close('a');
       ie_close('div');
-    ie_close('div');
-    ie_open('a', null, null,
-        'class', 'carousel-control-prev',
-        'href', '#carouselExampleControls',
-        'role', 'button',
-        'data-slide', 'prev');
-      ie_void('span', null, null,
-          'class', 'carousel-control-prev-icon',
-          'aria-hidden', 'true');
-      ie_open('span', null, null,
-          'class', 'sr-only');
-        itext('Previous');
-      ie_close('span');
-    ie_close('a');
-    ie_open('a', null, null,
-        'class', 'carousel-control-next',
-        'href', '#carouselExampleControls',
-        'role', 'button',
-        'data-slide', 'next');
-      ie_void('span', null, null,
-          'class', 'carousel-control-next-icon',
-          'aria-hidden', 'true');
-      ie_open('span', null, null,
-          'class', 'sr-only');
-        itext('Next');
-      ie_close('span');
-    ie_close('a');
-  ie_close('div');
-  ie_open('div', null, null,
-      'class', 'container-fluid');
-    ie_open('div', null, null,
-        'class', 'row');
-      ie_open('a', null, null,
-          'href', '#',
-          'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5');
-        ie_open('img', null, null,
-            'src', '/images/functional_isotipo.png',
-            'width', '80');
-        ie_close('img');
-        ie_open('h3', null, null,
-            'class', 'align-middle mt-3');
-          itext('FUNCTIONAL');
-        ie_close('h3');
-        ie_open('h3', null, null,
-            'class', 'align-middle');
-          ie_open('strong');
-            itext('JavaScript');
-          ie_close('strong');
-        ie_close('h3');
-      ie_close('a');
-      ie_open('a', null, null,
-          'href', '#',
-          'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
-        ie_open('img', null, null,
-            'src', '/images/functional_isotipo.png',
-            'width', '80');
-        ie_close('img');
-        ie_open('h3', null, null,
-            'class', 'align-middle mt-3');
-          itext('FUNCTIONAL');
-        ie_close('h3');
-        ie_open('h3', null, null,
-            'class', 'align-middle');
-          ie_open('strong');
-            itext('KOTLIN');
-          ie_close('strong');
-        ie_close('h3');
-      ie_close('a');
-      ie_open('a', null, null,
-          'href', '#',
-          'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5');
-        ie_open('img', null, null,
-            'src', '/images/functional_isotipo.png',
-            'width', '80');
-        ie_close('img');
-        ie_open('h3', null, null,
-            'class', 'align-middle mt-3');
-          itext('FUNCTIONAL');
-        ie_close('h3');
-        ie_open('h3', null, null,
-            'class', 'align-middle');
-          ie_open('strong');
-            itext('SWIFT');
-          ie_close('strong');
-        ie_close('h3');
-      ie_close('a');
-    ie_close('div');
-  ie_close('div');
-}
-exports.pageContent = $pageContent;
-if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageIndex.pageContent';
-}
-
-
-/**
- * @param {Object<string, *>=} opt_data
- * @param {(null|undefined)=} opt_ignored
- * @param {Object<string, *>=} opt_ijData
- * @return {void}
- * @suppress {checkTypes}
- */
-function $footer(opt_data, opt_ignored, opt_ijData) {
-  ie_void('script', null, null,
-      'src', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.min.js');
-  ie_void('script', null, null,
-      'src', '/scripts/wow.min.js');
-  ie_void('script', null, null,
-      'src', '/scripts/malarkey.min.js');
-  ie_void('script', null, null,
-      'src', '/scripts/home.js');
-}
-exports.footer = $footer;
-if (goog.DEBUG) {
-  $footer.soyTemplateName = 'pageIndex.footer';
-}
+      ie_open('div', null, null,
+          'class', 'container-fluid');
+        ie_open('div', null, null,
+            'class', 'row');
+          ie_open('a', null, null,
+              'href', '#',
+              'class', 'wow fadeInLeft col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
+              'data-wow-delay', '0.3s');
+            ie_open('img', null, null,
+                'src', '/images/functional_isotipo.png',
+                'width', '80');
+            ie_close('img');
+            ie_open('h3', null, null,
+                'class', 'align-middle mt-3');
+              itext('FUNCTIONAL');
+            ie_close('h3');
+            ie_open('h3', null, null,
+                'class', 'align-middle');
+              ie_open('strong');
+                itext('JavaScript');
+              ie_close('strong');
+            ie_close('h3');
+          ie_close('a');
+          ie_open('a', null, null,
+              'href', '#',
+              'class', 'wow fadeInUp col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+            ie_open('img', null, null,
+                'src', '/images/functional_isotipo.png',
+                'width', '80');
+            ie_close('img');
+            ie_open('h3', null, null,
+                'class', 'align-middle mt-3');
+              itext('FUNCTIONAL');
+            ie_close('h3');
+            ie_open('h3', null, null,
+                'class', 'align-middle');
+              ie_open('strong');
+                itext('KOTLIN');
+              ie_close('strong');
+            ie_close('h3');
+          ie_close('a');
+          ie_open('a', null, null,
+              'href', '#',
+              'class', 'wow fadeInRight col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+              'data-wow-delay', '0.6s');
+            ie_open('img', null, null,
+                'src', '/images/functional_isotipo.png',
+                'width', '80');
+            ie_close('img');
+            ie_open('h3', null, null,
+                'class', 'align-middle mt-3');
+              itext('FUNCTIONAL');
+            ie_close('h3');
+            ie_open('h3', null, null,
+                'class', 'align-middle');
+              ie_open('strong');
+                itext('SWIFT');
+              ie_close('strong');
+            ie_close('h3');
+          ie_close('a');
+        ie_close('div');
+      ie_close('div');
+    }
+    exports.pageContent = $pageContent;
+    if (goog.DEBUG) {
+      $pageContent.soyTemplateName = 'pageIndex.pageContent';
+    }
+    
+    
+    /**
+     * @param {Object<string, *>=} opt_data
+     * @param {(null|undefined)=} opt_ignored
+     * @param {Object<string, *>=} opt_ijData
+     * @return {void}
+     * @suppress {checkTypes}
+     */
+    function $footer(opt_data, opt_ignored, opt_ijData) {
+      ie_void('script', null, null,
+          'src', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.min.js');
+      ie_void('script', null, null,
+          'src', '/scripts/wow.min.js');
+      ie_void('script', null, null,
+          'src', '/scripts/malarkey.min.js');
+      ie_void('script', null, null,
+          'src', '/scripts/home.js');
+    }
+    exports.footer = $footer;
+    if (goog.DEBUG) {
+      $footer.soyTemplateName = 'pageIndex.footer';
+    }
 
 exports.render.params = [];
 exports.render.types = {};

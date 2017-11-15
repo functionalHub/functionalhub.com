@@ -5916,13 +5916,24 @@ a.text-dark:focus, a.text-dark:hover {
 @keyframes fadeInLeft {
   from {
     opacity: 0;
-    transform: translate3d(-20%, 0, 0); }
+    transform: translate3d(-20%, 5%, 0); }
   to {
     opacity: 1;
     transform: none; } }
 
 .fadeInLeft {
   animation-name: fadeInLeft; }
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(20%, 5%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+.fadeInRight {
+  animation-name: fadeInRight; }
 
 @keyframes zoomIn {
   from {
@@ -5972,8 +5983,8 @@ body {
           opacity: 1; }
   .sidebar .nav-item {
     width: 64px;
-    line-height: 48px;
-    max-height: 64px;
+    line-height: 44px;
+    height: 64px;
     text-align: center;
     transition: all 0.3s ease;
     overflow: hidden;
@@ -5985,13 +5996,16 @@ body {
         line-height: 40px;
         max-height: 56px; }
         .sidebar .nav-item .nav-link {
-          padding: 8px 11px; } }
+          padding: 6px 12px; } }
     .sidebar .nav-item .magic {
       font-size: 0;
       transition: all 0.3s ease; }
       .sidebar .nav-item .magic.logo {
         font-size: 1.2rem;
         opacity: 0; }
+
+.h1, .h2, .h3, .h4 {
+  line-height: 1.5; }
 
 .container-full-height {
   min-height: 100vh;
@@ -6002,8 +6016,13 @@ body {
   .container-full-height.waves {
     background-image: url("/images/fondo_tiles.svg");
     background-repeat: repeat-x;
-    background-size: 100%;
-    background-attachment: fixed; }
+    background-attachment: fixed;
+    background-position: center 0;
+    background-size: 300%; }
+    @media (min-width: 768px) {
+      .container-full-height.waves {
+        background-size: 100%;
+        background-position: 64px 0; } }
 
 @media (max-width: 991px) {
   .navbar-brand img {

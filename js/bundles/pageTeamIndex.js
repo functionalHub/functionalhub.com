@@ -2008,8 +2008,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn1 = opt_data.content;
-      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
+      var dyn0 = opt_data.content;
+      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
     ie_close('main');
   ie_close('div');
 }
@@ -2072,6 +2072,36 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
+          'class', 'nav-item text-truncate bg-kotlin');
+        ie_open('a', null, null,
+            'class', 'nav-link text-white',
+            'href', '#');
+          ie_open('img', null, null,
+              'src', '/images/Logo_kotlin.png',
+              'width', '32');
+          ie_close('img');
+          ie_open('span', null, null,
+              'class', 'ml-2 magic');
+            itext('KORLIN');
+          ie_close('span');
+        ie_close('a');
+      ie_close('li');
+      ie_open('li', null, null,
+          'class', 'nav-item text-truncate bg-swift');
+        ie_open('a', null, null,
+            'class', 'nav-link text-white',
+            'href', '#');
+          ie_open('img', null, null,
+              'src', '/images/Logo_swift.png',
+              'width', '32');
+          ie_close('img');
+          ie_open('span', null, null,
+              'class', 'ml-2 magic');
+            itext('SWIFT');
+          ie_close('span');
+        ie_close('a');
+      ie_close('li');
+      ie_open('li', null, null,
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
@@ -2085,30 +2115,6 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_open('span', null, null,
               'class', 'magic');
             itext('script');
-          ie_close('span');
-        ie_close('a');
-      ie_close('li');
-      ie_open('li', null, null,
-          'class', 'nav-item text-truncate bg-kotlin');
-        ie_open('a', null, null,
-            'class', 'nav-link text-white',
-            'href', '#');
-          itext('K');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('ORLIN');
-          ie_close('span');
-        ie_close('a');
-      ie_close('li');
-      ie_open('li', null, null,
-          'class', 'nav-item text-truncate bg-swift');
-        ie_open('a', null, null,
-            'class', 'nav-link text-white',
-            'href', '#');
-          itext('SW');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('IFT');
           ie_close('span');
         ie_close('a');
       ie_close('li');
