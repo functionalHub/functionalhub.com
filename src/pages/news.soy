@@ -1,0 +1,56 @@
+---
+title: "News"
+description: "FunctionalHub news"
+weight: 3
+---
+
+{namespace pageNewsIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'News' /}
+	{/call}
+{/template}
+
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+
+		<div class="container bg-white">
+			<div class="row">
+				//New init
+				<img class="img-fluided" src="https://cdn.cjr.org/wp-content/uploads/2016/12/tow-whitepaperintro-hero.jpg" />
+
+				<div class="col-md-8 col-lg-6 mx-auto pb-4">
+					<h1 class="display-4 mt-5 mb-4 text-center text-secondary">Only learn FP</h1>
+
+					<div class="d-flex justify-content-between text-secondary my-4">
+						<small>by: <strong>Jose Manuel</strong></small>
+						<small>13/05/2017</small>
+					</div>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum eros ante, nec sagittis arcu venenatis eget. Donec at sollicitudin leo. Phasellus egestas metus eu urna euismod, non iaculis neque auctor. Vivamus congue convallis arcu, at dapibus quam. Nulla facilisi. Aliquam varius rhoncus odio quis cursus. Nunc placerat, nulla id sodales ornare, risus ligula tempor urna, consequat tincidunt eros libero sed diam. Aliquam tempor orci dignissim malesuada aliquam. Praesent elit turpis, tincidunt sed justo vel, dapibus feugiat risus. Nullam lobortis purus sed volutpat facilisis.</p>
+					<p>Nulla at neque nec purus maximus iaculis non sit amet magna. Fusce pulvinar placerat volutpat. Vivamus ac nisi velit. Cras sodales dolor ut euismod vulputate. Sed tempus justo dui, quis rhoncus mi sagittis quis. Phasellus sem nibh, euismod eget felis id, tincidunt viverra ligula. In euismod elementum porttitor. Aenean ut sodales tellus. Nulla facilisi. Donec porttitor eros nec nisl iaculis, in sodales nisl pellentesque. Mauris non ullamcorper ipsum, sit amet placerat enim. Suspendisse tristique vel sem at tincidunt</p>
+					<p>Curabitur quis faucibus augue, consequat venenatis lacus. Aliquam et arcu vitae nisi dictum rhoncus quis nec orci. Cras libero eros, lobortis id orci eu, commodo egestas nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis libero. Sed placerat orci vel maximus accumsan. Vestibulum sagittis dui non facilisis lacinia. Etiam fringilla sollicitudin nisl vitae lobortis.</p>
+					<p>Nullam sed eros justo. Donec sit amet convallis libero. Aliquam ac sapien sed nisl tincidunt dignissim eget et mi. Praesent ut iaculis est. Suspendisse blandit tempus hendrerit. Phasellus commodo, dolor at finibus commodo, massa elit maximus tellus, eu iaculis lectus est ut magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer bibendum ut nibh vitae venenatis. Cras ac felis nec metus accumsan congue et nec nulla. In hac habitasse platea dictumst. Aenean leo nulla, luctus eget mattis quis, tempor ac urna. Quisque enim elit, mattis quis suscipit quis, mollis nec sem. Sed sit amet ex a ex eleifend varius. Fusce dignissim urna sed odio malesuada lacinia et ac ligula. Quisque diam nibh, mollis efficitur cursus ut, ultricies ut metus.</p>
+					<p>Nulla nec egestas neque. In vel odio urna. In eu sollicitudin ante. Sed dictum mollis felis ut porta. Nullam id velit egestas, molestie lacus vitae, elementum ante. Suspendisse ut ligula dolor. In rutrum tortor risus, sed hendrerit odio tincidunt at. Sed sollicitudin quam malesuada, venenatis ipsum sed, tristique lectus. Cras eu tincidunt turpis. Aenean ac nisi sed nulla tincidunt consectetur. In laoreet felis nec velit euismod, at tincidunt felis mollis.</p>
+				</div>
+				//New end
+			</div>
+		</div>
+	</div>
+{/template}

@@ -1,0 +1,33 @@
+---
+title: "Why FP?"
+description: "FunctionalHub Functional Programing"
+weight: 1
+---
+
+{namespace pageWhyFPIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'WhyFP' /}
+	{/call}
+{/template}
+
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+	</div>
+{/template}

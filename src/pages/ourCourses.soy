@@ -1,0 +1,33 @@
+---
+title: "Our Courses"
+description: "FunctionalHub Courses"
+weight: 2
+---
+
+{namespace pageOurCoursesIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'Courses' /}
+	{/call}
+{/template}
+
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+	</div>
+{/template}
