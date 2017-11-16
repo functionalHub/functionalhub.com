@@ -59,3 +59,26 @@
 		</ul>
 	</div>
 {/template}
+
+/**
+ * @param site
+ */
+{template .header}
+	<header class="header">
+		<nav class="navbar navbar-expand flex-column flex-md-row navbar-dark py-lg-5">
+			<a class="navbar-brand" href="/">
+				<img src="/images/functional_hub_logo.png" width="250"/>
+			</a>
+			<button class="navbar-toggler" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					{call MainNavigation.render}
+						{param section: $site.index /}
+					{/call}
+				</ul>
+			</div>
+		</nav>
+	</header>
+{/template}

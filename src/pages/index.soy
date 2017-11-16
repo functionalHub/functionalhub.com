@@ -20,37 +20,13 @@ description: "Description of page"
 {/template}
 
 /**
- * @param site
- */
-{template .header}
-	<header class="header">
-		<nav class="navbar navbar-expand flex-column flex-md-row navbar-dark py-lg-5">
-			<a class="navbar-brand" href="#">
-				<img src="/images/functional_hub_logo.png" width="250"/>
-			</a>
-			<button class="navbar-toggler" type="button">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse">
-				<ul class="navbar-nav ml-auto">
-					{call MainNavigation.render}
-						{param section: $site.index /}
-					{/call}
-				</ul>
-			</div>
-		</nav>
-	</header>
-{/template}
-
-
-/**
  *
  */
 {template .pageContent}
 	<div class="container-full-height waves">
 		<div class="container">
-			// NAV
-			{call .header data="all" /}
+			// Header nav
+			{call main.header data="all" /}
 
 			// Claim
 			<div class="pt-lg-5 pl-lg-5 w-100 mac-centered col-10 col-lg-10">
