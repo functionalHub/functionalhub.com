@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([1],[
+webpackJsonppageComponent([0],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -15,27 +15,27 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ElectricUpdates = exports.ElectricSearchBase = exports.ElectricSearchAutocomplete = exports.ElectricSearch = exports.ElectricReadingProgress = exports.ElectricNavigation = exports.ElectricCodeTabs = exports.ElectricCode = undefined;
 
-var _ElectricCode = __webpack_require__(19);
+var _ElectricCode = __webpack_require__(16);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
-var _ElectricCodeTabs = __webpack_require__(20);
+var _ElectricCodeTabs = __webpack_require__(17);
 
 var _ElectricCodeTabs2 = _interopRequireDefault(_ElectricCodeTabs);
 
-var _ElectricNavigation = __webpack_require__(21);
+var _ElectricNavigation = __webpack_require__(18);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
-var _ElectricReadingProgress = __webpack_require__(22);
+var _ElectricReadingProgress = __webpack_require__(19);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
-var _ElectricSearch = __webpack_require__(23);
+var _ElectricSearch = __webpack_require__(20);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
-var _ElectricSearchAutocomplete = __webpack_require__(24);
+var _ElectricSearchAutocomplete = __webpack_require__(21);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
@@ -43,7 +43,7 @@ var _ElectricSearchBase = __webpack_require__(9);
 
 var _ElectricSearchBase2 = _interopRequireDefault(_ElectricSearchBase);
 
-var _ElectricUpdates = __webpack_require__(25);
+var _ElectricUpdates = __webpack_require__(22);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -72,7 +72,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Position = exports.Geometry = exports.Align = undefined;
 
-var _Align = __webpack_require__(51);
+var _Align = __webpack_require__(47);
 
 var _Align2 = _interopRequireDefault(_Align);
 
@@ -1038,7 +1038,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalAjax = __webpack_require__(39);
+var _metalAjax = __webpack_require__(36);
 
 var _metalAjax2 = _interopRequireDefault(_metalAjax);
 
@@ -1994,6 +1994,8 @@ var iattr = IncrementalDom.attr;
 
 var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('ElectricNavigation.incrementaldom', 'render');
 
+var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('MainNavigation.incrementaldom', 'render');
+
 
 /**
  * @param {Object<string, *>=} opt_data
@@ -2008,8 +2010,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn0 = opt_data.content;
-      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
+      var dyn1 = opt_data.content;
+      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
     ie_close('main');
   ie_close('div');
 }
@@ -2126,12 +2128,56 @@ if (goog.DEBUG) {
   $sidebar.soyTemplateName = 'main.sidebar';
 }
 
+
+/**
+ * @param {Object<string, *>=} opt_data
+ * @param {(null|undefined)=} opt_ignored
+ * @param {Object<string, *>=} opt_ijData
+ * @return {void}
+ * @suppress {checkTypes}
+ */
+function $header(opt_data, opt_ignored, opt_ijData) {
+  ie_open('header', null, null,
+      'class', 'header');
+    ie_open('nav', null, null,
+        'class', 'navbar navbar-expand flex-column flex-md-row navbar-dark py-lg-5');
+      ie_open('a', null, null,
+          'class', 'navbar-brand',
+          'href', '/');
+        ie_open('img', null, null,
+            'src', '/images/functional_hub_logo.png',
+            'width', '250');
+        ie_close('img');
+      ie_close('a');
+      ie_open('button', null, null,
+          'class', 'navbar-toggler',
+          'type', 'button');
+        ie_void('span', null, null,
+            'class', 'navbar-toggler-icon');
+      ie_close('button');
+      ie_open('div', null, null,
+          'class', 'collapse navbar-collapse');
+        ie_open('ul', null, null,
+            'class', 'navbar-nav ml-auto');
+          $templateAlias2({section: opt_data.site.index}, null, opt_ijData);
+        ie_close('ul');
+      ie_close('div');
+    ie_close('nav');
+  ie_close('header');
+}
+exports.header = $header;
+if (goog.DEBUG) {
+  $header.soyTemplateName = 'main.header';
+}
+
 exports.render.params = ["content","elementClasses"];
 exports.render.types = {"content":"any","elementClasses":"any"};
 exports.menu.params = ["site"];
 exports.menu.types = {"site":"any"};
 exports.sidebar.params = [];
 exports.sidebar.types = {};
+exports.header.params = ["site"];
+exports.header.types = {"site":"any"};
 templates = exports;
 return exports;
 
@@ -2156,27 +2202,27 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ElectricUpdates = exports.ElectricSearchAutocomplete = exports.ElectricSearch = exports.ElectricReadingProgress = exports.ElectricNavigation = exports.ElectricCode = undefined;
 
-var _ElectricCode = __webpack_require__(26);
+var _ElectricCode = __webpack_require__(23);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
-var _ElectricNavigation = __webpack_require__(28);
+var _ElectricNavigation = __webpack_require__(25);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
-var _ElectricReadingProgress = __webpack_require__(30);
+var _ElectricReadingProgress = __webpack_require__(27);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
-var _ElectricSearch = __webpack_require__(32);
+var _ElectricSearch = __webpack_require__(29);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
-var _ElectricSearchAutocomplete = __webpack_require__(34);
+var _ElectricSearchAutocomplete = __webpack_require__(31);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
-var _ElectricUpdates = __webpack_require__(36);
+var _ElectricUpdates = __webpack_require__(33);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -2192,10 +2238,7 @@ exports.default = _ElectricNavigation2.default;
 
 /***/ }),
 /* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */,
-/* 19 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2207,7 +2250,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalClipboard = __webpack_require__(43);
+var _metalClipboard = __webpack_require__(40);
 
 var _metalClipboard2 = _interopRequireDefault(_metalClipboard);
 
@@ -2215,7 +2258,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalTooltip = __webpack_require__(61);
+var _metalTooltip = __webpack_require__(57);
 
 var _metalTooltip2 = _interopRequireDefault(_metalTooltip);
 
@@ -2278,7 +2321,7 @@ var ElectricCode = function (_Component) {
 exports.default = ElectricCode;
 
 /***/ }),
-/* 20 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2290,7 +2333,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalTabs = __webpack_require__(59);
+var _metalTabs = __webpack_require__(55);
 
 var _metalTabs2 = _interopRequireDefault(_metalTabs);
 
@@ -2462,7 +2505,7 @@ window.ElectricCodeTabs = ElectricCodeTabs;
 exports.default = ElectricCodeTabs;
 
 /***/ }),
-/* 21 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2508,7 +2551,7 @@ var ElectricNavigation = function (_Component) {
 exports.default = ElectricNavigation;
 
 /***/ }),
-/* 22 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2520,7 +2563,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalAffix = __webpack_require__(38);
+var _metalAffix = __webpack_require__(35);
 
 var _metalAffix2 = _interopRequireDefault(_metalAffix);
 
@@ -2536,7 +2579,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalReadingProgress = __webpack_require__(52);
+var _metalReadingProgress = __webpack_require__(48);
 
 var _metalReadingProgress2 = _interopRequireDefault(_metalReadingProgress);
 
@@ -2647,7 +2690,7 @@ ElectricReadingProgress.STATE = {
 exports.default = ElectricReadingProgress;
 
 /***/ }),
-/* 23 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2720,7 +2763,7 @@ ElectricSearch.STATE = {
 exports.default = ElectricSearch;
 
 /***/ }),
-/* 24 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2732,7 +2775,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalAutocomplete = __webpack_require__(42);
+var _metalAutocomplete = __webpack_require__(39);
 
 var _metalAutocomplete2 = _interopRequireDefault(_metalAutocomplete);
 
@@ -2819,7 +2862,7 @@ var ElectricSearchAutocomplete = function (_ElectricSearchBase) {
 exports.default = ElectricSearchAutocomplete;
 
 /***/ }),
-/* 25 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2876,7 +2919,7 @@ ElectricUpdates.STATE = {
 exports.default = ElectricUpdates;
 
 /***/ }),
-/* 26 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2892,7 +2935,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricCode = __webpack_require__(27);
+var _ElectricCode = __webpack_require__(24);
 
 var _ElectricCode2 = _interopRequireDefault(_ElectricCode);
 
@@ -2903,7 +2946,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricCode, _ElectricCode2
 exports.default = _electricBaseComponents.ElectricCode;
 
 /***/ }),
-/* 27 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3017,7 +3060,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 28 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3033,7 +3076,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricNavigation = __webpack_require__(29);
+var _ElectricNavigation = __webpack_require__(26);
 
 var _ElectricNavigation2 = _interopRequireDefault(_ElectricNavigation);
 
@@ -3044,7 +3087,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricNavigation, _Electri
 exports.default = _electricBaseComponents.ElectricNavigation;
 
 /***/ }),
-/* 29 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3196,7 +3239,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 30 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3212,7 +3255,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricReadingProgress = __webpack_require__(31);
+var _ElectricReadingProgress = __webpack_require__(28);
 
 var _ElectricReadingProgress2 = _interopRequireDefault(_ElectricReadingProgress);
 
@@ -3223,7 +3266,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricReadingProgress, _El
 exports.default = _electricBaseComponents.ElectricReadingProgress;
 
 /***/ }),
-/* 31 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3326,7 +3369,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 32 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3342,7 +3385,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricSearch = __webpack_require__(33);
+var _ElectricSearch = __webpack_require__(30);
 
 var _ElectricSearch2 = _interopRequireDefault(_ElectricSearch);
 
@@ -3353,7 +3396,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricSearch, _ElectricSea
 exports.default = _electricBaseComponents.ElectricSearch;
 
 /***/ }),
-/* 33 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3555,7 +3598,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 34 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3571,7 +3614,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricSearchAutocomplete = __webpack_require__(35);
+var _ElectricSearchAutocomplete = __webpack_require__(32);
 
 var _ElectricSearchAutocomplete2 = _interopRequireDefault(_ElectricSearchAutocomplete);
 
@@ -3582,7 +3625,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricSearchAutocomplete, 
 exports.default = _electricBaseComponents.ElectricSearchAutocomplete;
 
 /***/ }),
-/* 35 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3697,7 +3740,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 36 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3713,7 +3756,7 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 var _electricBaseComponents = __webpack_require__(4);
 
-var _ElectricUpdates = __webpack_require__(37);
+var _ElectricUpdates = __webpack_require__(34);
 
 var _ElectricUpdates2 = _interopRequireDefault(_ElectricUpdates);
 
@@ -3724,7 +3767,7 @@ _metalSoy2.default.register(_electricBaseComponents.ElectricUpdates, _ElectricUp
 exports.default = _electricBaseComponents.ElectricUpdates;
 
 /***/ }),
-/* 37 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3935,7 +3978,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 38 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4138,7 +4181,7 @@ Affix.STATE = {
 exports.default = Affix;
 
 /***/ }),
-/* 39 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4152,7 +4195,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _metalUri = __webpack_require__(67);
+var _metalUri = __webpack_require__(63);
 
 var _metalUri2 = _interopRequireDefault(_metalUri);
 
@@ -4291,7 +4334,7 @@ var Ajax = function () {
 exports.default = Ajax;
 
 /***/ }),
-/* 40 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4309,7 +4352,7 @@ var _metal = __webpack_require__(0);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalDebounce = __webpack_require__(44);
+var _metalDebounce = __webpack_require__(41);
 
 var _metalDebounce2 = _interopRequireDefault(_metalDebounce);
 
@@ -4329,9 +4372,9 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-__webpack_require__(47);
+__webpack_require__(43);
 
-var _AutocompleteSoy = __webpack_require__(41);
+var _AutocompleteSoy = __webpack_require__(38);
 
 var _AutocompleteSoy2 = _interopRequireDefault(_AutocompleteSoy);
 
@@ -4729,7 +4772,7 @@ Autocomplete.STATE = {
 exports.default = Autocomplete;
 
 /***/ }),
-/* 41 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4834,7 +4877,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 42 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4845,7 +4888,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.AutocompleteBase = exports.Autocomplete = undefined;
 
-var _Autocomplete = __webpack_require__(40);
+var _Autocomplete = __webpack_require__(37);
 
 var _Autocomplete2 = _interopRequireDefault(_Autocomplete);
 
@@ -4860,7 +4903,7 @@ exports.Autocomplete = _Autocomplete2.default;
 exports.AutocompleteBase = _AutocompleteBase2.default;
 
 /***/ }),
-/* 43 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5214,7 +5257,7 @@ ClipboardAction.STATE = {
 exports.default = Clipboard;
 
 /***/ }),
-/* 44 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5252,8 +5295,7 @@ exports.cancelDebounce = cancelDebounce;
 exports.debounce = debounce;
 
 /***/ }),
-/* 45 */,
-/* 46 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5526,7 +5568,7 @@ KeyboardFocusManager.REF_REGEX = /.+-(\d+)$/;
 exports.default = KeyboardFocusManager;
 
 /***/ }),
-/* 47 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5552,9 +5594,9 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-__webpack_require__(49);
+__webpack_require__(45);
 
-var _ListSoy = __webpack_require__(48);
+var _ListSoy = __webpack_require__(44);
 
 var _ListSoy2 = _interopRequireDefault(_ListSoy);
 
@@ -5646,7 +5688,7 @@ List.STATE = {
 exports.default = List;
 
 /***/ }),
-/* 48 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5778,7 +5820,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 49 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5800,7 +5842,7 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _ListItemSoy = __webpack_require__(50);
+var _ListItemSoy = __webpack_require__(46);
 
 var _ListItemSoy2 = _interopRequireDefault(_ListItemSoy);
 
@@ -5887,7 +5929,7 @@ ListItem.STATE = {
 exports.default = ListItem;
 
 /***/ }),
-/* 50 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6048,7 +6090,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 51 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6305,7 +6347,7 @@ Align.Left = Align.LeftCenter;
 exports.default = Align;
 
 /***/ }),
-/* 52 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6317,7 +6359,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _metal = __webpack_require__(0);
 
-var _ReadingProgress = __webpack_require__(53);
+var _ReadingProgress = __webpack_require__(49);
 
 var _ReadingProgress2 = _interopRequireDefault(_ReadingProgress);
 
@@ -6325,7 +6367,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _ReadingProgressTracker = __webpack_require__(54);
+var _ReadingProgressTracker = __webpack_require__(50);
 
 var _ReadingProgressTracker2 = _interopRequireDefault(_ReadingProgressTracker);
 
@@ -6496,7 +6538,7 @@ ReadingProgress.STATE = {
 exports.default = ReadingProgress;
 
 /***/ }),
-/* 53 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6636,7 +6678,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 54 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6654,7 +6696,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalScrollspy = __webpack_require__(55);
+var _metalScrollspy = __webpack_require__(51);
 
 var _metalScrollspy2 = _interopRequireDefault(_metalScrollspy);
 
@@ -6805,7 +6847,7 @@ ReadingProgressTracker.STATE = {
 exports.default = ReadingProgressTracker;
 
 /***/ }),
-/* 55 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7157,7 +7199,7 @@ Scrollspy.STATE = {
 exports.default = Scrollspy;
 
 /***/ }),
-/* 56 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7367,7 +7409,7 @@ var MultiMap = function (_Disposable) {
 exports.default = MultiMap;
 
 /***/ }),
-/* 57 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7626,7 +7668,7 @@ var assertChildHasNoParent = function assertChildHasNoParent(child) {
 exports.default = TreeNode;
 
 /***/ }),
-/* 58 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7637,11 +7679,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TreeNode = exports.MultiMap = undefined;
 
-var _MultiMap = __webpack_require__(56);
+var _MultiMap = __webpack_require__(52);
 
 var _MultiMap2 = _interopRequireDefault(_MultiMap);
 
-var _TreeNode = __webpack_require__(57);
+var _TreeNode = __webpack_require__(53);
 
 var _TreeNode2 = _interopRequireDefault(_TreeNode);
 
@@ -7651,7 +7693,7 @@ exports.MultiMap = _MultiMap2.default;
 exports.TreeNode = _TreeNode2.default;
 
 /***/ }),
-/* 59 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7667,7 +7709,7 @@ var _metal = __webpack_require__(0);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _TabsSoy = __webpack_require__(60);
+var _TabsSoy = __webpack_require__(56);
 
 var _TabsSoy2 = _interopRequireDefault(_TabsSoy);
 
@@ -7675,7 +7717,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalKeyboardFocus = __webpack_require__(46);
+var _metalKeyboardFocus = __webpack_require__(42);
 
 var _metalKeyboardFocus2 = _interopRequireDefault(_metalKeyboardFocus);
 
@@ -8007,7 +8049,7 @@ Tabs.STATE = {
 exports.default = Tabs;
 
 /***/ }),
-/* 60 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8142,7 +8184,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 61 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8165,11 +8207,11 @@ var _metalSoy = __webpack_require__(2);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
-var _TooltipBase2 = __webpack_require__(63);
+var _TooltipBase2 = __webpack_require__(59);
 
 var _TooltipBase3 = _interopRequireDefault(_TooltipBase2);
 
-var _TooltipSoy = __webpack_require__(62);
+var _TooltipSoy = __webpack_require__(58);
 
 var _TooltipSoy2 = _interopRequireDefault(_TooltipSoy);
 
@@ -8245,7 +8287,7 @@ exports.Tooltip = Tooltip;
 exports.TooltipBase = _TooltipBase3.default;
 
 /***/ }),
-/* 62 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8366,7 +8408,7 @@ exports.default = templates;
 /* jshint ignore:end */
 
 /***/ }),
-/* 63 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8761,7 +8803,7 @@ TooltipBase.PositionClasses = ['top', 'right', 'bottom', 'left'];
 exports.default = TooltipBase;
 
 /***/ }),
-/* 64 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8777,11 +8819,11 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _metal = __webpack_require__(0);
 
-var _parse = __webpack_require__(65);
+var _parse = __webpack_require__(61);
 
 var _parse2 = _interopRequireDefault(_parse);
 
-var _metalStructs = __webpack_require__(58);
+var _metalStructs = __webpack_require__(54);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -9402,7 +9444,7 @@ Uri.RANDOM_PARAM = 'zx';
 exports.default = Uri;
 
 /***/ }),
-/* 65 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9414,7 +9456,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _metal = __webpack_require__(0);
 
-var _parseFromAnchor = __webpack_require__(66);
+var _parseFromAnchor = __webpack_require__(62);
 
 var _parseFromAnchor2 = _interopRequireDefault(_parseFromAnchor);
 
@@ -9445,7 +9487,7 @@ function parse(opt_uri) {
 exports.default = parse;
 
 /***/ }),
-/* 66 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9482,21 +9524,21 @@ function parseFromAnchor(opt_uri) {
 exports.default = parseFromAnchor;
 
 /***/ }),
-/* 67 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Uri = __webpack_require__(64).default;
+var Uri = __webpack_require__(60).default;
 
 if (typeof URL === 'undefined' && "function" !== 'undefined') {
 	// If there is no "document", then this should be running in NodeJS or in ReactNative env and
 	// in this case we should use the "url" NPM module as the parse function.
 	// In ReactNative env "path" will be replaced with "path-browserify".
 
-	var path = __webpack_require__(68);
-	var url = __webpack_require__(73);
+	var path = __webpack_require__(64);
+	var url = __webpack_require__(70);
 
 	Uri.setParseFn(function(urlStr) {
 		var parsed = url.parse(urlStr);
@@ -9509,7 +9551,7 @@ module.exports = Uri;
 
 
 /***/ }),
-/* 68 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -9737,10 +9779,11 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(16)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(65)))
 
 /***/ }),
-/* 69 */
+/* 65 */,
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -10276,10 +10319,10 @@ var substr = 'ab'.substr(-1) === 'b'
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(75)(module), __webpack_require__(17)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(73)(module), __webpack_require__(72)))
 
 /***/ }),
-/* 70 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10370,7 +10413,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 71 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10462,18 +10505,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 72 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(70);
-exports.encode = exports.stringify = __webpack_require__(71);
+exports.decode = exports.parse = __webpack_require__(67);
+exports.encode = exports.stringify = __webpack_require__(68);
 
 
 /***/ }),
-/* 73 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10500,8 +10543,8 @@ exports.encode = exports.stringify = __webpack_require__(71);
 
 
 
-var punycode = __webpack_require__(69);
-var util = __webpack_require__(74);
+var punycode = __webpack_require__(66);
+var util = __webpack_require__(71);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -10576,7 +10619,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(72);
+    querystring = __webpack_require__(69);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -11212,7 +11255,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 74 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11235,7 +11278,8 @@ module.exports = {
 
 
 /***/ }),
-/* 75 */
+/* 72 */,
+/* 73 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -11263,6 +11307,8 @@ module.exports = function(module) {
 
 
 /***/ }),
+/* 74 */,
+/* 75 */,
 /* 76 */,
 /* 77 */,
 /* 78 */,
@@ -11280,12 +11326,14 @@ module.exports = function(module) {
 /* 90 */,
 /* 91 */,
 /* 92 */,
-/* 93 */
+/* 93 */,
+/* 94 */,
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageOtherIndex", function() { return pageOtherIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageWhyFPIndex", function() { return pageWhyFPIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11297,15 +11345,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from other.soy.
+// This file was automatically generated from whyfp.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageOtherIndex.
+ * @fileoverview Templates in namespace pageWhyFPIndex.
  * @public
  */
 
-goog.module('pageOtherIndex.incrementaldom');
+goog.module('pageWhyFPIndex.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11326,6 +11374,10 @@ var ie_open_end = IncrementalDom.elementOpenEnd;
 var itext = IncrementalDom.text;
 var iattr = IncrementalDom.attr;
 
+var $templateAlias3 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('main.incrementaldom', 'header');
+var $templateAlias2 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('main.incrementaldom', 'render');
+var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTemplate('main.incrementaldom', 'sidebar');
+
 
 /**
  * @param {Object<string, *>=} opt_data
@@ -11335,30 +11387,58 @@ var iattr = IncrementalDom.attr;
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  itext('cacafuti other');
+  opt_data = opt_data || {};
+  $templateAlias1(opt_data, null, opt_ijData);
+  var param104 = function() {
+    $pageContent(opt_data, null, opt_ijData);
+  };
+  $templateAlias2(soy.$$assignDefaults({content: param104, elementClasses: 'WhyFP'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageOtherIndex.render';
+  $render.soyTemplateName = 'pageWhyFPIndex.render';
+}
+
+
+/**
+ * @param {Object<string, *>=} opt_data
+ * @param {(null|undefined)=} opt_ignored
+ * @param {Object<string, *>=} opt_ijData
+ * @return {void}
+ * @suppress {checkTypes}
+ */
+function $pageContent(opt_data, opt_ignored, opt_ijData) {
+  opt_data = opt_data || {};
+  ie_open('div', null, null,
+      'class', 'container-full-height');
+    ie_open('div', null, null,
+        'class', 'container');
+      $templateAlias3(opt_data, null, opt_ijData);
+    ie_close('div');
+  ie_close('div');
+}
+exports.pageContent = $pageContent;
+if (goog.DEBUG) {
+  $pageContent.soyTemplateName = 'pageWhyFPIndex.pageContent';
 }
 
 exports.render.params = [];
 exports.render.types = {};
+exports.pageContent.params = [];
+exports.pageContent.types = {};
 templates = exports;
 return exports;
 
 });
 
-class pageOtherIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageOtherIndex, templates);
+class pageWhyFPIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageWhyFPIndex, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 94 */,
-/* 95 */,
 /* 96 */,
 /* 97 */,
 /* 98 */,
@@ -11390,7 +11470,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageOtherIndex, templ
 /* 124 */,
 /* 125 */,
 /* 126 */,
-/* 127 */
+/* 127 */,
+/* 128 */,
+/* 129 */,
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11410,13 +11493,13 @@ var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
 __webpack_require__(14);
 
-__webpack_require__(18);
+__webpack_require__(15);
 
 __webpack_require__(13);
 
-var _otherSoy = __webpack_require__(93);
+var _whyfpSoy = __webpack_require__(95);
 
-var _otherSoy2 = _interopRequireDefault(_otherSoy);
+var _whyfpSoy2 = _interopRequireDefault(_whyfpSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11426,23 +11509,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageOtherIndex = function (_Component) {
-  _inherits(pageOtherIndex, _Component);
+var pageWhyFPIndex = function (_Component) {
+  _inherits(pageWhyFPIndex, _Component);
 
-  function pageOtherIndex() {
-    _classCallCheck(this, pageOtherIndex);
+  function pageWhyFPIndex() {
+    _classCallCheck(this, pageWhyFPIndex);
 
-    return _possibleConstructorReturn(this, (pageOtherIndex.__proto__ || Object.getPrototypeOf(pageOtherIndex)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageWhyFPIndex.__proto__ || Object.getPrototypeOf(pageWhyFPIndex)).apply(this, arguments));
   }
 
-  return pageOtherIndex;
+  return pageWhyFPIndex;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageOtherIndex, _otherSoy2.default);
+_metalSoy2.default.register(pageWhyFPIndex, _whyfpSoy2.default);
 
-exports.default = pageOtherIndex;
+exports.default = pageWhyFPIndex;
 
 /***/ })
-],[127]);
+],[130]);
