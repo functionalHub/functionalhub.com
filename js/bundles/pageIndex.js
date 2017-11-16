@@ -2010,8 +2010,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn1 = opt_data.content;
-      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
+      var dyn0 = opt_data.content;
+      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
     ie_close('main');
   ie_close('div');
 }
