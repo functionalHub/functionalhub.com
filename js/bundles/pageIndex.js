@@ -2010,8 +2010,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn0 = opt_data.content;
-      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
+      var dyn1 = opt_data.content;
+      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
     ie_close('main');
   ie_close('div');
 }
@@ -2108,15 +2108,13 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
         ie_open('a', null, null,
             'class', 'nav-link text-white',
             'href', '#');
-          itext('J');
+          ie_open('img', null, null,
+              'src', '/images/Logo_JS.png',
+              'width', '32');
+          ie_close('img');
           ie_open('span', null, null,
-              'class', 'magic');
-            itext('ava');
-          ie_close('span');
-          itext('S');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('script');
+              'class', 'ml-2 magic');
+            itext('JavaScript');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11496,29 +11494,105 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_close('div');
       ie_open('div', null, null,
           'id', 'carouselExampleControls',
-          'class', 'carousel slide',
+          'class', 'carousel slide text-white',
           'data-ride', 'carousel');
         ie_open('div', null, null,
             'class', 'carousel-inner');
           ie_open('div', null, null,
-              'class', 'carousel-item active');
-            ie_open('img', null, null,
-                'class', 'd-block w-100',
-                'data-src', 'holder.js/800x400?auto=yes&bg=777&fg=555&text=First slide',
-                'alt', 'First slide [800x400]',
-                'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba75327f%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba75327f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.921875%22%20y%3D%22218.3%22%3EFirst%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-                'data-holder-rendered', 'true');
-            ie_close('img');
+              'class', 'carousel-item bg-right active',
+              'style', 'background-image: url(images/slider01.jpg)');
+            ie_open('div', null, null,
+                'class', 'container');
+              ie_open('div', null, null,
+                  'class', 'col-md-7 text-right p-4');
+                ie_open('img', null, null,
+                    'src', '/images/comillas.svg',
+                    'class', 'py-4');
+                ie_close('img');
+                ie_open('h1');
+                  itext('What is the best language to learn functional programming?');
+                ie_close('h1');
+                ie_open('h1');
+                  ie_open('strong');
+                    itext('The language you are currently using');
+                  ie_close('strong');
+                ie_close('h1');
+                ie_open('h2');
+                  ie_open('small');
+                    itext('Peter Norvig');
+                  ie_close('small');
+                ie_close('h2');
+                ie_open('h3');
+                  ie_open('small');
+                    itext('Director of Research at Google');
+                  ie_close('small');
+                ie_close('h3');
+              ie_close('div');
+            ie_close('div');
           ie_close('div');
           ie_open('div', null, null,
-              'class', 'carousel-item');
-            ie_open('img', null, null,
-                'class', 'd-block w-100',
-                'data-src', 'holder.js/800x400?auto=yes&bg=555&fg=333&text=Third slide',
-                'alt', 'Third slide [800x400]',
-                'src', 'data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_15fba753283%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_15fba753283%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22277%22%20y%3D%22218.3%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E',
-                'data-holder-rendered', 'true');
-            ie_close('img');
+              'class', 'carousel-item bg-left',
+              'style', 'background-image: url(images/slider02.jpg)');
+            ie_open('div', null, null,
+                'class', 'container');
+              ie_open('div', null, null,
+                  'class', 'ml-auto col-md-7 p-4');
+                ie_open('img', null, null,
+                    'src', '/images/comillas.svg',
+                    'class', 'py-4');
+                ie_close('img');
+                ie_open('h1');
+                  itext('What is the best language to learn functional programming?');
+                ie_close('h1');
+                ie_open('h1');
+                  ie_open('strong');
+                    itext('The language you are currently using');
+                  ie_close('strong');
+                ie_close('h1');
+                ie_open('h2');
+                  ie_open('small');
+                    itext('Peter Norvig');
+                  ie_close('small');
+                ie_close('h2');
+                ie_open('h3');
+                  ie_open('small');
+                    itext('Director of Research at Google');
+                  ie_close('small');
+                ie_close('h3');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'carousel-item bg-right',
+              'style', 'background-image: url(images/slider01.jpg)');
+            ie_open('div', null, null,
+                'class', 'container');
+              ie_open('div', null, null,
+                  'class', 'col-md-7 text-right p-4');
+                ie_open('img', null, null,
+                    'src', '/images/comillas.svg',
+                    'class', 'py-4');
+                ie_close('img');
+                ie_open('h1');
+                  itext('What is the best language to learn functional programming?');
+                ie_close('h1');
+                ie_open('h1');
+                  ie_open('strong');
+                    itext('The language you are currently using');
+                  ie_close('strong');
+                ie_close('h1');
+                ie_open('h2');
+                  ie_open('small');
+                    itext('Peter Norvig');
+                  ie_close('small');
+                ie_close('h2');
+                ie_open('h3');
+                  ie_open('small');
+                    itext('Director of Research at Google');
+                  ie_close('small');
+                ie_close('h3');
+              ie_close('div');
+            ie_close('div');
           ie_close('div');
         ie_close('div');
         ie_open('a', null, null,
@@ -11554,7 +11628,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'row');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'wow fadeInLeft col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
               'data-wow-delay', '0.3s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
@@ -11573,7 +11647,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('a');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'wow fadeInUp col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
                 'width', '80');
@@ -11591,7 +11665,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('a');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'wow fadeInRight col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
               'data-wow-delay', '0.6s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',

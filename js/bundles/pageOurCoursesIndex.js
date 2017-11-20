@@ -2010,8 +2010,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn0 = opt_data.content;
-      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
+      var dyn1 = opt_data.content;
+      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
     ie_close('main');
   ie_close('div');
 }
@@ -2108,15 +2108,13 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
         ie_open('a', null, null,
             'class', 'nav-link text-white',
             'href', '#');
-          itext('J');
+          ie_open('img', null, null,
+              'src', '/images/Logo_JS.png',
+              'width', '32');
+          ie_close('img');
           ie_open('span', null, null,
-              'class', 'magic');
-            itext('ava');
-          ie_close('span');
-          itext('S');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('script');
+              'class', 'ml-2 magic');
+            itext('JavaScript');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11413,6 +11411,134 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null,
         'class', 'container');
       $templateAlias3(opt_data, null, opt_ijData);
+    ie_close('div');
+    ie_open('div', null, null,
+        'class', 'container bg-white');
+      ie_open('div', null, null,
+          'class', 'row py-4');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
+                'data-wow-delay', '0.3s');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('JavaScript');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('KOTLIN');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+                'data-wow-delay', '0.6s');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('SWIFT');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+      ie_close('div');
     ie_close('div');
   ie_close('div');
 }

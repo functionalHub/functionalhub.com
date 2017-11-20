@@ -2010,8 +2010,8 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       'class', ($$temp = opt_data.elementClasses) == null ? 'main' : $$temp);
     ie_open('main', null, null,
         'class', 'content');
-      var dyn0 = opt_data.content;
-      if (typeof dyn0 == 'function') dyn0(); else if (dyn0 != null) itext(dyn0);
+      var dyn1 = opt_data.content;
+      if (typeof dyn1 == 'function') dyn1(); else if (dyn1 != null) itext(dyn1);
     ie_close('main');
   ie_close('div');
 }
@@ -2108,15 +2108,13 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
         ie_open('a', null, null,
             'class', 'nav-link text-white',
             'href', '#');
-          itext('J');
+          ie_open('img', null, null,
+              'src', '/images/Logo_JS.png',
+              'width', '32');
+          ie_close('img');
           ie_open('span', null, null,
-              'class', 'magic');
-            itext('ava');
-          ie_close('span');
-          itext('S');
-          ie_open('span', null, null,
-              'class', 'magic');
-            itext('script');
+              'class', 'ml-2 magic');
+            itext('JavaScript');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11414,6 +11412,75 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null,
         'class', 'container');
       $templateAlias3(opt_data, null, opt_ijData);
+    ie_close('div');
+    ie_open('div', null, null,
+        'class', 'container bg-white');
+      ie_open('div', null, null,
+          'class', 'row');
+        ie_open('div', null, null,
+            'class', 'col-md-8 col-lg-6 mx-auto pb-4');
+          ie_open('h1', null, null,
+              'class', 'display-3 mt-5 mb-4 text-center text-secondary');
+            itext('Why FP?');
+          ie_close('h1');
+          ie_open('p');
+            itext('Hola de nuevo! \uD83D\uDC4B\uD83C\uDFFB');
+          ie_close('p');
+          ie_open('p');
+            itext('Aunque as\u00ED lo parezca, me temo que la programaci\u00F3n no tiene nada de moda \uD83D\uDC85\uD83C\uDFFC, y mucho menos de "nueva"... en realidad la programaci\u00F3n funcional es muy vieja. Mucho m\u00E1s que t\u00FA.');
+          ie_close('p');
+          ie_open('p');
+            itext('Hoy vamos a mirar al pasado, a los pioneros de la inform\u00E1tica, para entender el presente, y sobre todo, para ser capaces de anticiparnos al futuro. \uD83D\uDD2E');
+          ie_close('p');
+          ie_open('p');
+            itext('La programaci\u00F3n funcional y la programaci\u00F3n imperativa nacieron al mismo tiempo, al menos a nivel te\u00F3rico, all\u00E1 por los a\u00F1os 30. Mientras Alonzo Church defin\u00EDa su C\u00E1lculo Lambda \u019B, que es la base te\u00F3rica de la programaci\u00F3n funcional, Alan Turing hac\u00EDa lo propio con su M\u00E1quina de Turing \uD83C\uDFB0, que es a su vez la teor\u00EDa matem\u00E1tica sobre la que se basa la programaci\u00F3n imperativa. Era un duelo de titanes, para ver quien defin\u00EDa el modelo te\u00F3rico (a nivel matem\u00E1tico) que mejor pudiese resolver problemas computables universales (vamos, programas).');
+          ie_close('p');
+          ie_open('p');
+            itext('Ya en los a\u00F1os 50, la carrera se movi\u00F3 al plano m\u00E1s pr\u00E1ctico. John Backus, un trabajador de IBM, cre\u00F3 FORTRAN como implementaci\u00F3n real de ese modelo te\u00F3rico de computaci\u00F3n imperativa que defini\u00F3 Turing. M\u00E1s o menos al mismo tiempo, en el MIT de Boston, John McCarthy hizo algo parecido creando Lisp, pero basado en el C\u00E1lculo Lambda de Church. Otra vez la batalla estaba servida.');
+          ie_close('p');
+          ie_open('p');
+            itext('Podr\u00EDamos decir que FORTRAN es el tatarabuelo de todos los lenguajes de programaci\u00F3n imperativos, y Lisp ocupa un lugar parecido para todos los lenguajes funcionales.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/af043d11-ac22-413b-a089-4700e22095f3.jpg');
+          ie_close('img');
+          ie_open('p');
+            itext('Es importante fijarse el contexto donde nacen ambos proyectos: por un lado IBM, que como empresa pura y dura, busca soluciones econ\u00F3micamente viables a problemas de sus clientes. Y por otro lado el MIT, que es el laboratorio donde se conciben las ideas m\u00E1s revolucionarias y futuristas del mundo. Esto es importante tenerlo en cuenta \uD83E\uDD14');
+          ie_close('p');
+          ie_open('p');
+            itext('Durante a\u00F1os, ambos lenguajes compitieron por liderar la incipiente industria de la inform\u00E1tica. Sin embargo, un "peque\u00F1o detalle" hizo inclinar la balanza: las m\u00E1quinas eran car\u00EDsimas en aquellos a\u00F1os, as\u00ED que se programaba con papel y boli, y luego se alquilaban una m\u00E1quina por horas (cloud computing?) para que alguien, normalmente una se\u00F1orita (s\u00ED amigos, las mujeres fueron las primeras programadoras \uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB), introdujese el programa en el ordenador, lo compilase y lo ejecutase, imprimiendo el resultado con una impresora matricial \uD83D\uDDA8');
+          ie_close('p');
+          ie_open('p');
+            itext('Lo que inclin\u00F3 la balanza fue que un programa escrito en FORTRAN (con estilo imperativo), se compilaba y ejecutaba infinitamente m\u00E1s r\u00E1pido que el mismo programa escrito en Lisp (con estilo funcional). Backus hab\u00EDa hecho un compilador muy eficiente para la \u00E9poca, ya que a IBM le preocupaba, y mucho, el aspecto econ\u00F3mico \uD83D\uDCB8 Ponte en su lugar: si tu programa en estilo imperativo tarda minutos en compilarse, pero el mismo programa en estilo funcional tarda horas o hasta d\u00EDas, y tienes que pagar por ese tiempo de procesamiento, t\u00FA tambi\u00E9n dejar\u00EDas de lado el estilo funcional \u00BFverdad? \uD83E\uDD11');
+          ie_close('p');
+          ie_open('p');
+            itext('As\u00ED que en los siguientes a\u00F1os, Lisp se fue dejando como la herramienta para resolver problemas especialmente complejos (como la inteligencia artificial), donde la rentabilidad econ\u00F3mica no era tan importante como conseguir una soluci\u00F3n a tu problema.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/20127c27-af47-4bb9-bbb2-df2bc9aa3a9e.jpeg');
+          ie_close('img');
+          ie_open('p');
+            itext('Y llegamos al a\u00F1o 1977, donde Backus recibi\u00F3 el premio Turing (el Nobel de los inform\u00E1ticos) por su trabajo en el \u00E1rea de compiladores. Realmente el compilador de FORTRAN era muy bueno y avanzado. Pero para sorpresa de todos, en su discurso de la entrega del premio, en vez de sacar pecho, lo que hizo fue criticar duramente a los lenguajes imperativos y present\u00F3 a los lenguajes funcionales como la alternativa correcta. \u00A1Estaba entonando un mea-culpa, tirando por tierra su propia creaci\u00F3n, por la que le estaban dando su premio m\u00E1s importante! \uD83D\uDE35');
+          ie_close('p');
+          ie_open('p');
+            itext('Pero ya era tarde: la industria ya hab\u00EDa elegido el camino m\u00E1s rentable y pragm\u00E1tico, las primeras generaciones de programadores se hab\u00EDan forjado en el modelo imperativo (recuerda, el \u00FAnico viable para el hardware de la \u00E9poca), Unix y sus heroes, marcaron la pauta a partir de aquellos a\u00F1os, C se volvi\u00F3 el lenguaje de referencia... y el resto ya es historia.');
+          ie_close('p');
+          ie_open('p');
+            itext('Y as\u00ED hemos llegado hasta el d\u00EDa de hoy, donde, en cierta manera, todos los desarrolladores actuales somos hijos de C y nietos de FORTRAN, pero sin haberlo elegido. Lo que resulta llamativo es que ya no tenemos esas restricciones de hardware, pero seguimos utilizando un modelo de programaci\u00F3n propio de los a\u00F1os 50. Es duro decirlo, pero es as\u00ED. \uD83C\uDFDA');
+          ie_close('p');
+          ie_open('p');
+            itext('Y desde hace unos cuantos a\u00F1os, muchos programadores se est\u00E1n haciendo la misma pregunta... \u00BFno es el momento ya de retomar esa \u201Cvieja idea\u201D de la programaci\u00F3n funcional? Todos sabemos lo inmanejables que se vuelven los proyectos de software cuando crecen... y eso no deber\u00EDa ser as\u00ED. La programaci\u00F3n funcional aporta muchas ventajas a la hora de resolver problemas muy actuales, como el crecimiento y mantenimiento del software, o la ejecuci\u00F3n de c\u00F3digo as\u00EDncrono, en paralelo o de forma concurrente, y nuestro hardware es capaz de compilar en segundos cualquier programa en estilo funcional \uD83C\uDFC3');
+          ie_close('p');
+          ie_open('p');
+            itext('As\u00ED que ahora ya sabes por qu\u00E9 aprendiste a programar en C, Pascal o Java, no fue por casualidad\u2026 ma\u00F1ana te contar\u00E9 m\u00E1s sobre lo que te est\u00E1s perdiendo por no usar programaci\u00F3n funcional.');
+          ie_close('p');
+          ie_open('p');
+            itext('Y recuerda \u00A1el viernes un regalo para t\u00ED! \uD83C\uDF81');
+          ie_close('p');
+        ie_close('div');
+      ie_close('div');
     ie_close('div');
   ie_close('div');
 }

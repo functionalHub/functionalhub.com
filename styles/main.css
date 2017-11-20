@@ -5945,6 +5945,20 @@ a.text-dark:focus, a.text-dark:hover {
 .zoomIn {
   animation-name: zoomIn; }
 
+.carousel-item {
+  background-size: cover;
+  min-height: 500px; }
+  .carousel-item.bg-left {
+    background-position: left; }
+  .carousel-item.bg-right {
+    background-position: right; }
+  .carousel-item .text-warning {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 120px; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%; }
+
 .footer a {
   color: #FFF; }
 
