@@ -1,0 +1,21 @@
+.carousel-item {
+	background-size: cover;
+	min-height: 500px;
+
+	&.bg-left {
+		background-position: left;
+	}
+
+	&.bg-right {
+		background-position: right;
+	}
+
+	.text-warning {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 120px;
+	}
+}
+
+.carousel-control-prev, .carousel-control-next {
+	width: 10%;
+}
