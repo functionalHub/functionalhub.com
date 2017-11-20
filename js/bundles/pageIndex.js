@@ -11463,6 +11463,10 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'src', 'images/combina.ogg',
             'type', 'video/ogg');
         ie_close('source');
+        ie_open('source', null, null,
+            'src', 'images/combina.webm',
+            'type', 'video/webm');
+        ie_close('source');
       ie_close('video');
       ie_open('div', null, null,
           'class', 'container mt-5');
@@ -11628,7 +11632,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'row');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-js text-center p-5',
               'data-wow-delay', '0.3s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
@@ -11647,7 +11651,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('a');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-kotlin text-center p-5');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
                 'width', '80');
@@ -11665,7 +11669,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('a');
           ie_open('a', null, null,
               'href', '#',
-              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+              'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-swift text-center p-5',
               'data-wow-delay', '0.6s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',

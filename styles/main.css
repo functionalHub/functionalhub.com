@@ -6081,13 +6081,15 @@ p {
 .card {
   border-radius: 0; }
 
-.card-box {
+.card-box.card-height {
   min-height: 50vh; }
-  .card-box:hover {
-    text-decoration: none;
-    transition: all 0.1s ease-in-out; }
-  .card-box h3 {
-    font-weight: 300; }
+
+.card-box:hover {
+  text-decoration: none;
+  transition: all 0.1s ease-in-out; }
+
+.card-box h3 {
+  font-weight: 300; }
 
 .bg-swift {
   background: linear-gradient(#E3AF53, #C7523B); }
