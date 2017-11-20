@@ -29,7 +29,9 @@ p {
 }
 
 .card-box {
-	min-height: 50vh;
+	&.card-height {
+		min-height: 50vh;
+	}
 
 	&:hover {
 		text-decoration: none;
