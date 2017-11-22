@@ -1,0 +1,81 @@
+---
+title: "Courses"
+description: "Courses"
+weight: 2
+---
+
+{namespace pageCoursesIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'Courses' /}
+	{/call}
+{/template}
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+
+		<div class="container bg-white">
+			<div class="row py-4">
+				//New init
+					<div class="col-md-4">
+						<div class="card mb-3">
+						  	<a href="#" class="d-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5" data-wow-delay="0.3s">
+							  <img src="/images/functional_isotipo.png" width="80" />
+							  <h3 class="align-middle mt-3">FUNCTIONAL</h3>
+							  <h3 class="align-middle"><strong>JavaScript</strong></h3>
+							</a>
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-secondary btn-lg btn-block">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-3">
+						  	<a href="#" class="d-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5">
+							  <img src="/images/functional_isotipo.png" width="80" />
+							  <h3 class="align-middle mt-3">FUNCTIONAL</h3>
+							  <h3 class="align-middle"><strong>KOTLIN</strong></h3>
+							</a>
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-secondary btn-lg btn-block">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-3">
+						  	<a href="#" class="d-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5" data-wow-delay="0.6s">
+							  <img src="/images/functional_isotipo.png" width="80" />
+							  <h3 class="align-middle mt-3">FUNCTIONAL</h3>
+							  <h3 class="align-middle"><strong>SWIFT</strong></h3>
+							</a>
+						  <div class="card-body">
+						    <h4 class="card-title">Card title</h4>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <a href="#" class="btn btn-outline-secondary btn-lg btn-block">Go somewhere</a>
+						  </div>
+						</div>
+					</div>
+				//New end
+			</div>
+		</div>
+	</div>
+{/template}
