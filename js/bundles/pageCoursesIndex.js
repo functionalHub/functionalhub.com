@@ -1042,7 +1042,7 @@ var _metalAjax = __webpack_require__(36);
 
 var _metalAjax2 = _interopRequireDefault(_metalAjax);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -1278,7 +1278,7 @@ var _metalPromise = __webpack_require__(7);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -1953,9 +1953,9 @@ exports.default = Position;
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "main", function() { return main; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_metal_soy__);
 /* jshint ignore:start */
 
@@ -2252,7 +2252,7 @@ var _metalClipboard = __webpack_require__(40);
 
 var _metalClipboard2 = _interopRequireDefault(_metalClipboard);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -2515,7 +2515,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -2565,7 +2565,7 @@ var _metalAffix = __webpack_require__(35);
 
 var _metalAffix2 = _interopRequireDefault(_metalAffix);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -2872,7 +2872,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -2927,7 +2927,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -2955,11 +2955,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricCode = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3068,7 +3068,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3096,11 +3096,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricNavigation = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3247,7 +3247,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3275,11 +3275,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricReadingProgress = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3377,7 +3377,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3405,11 +3405,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricSearch = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3606,7 +3606,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3634,11 +3634,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricSearchAutocomplete = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3748,7 +3748,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -3776,11 +3776,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ElectricUpdates = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -4366,7 +4366,7 @@ var _AutocompleteBase2 = __webpack_require__(10);
 
 var _AutocompleteBase3 = _interopRequireDefault(_AutocompleteBase2);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -4781,11 +4781,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.Autocomplete = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -5584,11 +5584,11 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -5697,11 +5697,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.List = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -5832,11 +5832,11 @@ var _metal = __webpack_require__(0);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -5938,11 +5938,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ListItem = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -6361,7 +6361,7 @@ var _ReadingProgress = __webpack_require__(49);
 
 var _ReadingProgress2 = _interopRequireDefault(_ReadingProgress);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -6369,7 +6369,7 @@ var _ReadingProgressTracker = __webpack_require__(50);
 
 var _ReadingProgressTracker2 = _interopRequireDefault(_ReadingProgressTracker);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -6547,11 +6547,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.ReadingProgress = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -7711,7 +7711,7 @@ var _TabsSoy = __webpack_require__(56);
 
 var _TabsSoy2 = _interopRequireDefault(_TabsSoy);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -7719,7 +7719,7 @@ var _metalKeyboardFocus = __webpack_require__(42);
 
 var _metalKeyboardFocus2 = _interopRequireDefault(_metalKeyboardFocus);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -8058,11 +8058,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.Tabs = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -8201,7 +8201,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -8296,11 +8296,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.templates = exports.Tooltip = undefined;
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -8430,7 +8430,7 @@ var _metalDom2 = _interopRequireDefault(_metalDom);
 
 var _metalPosition = __webpack_require__(6);
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
@@ -9536,7 +9536,7 @@ if (typeof URL === 'undefined' && "function" !== 'undefined') {
 	// In ReactNative env "path" will be replaced with "path-browserify".
 
 	var path = __webpack_require__(64);
-	var url = __webpack_require__(70);
+	var url = __webpack_require__(69);
 
 	Uri.setParseFn(function(urlStr) {
 		var parsed = url.parse(urlStr);
@@ -9777,11 +9777,10 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(65)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
 
 /***/ }),
-/* 65 */,
-/* 66 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module, global) {var __WEBPACK_AMD_DEFINE_RESULT__;/*! https://mths.be/punycode v1.4.1 by @mathias */
@@ -10317,10 +10316,10 @@ var substr = 'ab'.substr(-1) === 'b'
 
 }(this));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(73)(module), __webpack_require__(72)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(71)(module), __webpack_require__(73)))
 
 /***/ }),
-/* 67 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10411,7 +10410,7 @@ var isArray = Array.isArray || function (xs) {
 
 
 /***/ }),
-/* 68 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10503,18 +10502,18 @@ var objectKeys = Object.keys || function (obj) {
 
 
 /***/ }),
-/* 69 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.decode = exports.parse = __webpack_require__(67);
-exports.encode = exports.stringify = __webpack_require__(68);
+exports.decode = exports.parse = __webpack_require__(66);
+exports.encode = exports.stringify = __webpack_require__(67);
 
 
 /***/ }),
-/* 70 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10541,8 +10540,8 @@ exports.encode = exports.stringify = __webpack_require__(68);
 
 
 
-var punycode = __webpack_require__(66);
-var util = __webpack_require__(71);
+var punycode = __webpack_require__(65);
+var util = __webpack_require__(70);
 
 exports.parse = urlParse;
 exports.resolve = urlResolve;
@@ -10617,7 +10616,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'gopher:': true,
       'file:': true
     },
-    querystring = __webpack_require__(69);
+    querystring = __webpack_require__(68);
 
 function urlParse(url, parseQueryString, slashesDenoteHost) {
   if (url && util.isObject(url) && url instanceof Url) return url;
@@ -11253,7 +11252,7 @@ Url.prototype.parseHost = function() {
 
 
 /***/ }),
-/* 71 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11276,8 +11275,7 @@ module.exports = {
 
 
 /***/ }),
-/* 72 */,
-/* 73 */
+/* 71 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -11305,6 +11303,8 @@ module.exports = function(module) {
 
 
 /***/ }),
+/* 72 */,
+/* 73 */,
 /* 74 */,
 /* 75 */,
 /* 76 */,
@@ -11324,16 +11324,17 @@ module.exports = function(module) {
 /* 90 */,
 /* 91 */,
 /* 92 */,
-/* 93 */
+/* 93 */,
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageCoursesIndex", function() { return pageCoursesIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_metal_soy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_metal_soy__);
 /* jshint ignore:start */
 
@@ -11341,7 +11342,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from courses.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
@@ -11385,10 +11386,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param79 = function() {
+  var param99 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param79, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11415,12 +11416,20 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         'class', 'container bg-white');
       ie_open('div', null, null,
           'class', 'row py-4');
+        ie_open('h1', null, null,
+            'class', 'col-12 display-4');
+          itext('Backend courses:');
+        ie_close('h1');
+        ie_open('p', null, null,
+            'class', 'col-12');
+          itext('Courses description, Courses description, Courses description, Courses description.');
+        ie_close('p');
         ie_open('div', null, null,
             'class', 'col-md-4');
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '#',
+                'href', '/courses/course_kotlin.html',
                 'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
                 'data-wow-delay', '0.3s');
               ie_open('img', null, null,
@@ -11449,7 +11458,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '#',
+                  'href', '/courses/course_kotlin.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
                 itext('Go somewhere');
               ie_close('a');
@@ -11461,7 +11470,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '#',
+                'href', '/courses/course_kotlin.html',
                 'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
               ie_open('img', null, null,
                   'src', '/images/functional_isotipo.png',
@@ -11489,7 +11498,58 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '#',
+                  'href', '/courses/course_kotlin.html',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row py-4');
+        ie_open('h1', null, null,
+            'class', 'col-12 display-4');
+          itext('Frontend courses:');
+        ie_close('h1');
+        ie_open('p', null, null,
+            'class', 'col-12');
+          itext('Courses description, Courses description, Courses description, Courses description.');
+        ie_close('p');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '/courses/course_kotlin.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('KOTLIN');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '/courses/course_kotlin.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
                 itext('Go somewhere');
               ie_close('a');
@@ -11501,7 +11561,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '#',
+                'href', '/courses/course_kotlin.html',
                 'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
                 'data-wow-delay', '0.6s');
               ie_open('img', null, null,
@@ -11530,7 +11590,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '#',
+                  'href', '/courses/course_kotlin.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
                 itext('Go somewhere');
               ie_close('a');
@@ -11563,7 +11623,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 
 
 /***/ }),
-/* 94 */,
 /* 95 */,
 /* 96 */,
 /* 97 */,
@@ -11607,11 +11666,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _metalComponent = __webpack_require__(1);
+var _metalComponent = __webpack_require__(2);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalSoy = __webpack_require__(2);
+var _metalSoy = __webpack_require__(1);
 
 var _metalSoy2 = _interopRequireDefault(_metalSoy);
 
@@ -11621,9 +11680,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _coursesSoy = __webpack_require__(93);
+var _indexSoy = __webpack_require__(94);
 
-var _coursesSoy2 = _interopRequireDefault(_coursesSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11647,7 +11706,7 @@ var pageCoursesIndex = function (_Component) {
 
 ;
 
-_metalSoy2.default.register(pageCoursesIndex, _coursesSoy2.default);
+_metalSoy2.default.register(pageCoursesIndex, _indexSoy2.default);
 
 exports.default = pageCoursesIndex;
 
