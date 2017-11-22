@@ -1,0 +1,68 @@
+---
+title: "Kotlin Course"
+description: "Courses"
+weight: 0
+---
+
+{namespace pageKotlinCourseIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'Kotlin Course' /}
+	{/call}
+{/template}
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+
+		<div class="container bg-white">
+			<div class="row py-4">
+				<div class="col-12 text-center">
+					<a class="btn btn-primary" href="/courses/">See all courses</a>
+				</div>
+				<div class="col-12">
+					//
+					<h1 class="display-4">Course details</h1>
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 1: Introduction ✌🏻</a>
+                            <span class="onair">ON AIR (96:11)</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            As any great story, we need to start from the very begining. In order to warm engines, we'll see what functional programming is and what their basic principles are. And it's free... What are you waiting for?<br><br>
+                            <ul>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272537-what-is-functional-programming" target="_blank">What is Functional Programming? <em>(7:02)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272538-mutable-state-sucks" target="_blank">Mutable State Sucks <em>(13:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272539-how-to-become-stateless" target="_blank">How to become stateless <em>(16:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272540-declarative-style" target="_blank">Declarative Style <em>(6:57)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272541-functions-without-side-effects" target="_blank">Functions without Side Effects <em>(6:55)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272542-lazy-evaluation" target="_blank">Lazy Evaluation <em>(9:49)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272543-type-systems" target="_blank">Type Systems <em>(11:13)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272545-recursion" target="_blank">Recursion <em>(3:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272546-higher-order-functions" target="_blank">Higher Order Functions <em>(13:05)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272547-functional-patterns" target="_blank">Functional Patterns <em>(7:19)</em></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+					//
+				</div>
+			</div>
+		</div>
+	</div>
+{/template}
