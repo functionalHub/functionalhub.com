@@ -2084,7 +2084,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('KORLIN');
+            itext('Kotlin');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -2099,7 +2099,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('SWIFT');
+            itext('Swift');
           ie_close('span');
         ie_close('a');
       ie_close('li');

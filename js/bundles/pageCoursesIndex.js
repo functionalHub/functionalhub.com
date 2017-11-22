@@ -2084,7 +2084,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('KORLIN');
+            itext('Kotlin');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -2099,7 +2099,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('SWIFT');
+            itext('Swift');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11329,7 +11329,7 @@ module.exports = function(module) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageNewsIndex", function() { return pageNewsIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageCoursesIndex", function() { return pageCoursesIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11341,15 +11341,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from news.soy.
+// This file was automatically generated from courses.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageNewsIndex.
+ * @fileoverview Templates in namespace pageCoursesIndex.
  * @public
  */
 
-goog.module('pageNewsIndex.incrementaldom');
+goog.module('pageCoursesIndex.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11385,14 +11385,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param82 = function() {
+  var param79 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param82, elementClasses: 'News'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param79, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageNewsIndex.render';
+  $render.soyTemplateName = 'pageCoursesIndex.render';
 }
 
 
@@ -11414,44 +11414,128 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null,
         'class', 'container bg-white');
       ie_open('div', null, null,
-          'class', 'row');
-        ie_open('img', null, null,
-            'class', 'img-fluided',
-            'src', 'https://cdn.cjr.org/wp-content/uploads/2016/12/tow-whitepaperintro-hero.jpg');
-        ie_close('img');
+          'class', 'row py-4');
         ie_open('div', null, null,
-            'class', 'col-md-8 col-lg-6 mx-auto pb-4');
-          ie_open('h1', null, null,
-              'class', 'display-4 mt-5 mb-4 text-center text-secondary');
-            itext('Only learn FP');
-          ie_close('h1');
+            'class', 'col-md-4');
           ie_open('div', null, null,
-              'class', 'd-flex justify-content-between text-secondary my-4');
-            ie_open('small');
-              itext('by: ');
-              ie_open('strong');
-                itext('Jose Manuel');
-              ie_close('strong');
-            ie_close('small');
-            ie_open('small');
-              itext('13/05/2017');
-            ie_close('small');
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
+                'data-wow-delay', '0.3s');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('JavaScript');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
           ie_close('div');
-          ie_open('p');
-            itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum eros ante, nec sagittis arcu venenatis eget. Donec at sollicitudin leo. Phasellus egestas metus eu urna euismod, non iaculis neque auctor. Vivamus congue convallis arcu, at dapibus quam. Nulla facilisi. Aliquam varius rhoncus odio quis cursus. Nunc placerat, nulla id sodales ornare, risus ligula tempor urna, consequat tincidunt eros libero sed diam. Aliquam tempor orci dignissim malesuada aliquam. Praesent elit turpis, tincidunt sed justo vel, dapibus feugiat risus. Nullam lobortis purus sed volutpat facilisis.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nulla at neque nec purus maximus iaculis non sit amet magna. Fusce pulvinar placerat volutpat. Vivamus ac nisi velit. Cras sodales dolor ut euismod vulputate. Sed tempus justo dui, quis rhoncus mi sagittis quis. Phasellus sem nibh, euismod eget felis id, tincidunt viverra ligula. In euismod elementum porttitor. Aenean ut sodales tellus. Nulla facilisi. Donec porttitor eros nec nisl iaculis, in sodales nisl pellentesque. Mauris non ullamcorper ipsum, sit amet placerat enim. Suspendisse tristique vel sem at tincidunt');
-          ie_close('p');
-          ie_open('p');
-            itext('Curabitur quis faucibus augue, consequat venenatis lacus. Aliquam et arcu vitae nisi dictum rhoncus quis nec orci. Cras libero eros, lobortis id orci eu, commodo egestas nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis libero. Sed placerat orci vel maximus accumsan. Vestibulum sagittis dui non facilisis lacinia. Etiam fringilla sollicitudin nisl vitae lobortis.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nullam sed eros justo. Donec sit amet convallis libero. Aliquam ac sapien sed nisl tincidunt dignissim eget et mi. Praesent ut iaculis est. Suspendisse blandit tempus hendrerit. Phasellus commodo, dolor at finibus commodo, massa elit maximus tellus, eu iaculis lectus est ut magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer bibendum ut nibh vitae venenatis. Cras ac felis nec metus accumsan congue et nec nulla. In hac habitasse platea dictumst. Aenean leo nulla, luctus eget mattis quis, tempor ac urna. Quisque enim elit, mattis quis suscipit quis, mollis nec sem. Sed sit amet ex a ex eleifend varius. Fusce dignissim urna sed odio malesuada lacinia et ac ligula. Quisque diam nibh, mollis efficitur cursus ut, ultricies ut metus.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nulla nec egestas neque. In vel odio urna. In eu sollicitudin ante. Sed dictum mollis felis ut porta. Nullam id velit egestas, molestie lacus vitae, elementum ante. Suspendisse ut ligula dolor. In rutrum tortor risus, sed hendrerit odio tincidunt at. Sed sollicitudin quam malesuada, venenatis ipsum sed, tristique lectus. Cras eu tincidunt turpis. Aenean ac nisi sed nulla tincidunt consectetur. In laoreet felis nec velit euismod, at tincidunt felis mollis.');
-          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('KOTLIN');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '#',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+                'data-wow-delay', '0.6s');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '80');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('SWIFT');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Card title');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '#',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go somewhere');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
         ie_close('div');
       ie_close('div');
     ie_close('div');
@@ -11459,7 +11543,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
 }
 exports.pageContent = $pageContent;
 if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageNewsIndex.pageContent';
+  $pageContent.soyTemplateName = 'pageCoursesIndex.pageContent';
 }
 
 exports.render.params = [];
@@ -11471,8 +11555,8 @@ return exports;
 
 });
 
-class pageNewsIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageNewsIndex, templates);
+class pageCoursesIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
@@ -11537,9 +11621,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _newsSoy = __webpack_require__(93);
+var _coursesSoy = __webpack_require__(93);
 
-var _newsSoy2 = _interopRequireDefault(_newsSoy);
+var _coursesSoy2 = _interopRequireDefault(_coursesSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11549,23 +11633,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageNewsIndex = function (_Component) {
-  _inherits(pageNewsIndex, _Component);
+var pageCoursesIndex = function (_Component) {
+  _inherits(pageCoursesIndex, _Component);
 
-  function pageNewsIndex() {
-    _classCallCheck(this, pageNewsIndex);
+  function pageCoursesIndex() {
+    _classCallCheck(this, pageCoursesIndex);
 
-    return _possibleConstructorReturn(this, (pageNewsIndex.__proto__ || Object.getPrototypeOf(pageNewsIndex)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageCoursesIndex.__proto__ || Object.getPrototypeOf(pageCoursesIndex)).apply(this, arguments));
   }
 
-  return pageNewsIndex;
+  return pageCoursesIndex;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageNewsIndex, _newsSoy2.default);
+_metalSoy2.default.register(pageCoursesIndex, _coursesSoy2.default);
 
-exports.default = pageNewsIndex;
+exports.default = pageCoursesIndex;
 
 /***/ })
 ],[128]);

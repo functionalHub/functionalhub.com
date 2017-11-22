@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([3],[
+webpackJsonppageComponent([1],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2084,7 +2084,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('KORLIN');
+            itext('Kotlin');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -2099,7 +2099,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           ie_open('span', null, null,
               'class', 'ml-2 magic');
-            itext('SWIFT');
+            itext('Swift');
           ie_close('span');
         ie_close('a');
       ie_close('li');
@@ -11323,7 +11323,9 @@ module.exports = function(module) {
 /* 89 */,
 /* 90 */,
 /* 91 */,
-/* 92 */
+/* 92 */,
+/* 93 */,
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11384,11 +11386,11 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param68 = function() {
+  var param90 = function() {
     $pageContent(opt_data, null, opt_ijData);
     $footer(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param68, elementClasses: 'home'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param90, elementClasses: 'home'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11442,19 +11444,8 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       'class', 'd-flex align-items-center');
     ie_open('div', null, null,
         'class', 'col mx-auto card text-center pb-5');
-      ie_open('div', null, null,
-          'class', 'container mt-5');
-        ie_open('p', null, null,
-            'class', 'h2 m-sm-5 wow zoomIn');
-          itext('Do you think that ');
-          ie_open('strong');
-            itext('Functional Programming');
-          ie_close('strong');
-          itext(' is the new trendy buzzword?');
-        ie_close('p');
-      ie_close('div');
       ie_open('video', null, null,
-          'class', 'video mb-5 mt-2 mx-auto');
+          'class', 'video mb-5 mt-3 mx-auto');
         ie_open('source', null, null,
             'src', 'images/combina.mp4',
             'type', 'video/mp4');
@@ -11469,15 +11460,25 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         ie_close('source');
       ie_close('video');
       ie_open('div', null, null,
-          'class', 'container mt-5');
+          'class', 'container');
         ie_open('p', null, null,
-            'class', 'h4 mt-sm-5 ml-sm-5 mr-sm-5 wow zoomIn',
-            'data-wow-delay', '4s');
+            'class', 'h2 m-sm-4');
+          itext('Do you think that ');
+          ie_open('strong');
+            itext('functional programming');
+          ie_close('strong');
+          itext(' is the new trendy buzzword?');
+        ie_close('p');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'container');
+        ie_open('p', null, null,
+            'class', 'h4 mt-sm-5 ml-sm-5 mr-sm-5 mb-5');
           itext('Then you should know that ');
           ie_open('strong');
-            itext('Functional Programming');
+            itext('functional programming');
           ie_close('strong');
-          itext(' was invented long time ago, and it came back to stay, because the current challenges in software engineering require new approaches to think and to code differently. Functional programming is the next "');
+          itext(' was invented decades ago, and it came back to stay. The current challenges in software engineering require new approaches to think and to code differently. And that\'s why functional programming is the next "');
           ie_open('strong');
             itext('Big Thing');
           ie_close('strong');
@@ -11487,10 +11488,9 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 'class', 'h3');
             ie_close('p');
             ie_open('p', null, null,
-                'class', 'h3 mb-sm-5 wow zoomIn',
-                'data-wow-delay', '4.3s');
+                'class', 'h3');
               ie_open('strong');
-                itext('are you going to lag behind?');
+                itext('Are you going to stay behind?');
               ie_close('strong');
             ie_close('p');
           ie_close('div');
@@ -11518,7 +11518,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 ie_close('h1');
                 ie_open('h1');
                   ie_open('strong');
-                    itext('The language you are currently using');
+                    itext('The language you are currently using.');
                   ie_close('strong');
                 ie_close('h1');
                 ie_open('h2');
@@ -11546,21 +11546,23 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                     'class', 'py-4');
                 ie_close('img');
                 ie_open('h1');
-                  itext('What is the best language to learn functional programming?');
+                  itext('No matter what language you work in,');
                 ie_close('h1');
                 ie_open('h1');
+                  itext('programming in a functional style');
                   ie_open('strong');
-                    itext('The language you are currently using');
+                    itext('provides benefits');
                   ie_close('strong');
+                  itext('.');
                 ie_close('h1');
                 ie_open('h2');
                   ie_open('small');
-                    itext('Peter Norvig');
+                    itext('John Carmack');
                   ie_close('small');
                 ie_close('h2');
                 ie_open('h3');
                   ie_open('small');
-                    itext('Director of Research at Google');
+                    itext('CTO at Oculus, creator of Doom & Quake');
                   ie_close('small');
                 ie_close('h3');
               ie_close('div');
@@ -11578,21 +11580,23 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                     'class', 'py-4');
                 ie_close('img');
                 ie_open('h1');
-                  itext('What is the best language to learn functional programming?');
+                  itext('If you want to see which features will be in mainstream programming languages tomorrow,');
                 ie_close('h1');
                 ie_open('h1');
+                  itext('then ');
                   ie_open('strong');
-                    itext('The language you are currently using');
+                    itext('take a look at functional programming');
                   ie_close('strong');
+                  itext(' languages today.');
                 ie_close('h1');
                 ie_open('h2');
                   ie_open('small');
-                    itext('Peter Norvig');
+                    itext('Simon Peyton Jones');
                   ie_close('small');
                 ie_close('h2');
                 ie_open('h3');
                   ie_open('small');
-                    itext('Director of Research at Google');
+                    itext('Principal Researcher at Microsoft');
                   ie_close('small');
                 ie_close('h3');
               ie_close('div');
@@ -11736,8 +11740,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageIndex, templates)
 
 
 /***/ }),
-/* 93 */,
-/* 94 */,
 /* 95 */,
 /* 96 */,
 /* 97 */,
@@ -11770,7 +11772,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageIndex, templates)
 /* 124 */,
 /* 125 */,
 /* 126 */,
-/* 127 */
+/* 127 */,
+/* 128 */,
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11794,7 +11798,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _indexSoy = __webpack_require__(92);
+var _indexSoy = __webpack_require__(94);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -11825,4 +11829,4 @@ _metalSoy2.default.register(pageIndex, _indexSoy2.default);
 exports.default = pageIndex;
 
 /***/ })
-],[127]);
+],[129]);
