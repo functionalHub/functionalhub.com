@@ -32,6 +32,8 @@
 }
 
 .display-4 {
+	font-family: Consolas, "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 	@include media-breakpoint-down(md) {
 		font-size: 40px;
 	}
