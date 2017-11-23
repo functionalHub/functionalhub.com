@@ -6042,13 +6042,14 @@ body {
   .navbar-brand img {
     max-width: 200px; } }
 
-@media (max-width: 991px) {
-  .display-4 {
-    font-size: 40px; } }
-
-@media (max-width: 575px) {
-  .display-4 {
-    font-size: 34px; } }
+.display-4 {
+  font-family: Consolas, "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  @media (max-width: 991px) {
+    .display-4 {
+      font-size: 40px; } }
+  @media (max-width: 575px) {
+    .display-4 {
+      font-size: 34px; } }
 
 .navbar {
   z-index: 1; }
