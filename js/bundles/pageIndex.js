@@ -11547,10 +11547,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                     'class', 'py-4');
                 ie_close('img');
                 ie_open('h1');
-                  itext('No matter what language you work in,');
-                ie_close('h1');
-                ie_open('h1');
-                  itext('programming in a functional style');
+                  itext('No matter what language you work in, programming in a functional style ');
                   ie_open('strong');
                     itext('provides benefits');
                   ie_close('strong');
@@ -11571,7 +11568,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('div');
           ie_open('div', null, null,
               'class', 'carousel-item bg-right',
-              'style', 'background-image: url(images/slider01.jpg)');
+              'style', 'background-image: url(images/slider03.jpg)');
             ie_open('div', null, null,
                 'class', 'container');
               ie_open('div', null, null,
@@ -11581,10 +11578,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                     'class', 'py-4');
                 ie_close('img');
                 ie_open('h1');
-                  itext('If you want to see which features will be in mainstream programming languages tomorrow,');
-                ie_close('h1');
-                ie_open('h1');
-                  itext('then ');
+                  itext('If you want to see which features will be in mainstream programming languages tomorrow, then ');
                   ie_open('strong');
                     itext('take a look at functional programming');
                   ie_close('strong');
