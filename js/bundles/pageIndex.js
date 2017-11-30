@@ -2077,7 +2077,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-kotlin');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_kotlin.html');
           ie_open('img', null, null,
               'src', '/images/Logo_kotlin.png',
               'width', '32');
@@ -2092,7 +2092,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-swift');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_swift.html');
           ie_open('img', null, null,
               'src', '/images/Logo_swift.png',
               'width', '32');
@@ -2107,7 +2107,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_js.html');
           ie_open('img', null, null,
               'src', '/images/Logo_JS.png',
               'width', '32');
@@ -11626,7 +11626,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         ie_close('a');
       ie_close('div');
       ie_open('div', null, null,
-          'class', 'bg-light text-center');
+          'class', 'bg-light text-center py-5 cutomers');
         ie_open('div', null, null,
             'class', 'container py-5');
           ie_open('h1', null, null,
@@ -11636,52 +11636,76 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('div', null, null,
               'class', 'row');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('1');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/accenture.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('2');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/beeva.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('3');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/bq.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('4');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/deloitte.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('5');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/everis.jpg');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('6');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/gmv.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('7');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/idealista.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('8');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/infojobs.jpg');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('9');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/liferay.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('10');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/minsait.jpg');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('11');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/plex.png');
+              ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2');
-              itext('12');
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/wallapop.jpg');
+              ie_close('img');
             ie_close('div');
           ie_close('div');
         ie_close('div');

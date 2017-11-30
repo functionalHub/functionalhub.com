@@ -6068,6 +6068,9 @@ video {
     .monad {
       max-width: 266px; } }
 
+.cutomers img {
+  max-width: 120px; }
+
 body {
   background-color: #383737;
   font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }

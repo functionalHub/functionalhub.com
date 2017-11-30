@@ -2077,7 +2077,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-kotlin');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_kotlin.html');
           ie_open('img', null, null,
               'src', '/images/Logo_kotlin.png',
               'width', '32');
@@ -2092,7 +2092,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-swift');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_swift.html');
           ie_open('img', null, null,
               'src', '/images/Logo_swift.png',
               'width', '32');
@@ -2107,7 +2107,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '#');
+            'href', '/courses/course_js.html');
           ie_open('img', null, null,
               'src', '/images/Logo_JS.png',
               'width', '32');
