@@ -11626,7 +11626,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         ie_close('a');
       ie_close('div');
       ie_open('div', null, null,
-          'class', 'bg-light text-center py-5 cutomers');
+          'class', 'bg-white text-center py-5 cutomers');
         ie_open('div', null, null,
             'class', 'container py-5');
           ie_open('h1', null, null,
@@ -11638,13 +11638,13 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'col-md-4 col-xl-2 py-2');
               ie_open('img', null, null,
-                  'src', '/images/logos/accenture.png');
+                  'src', '/images/logos/liferay.png');
               ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
                 'class', 'col-md-4 col-xl-2 py-2');
               ie_open('img', null, null,
-                  'src', '/images/logos/beeva.png');
+                  'src', '/images/logos/plex.png');
               ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
@@ -11656,7 +11656,25 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'col-md-4 col-xl-2 py-2');
               ie_open('img', null, null,
+                  'src', '/images/logos/wallapop.jpg');
+              ie_close('img');
+            ie_close('div');
+            ie_open('div', null, null,
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/gmv.png');
+              ie_close('img');
+            ie_close('div');
+            ie_open('div', null, null,
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
                   'src', '/images/logos/deloitte.png');
+              ie_close('img');
+            ie_close('div');
+            ie_open('div', null, null,
+                'class', 'col-md-4 col-xl-2 py-2');
+              ie_open('img', null, null,
+                  'src', '/images/logos/accenture.png');
               ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
@@ -11668,7 +11686,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'col-md-4 col-xl-2 py-2');
               ie_open('img', null, null,
-                  'src', '/images/logos/gmv.png');
+                  'src', '/images/logos/beeva.png');
               ie_close('img');
             ie_close('div');
             ie_open('div', null, null,
@@ -11686,25 +11704,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'col-md-4 col-xl-2 py-2');
               ie_open('img', null, null,
-                  'src', '/images/logos/liferay.png');
-              ie_close('img');
-            ie_close('div');
-            ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2 py-2');
-              ie_open('img', null, null,
                   'src', '/images/logos/minsait.jpg');
-              ie_close('img');
-            ie_close('div');
-            ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2 py-2');
-              ie_open('img', null, null,
-                  'src', '/images/logos/plex.png');
-              ie_close('img');
-            ie_close('div');
-            ie_open('div', null, null,
-                'class', 'col-md-4 col-xl-2 py-2');
-              ie_open('img', null, null,
-                  'src', '/images/logos/wallapop.jpg');
               ie_close('img');
             ie_close('div');
           ie_close('div');

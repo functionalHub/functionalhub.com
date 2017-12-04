@@ -11412,21 +11412,56 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       $templateAlias3(opt_data, null, opt_ijData);
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white');
+        'class', 'container');
       ie_open('div', null, null,
-          'class', 'row py-4');
+          'class', 'row');
         ie_open('div', null, null,
-            'class', 'col-12 text-center');
-          ie_open('a', null, null,
-              'class', 'btn btn-primary',
-              'href', '/courses/');
-            itext('See all courses');
-          ie_close('a');
-        ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-12');
+            'class', 'col-9 bg-white pb-3');
           ie_open('h1', null, null,
-              'class', 'display-4');
+              'class', 'display-4 pt-3');
+            itext('Kotlin functional hub course');
+          ie_close('h1');
+          ie_open('div', null, null,
+              'class', 'text-center');
+            ie_void('iframe', null, null,
+                'class', 'mx-auto mb-4',
+                'src', 'https://player.vimeo.com/video/236132029',
+                'width', '640',
+                'height', '360',
+                'frameborder', '0',
+                'webkitallowfullscreen', '',
+                'mozallowfullscreen', '',
+                'allowfullscreen', '');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'row');
+            ie_open('div', null, null,
+                'class', 'col-md');
+              ie_open('p');
+                itext('Kotlin is the future of multi-platform languages. It is officially supported by Google for Android App development and it is also an alternative for backend development as it runs on the JVM.');
+              ie_close('p');
+              ie_open('p');
+                itext('Beyond backend development, frontend development can be done with Kotlin JS and, thanks to the Kotlin Native project, Kotlin could be seen in a short term running in any device; from Raspberri Pi to iPhone.');
+              ie_close('p');
+            ie_close('div');
+            ie_open('div', null, null,
+                'class', 'col-md');
+              ie_open('p');
+                itext('What does this mean? With the skills you will learn in this course you could develop functional software in any platform and even be able to share code between them.');
+              ie_close('p');
+              ie_open('p');
+                itext('Kotlin is here to stay and its easiness and functional capabilities make it the perfect language to begin with functional programming.');
+              ie_close('p');
+            ie_close('div');
+          ie_close('div');
+          ie_open('p');
+            itext('What does this mean? With the skills you will learn in this course you could develop functional software in any platform and even be able to share code between them.');
+          ie_close('p');
+          ie_open('p');
+            itext('Kotlin is here to stay and its easiness and functional capabilities make it the perfect language to begin with functional programming.');
+          ie_close('p');
+          ie_open('h1', null, null,
+              'class', 'display-4 mt-4');
             itext('Course details');
           ie_close('h1');
           ie_open('div', null, null,
@@ -11452,7 +11487,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_close('div');
             ie_open('div', null, null,
                 'id', 'collapseOne',
-                'class', 'card-collapse collapse show',
+                'class', 'card-collapse collapse',
                 'role', 'tabpanel',
                 'aria-labelledby', 'headingOne');
               ie_open('div', null, null,
@@ -11575,6 +11610,38 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                   ie_close('li');
                 ie_close('ul');
               ie_close('div');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-3 text-white pb-3');
+          ie_open('div', null, null,
+              'class', 'px-3');
+            ie_open('h1', null, null,
+                'class', 'h3 text-center');
+              itext('Un curso de:');
+            ie_close('h1');
+            ie_open('img', null, null,
+                'class', 'img-fluid rounded-circle py-4',
+                'src', '/images/team/ahdezma.jpg');
+            ie_close('img');
+            ie_open('p');
+              itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam');
+            ie_close('p');
+            ie_open('div', null, null,
+                'class', 'py-4');
+              ie_open('a', null, null,
+                  'class', 'btn btn-primary btn-block',
+                  'href', '/courses/');
+                itext('Buy the course');
+              ie_close('a');
+            ie_close('div');
+            ie_open('div');
+              ie_open('a', null, null,
+                  'class', 'btn btn-secondary btn-block',
+                  'href', '/courses/');
+                itext('See all courses');
+              ie_close('a');
             ie_close('div');
           ie_close('div');
         ie_close('div');
