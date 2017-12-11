@@ -1,0 +1,263 @@
+---
+title: "Functional Java"
+headTitle: "Functional programming with Java course"
+description: "Learn functional programming in Java language for Android"
+keywords: "Java, functional programming, learn, course, training, android, java, jvm, recursion, map, flatmap, filter, reduce, monad, monoid, functor, applicative"
+weight: 0
+---
+
+{namespace pageJavaCourseIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'Java Course' /}
+	{/call}
+{/template}
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 bg-white pb-3">
+					//
+					<h1 class="display-4 pt-3">Functional programming in Java</h1>
+					<h1 class="h1 pt-3">Learn the main concepts of functional programming using Kotlin in a simple and practical way</h1>
+
+					<div class="text-center">
+						<p>[🌽, 🐮, 🐔].map(cook) == [🍿, 🍔, 🍳]</p>
+						<ul class="list-X">
+							<li>Are you stuck in filter or map?</li>
+							<li>Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?</li>
+							<li>Do you think that this functional programming thing is too abstract and academic for your taste?</li>
+						</ul>
+						<p>If you answered YES to any of those questions, then this is the couse you're looking for 😉</p>
+					</div>
+
+					<div class="text-center">
+						<iframe class="mx-auto mb-4" src="https://player.vimeo.com/video/236132029" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					</div>
+
+					<div class="row">
+	<p>And if you still has some questions, maybe this can be helpful:</p>
+	<div>
+		<h2>Why should I learn Functional Programming?</h2>
+
+		<p>Well, let&#39;s say it will give you more tools to be a better programmer, no matter what programming language you use.
+			<br>Maybe you can&#39;t use FP in your daily basis (yeah, your boss is a dinosaur), but we&#39;re sure that if you learn these concepts, your programming style will improve A LOT.</p>
+
+		<h2>And why should I use Kotlin to learn Functional Programming?</h2>
+
+		<p>Kotlin is the cross-platform language of the future. Google already has official support to develop Android apps, but you can use it also for backend development, given that it&#39;s a first-class JVM language.</p>
+		<div>
+
+			<p>Also, Kotlin is a friendly language for <strong>Java</strong> developers, since it&#39;s an easy, concise and pragmatic language, and it supports a lot of functional constructs! Because of that, Kotlin is the perfect language to be introduced in Functional Programming!</p>
+		</div>
+
+		<h2>But, are you sure this is really useful?</h2>
+
+		<p>Sure thing! Some benefits of programming with functional style:</p>
+
+		<ul>
+			<li>It will allow you to make some tasks that would be must harder using your traditional style. Notice that <a href="https://es.wikipedia.org/wiki/MapReduce" rel="noopener noreferrer" target="_blank">Google</a> used some functional core concepts from the very begining.</li>
+			<li>Your code will be cleaner, with (much) less variables, and you wouldn&#39;t worry by &quot;what if this is null&quot;</li>
+			<li>Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.</li>
+			<li>Your code will be more maintainable and adaptable. As <a href="https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/">Joe Armstrong</a> said, the inventor of Erlang, with OOP <em>you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.</em></li>
+		</ul>
+
+		<h2>Is it going to be difficult?</h2>
+
+		<p>It&#39;s not difficult, it&#39;s quite simple. But it&#39;s different to the OOP style, that you&#39;re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk <a href="https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md">&quot;Simple made Easy&quot;</a> the difference between &quot;easy&quot; (something you&#39;re use to, even though it&#39;s a mess) and &quot;simple&quot; (something that can be explained and understood quickly, without effort, even though it may be quite new for you).</p>
+
+		<p><strong>Functional Programming is simple</strong>, but even you&#39;re an experienced developers, you&#39;ll have to learn scratch. But we&#39;re sure that this isn&#39;t anything for PhD&#39;s, as you probably believed. But you&#39;ll have to invest enough effort: no pain, no gain, my friend...</p>
+
+		<h2>How are you going to teach it?</h2>
+
+		<p>Using short video lessons, less than 20 minutes, where you&#39;ll find explanations about specific concepts and techniques. They&#39;re usually simple concepts, but with a lot of uses and potential applications. Don&#39;t worry if you don&#39;t get it at first. That&#39;s normal, and you&#39;ll probably have to listen some videos more than once, in order to understand all the details.
+			<br>Each video includes several practical and everyday examples. We won&#39;t talk about fibonacci, factorials and other mathematical examples. We&#39;ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.</p>
+
+		<h2>I don&#39;t know Kotlin, but I know how to code in X</h2>
+
+		<p>Awesome! Kotlin is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It&#39;s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.</p>
+
+		<p>And if you already know Java, then it will be even easier for you: this is the perfect excuse to learn Kotlin!</p>
+
+		<h2>Is there any other requirement?</h2>
+
+		<p>Not really: you need to know how to code in any language (better if it&#39;s an OOP language), and you need to be interested in learning Functional Programming.</p>
+
+		<p>And it&#39;s even better if you already tried to learn FP without success. After this couse, you&#39;ll realize it wasn&#39;t that difficult</p>
+	</div>
+					</div>
+
+					<h1 class="display-4 mt-4">Course details</h1>
+
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 1: Introduction ✌🏻</a>
+                            <span class="onair">ON AIR (96:11)</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            As any great story, we need to start from the very begining. In order to warm engines, we'll see what functional programming is and what their basic principles are. And it's free... What are you waiting for?<br><br>
+                            <ul>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272537-what-is-functional-programming" target="_blank">What is Functional Programming? <em>(7:02)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272538-mutable-state-sucks" target="_blank">Mutable State Sucks <em>(13:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272539-how-to-become-stateless" target="_blank">How to become stateless <em>(16:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272540-declarative-style" target="_blank">Declarative Style <em>(6:57)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272541-functions-without-side-effects" target="_blank">Functions without Side Effects <em>(6:55)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272542-lazy-evaluation" target="_blank">Lazy Evaluation <em>(9:49)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272543-type-systems" target="_blank">Type Systems <em>(11:13)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272545-recursion" target="_blank">Recursion <em>(3:37)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272546-higher-order-functions" target="_blank">Higher Order Functions <em>(13:05)</em></a></li>
+                                <li><a class="video-link" href="http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272547-functional-patterns" target="_blank">Functional Patterns <em>(7:19)</em></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 2: Recursion</a>
+                            <span class="comingsoon">COMING SOON</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            In this week, you're already prepared to start going deeper. Since ages, recursion has been considered the ugly guy. Some (very) bad teachers encourage against it, saying that it's even worse than Comic Sans. In this week we're going to see that it's not as bad as some say, but it's one of the most powerful tools in programming in general (and in functional programming in particular). You need to learn some tricks to use it properly, and then you'll be ready to forget your loops forever...<br><br>
+                            <ul>
+                                <li>Recursion</li>
+                                <li>Recursive Functions</li>
+                                <li>Tail Recursion and Tail Call Optimization</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 3: Functions</a>
+                            <span class="comingsoon">COMING SOON</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            Functions are the cornerstone of functional programming. You already guessed it... In this week you'll learn new ways to deal with functions, not just to group code together, but to combine and compose several functions to create higher abstractions. You'll get the most from your functions
+                            <ul>
+                                <li>Functions as First Class Citizens</li>
+                                <li>Lambdas</li>
+                                <li>Partial Applications and Currying</li>
+                                <li>Continuation Passing Style</li>
+                                <li>Functions Composition</li>
+                                <li>Creating expressions</li>
+                                <li>Play combine learn</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 4: Functional Transformations</a>
+                            <span class="comingsoon">COMING SOON</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                            We're sure you already use map or reduce functions, but you're not so sure about how to use them properly or how they're implemented internally. Let's master these "functional functions" like nobody before
+                            <ul>
+                                <li>Map</li>
+                                <li>Filter</li>
+                                <li>Fold</li>
+                                <li>FlatMap</li>
+                                <li>Zip, Foreach, Sort/ed</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+					<div class="card bg-light">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed card-title h3" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Week 5-10: Functional Patterns</a>
+                            <span class="comingsoon">COMING SOON</span>
+                        </div>
+                        <div id="collapseOne" class="card-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                          <div class="card-body">
+                          	<h3>Week 5: Functors</h3>
+                            There you go! After some weeks of functional programming exposure, we're ready to dive into the first weird concept. But don't worry, it's not as hard as it looks: you'll learn what a "functor" is and you'll realize that you've been using functors for some time without realizing it!
+                            <ul>
+                                <li>Functor Option</li>
+                                <li>Collection Functor</li>
+                                <li>Result Functor</li>
+                            </ul>
+
+                          	<h3>Week 6: Monoids</h3>
+                            It wasn't so hard, was it? Now you're going to learn your second functional pattern: the monoid. For that, we're going to implement a small library for validations following all your brand-new knowledge...
+                            <ul>
+                                <li>Monoids</li>
+                                <li>Use return values</li>
+                                <li>Combine AND validate</li>
+                                <li>Combine validatORs</li>
+                                <li>Semigroup</li>
+                                <li>Monoid is not an insult</li>
+                            </ul>
+
+                          	<h3>Week 7: Monads</h3>
+                            Finally! If you at some point have been scared about functional programming, chances are monads are the cause. After this week, you finally don't be scared anymore, and you'll learn how monads work, how to use them, and how to create your own ones! And most important, at the end you'll realize that "monads are just monoids in the category of endofunctors". It's true!
+                            <ul>
+                                <li>What is a monad?</li>
+                                <li>Your Results are monads</li>
+                            </ul>
+
+                          	<h3>Week 8: Applicatives</h3>
+                            Now that you know what a monad is, let's go for other powerful functional pattern: the applicative.
+                            <ul>
+                                <li>What is an Applicative?</li>
+                                <li>Applicative for Validation</li>
+                                <li>This is just a mess!</li>
+                            </ul>
+
+                          	<h3>Weeks 9 & 10: Mixing everything together</h3>
+                            After these 8 weeks, you've learnt a lot of new (and old) concepts. Some of them are so powerful that you'll need weeks (or even months) of practice to be proficient enough. So, in order to accelerate your learning, now we're going to use all those concepts together, in a new library to deal with asynchronous code: we're going to create the Future.
+                            <ul>
+                                <li>Won't somebody please think of the asychronous code?</li>
+                                <li>Functor-ize the Future</li>
+                                <li>Monad-ize the Future</li>
+                                <li>Applicat-ize the Future</li>
+                                <li>Won't somebody please think of the sychronous code?</li>
+                                <li>Validations</li>
+                                <li>Operators of the Future</li>
+                                <li>Final Touches</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+				</div>
+
+				<div class="col-md-3 text-white pb-3">
+					<div class="px-3">
+						<h1 class="h3 text-center">Un curso de:</h1>
+						<img class="img-fluid rounded-circle py-4" src="/images/team/ahdezma.jpg" />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+						</p>
+						<div class="py-4">
+							<a class="btn btn-lg btn-primary btn-block" href="/courses/">Buy the course</a>
+						</div>
+						<div>
+							<a class="btn btn-secondary btn-block" href="/courses/">See all courses</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{/template}
