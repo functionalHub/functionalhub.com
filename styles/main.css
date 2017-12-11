@@ -6106,3 +6106,9 @@ p {
 
 .bg-js {
   background: radial-gradient(#C4A301, #FFD801); }
+
+.bg-java {
+  background: radial-gradient(#4F81AE, #304F62); }
+
+.bg-csharp {
+  background: radial-gradient(#9C30AE, #6E147C); }

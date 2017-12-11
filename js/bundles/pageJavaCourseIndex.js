@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([1],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11324,16 +11324,12 @@ module.exports = function(module) {
 /* 90 */,
 /* 91 */,
 /* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageTestimonialsIndex", function() { return pageTestimonialsIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageJavaCourseIndex", function() { return pageJavaCourseIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11345,15 +11341,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testimonials.soy.
+// This file was automatically generated from functional_java.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageTestimonialsIndex.
+ * @fileoverview Templates in namespace pageJavaCourseIndex.
  * @public
  */
 
-goog.module('pageTestimonialsIndex.incrementaldom');
+goog.module('pageJavaCourseIndex.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11389,14 +11385,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param77 = function() {
+  var param99 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param77, elementClasses: 'News'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Java Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageTestimonialsIndex.render';
+  $render.soyTemplateName = 'pageJavaCourseIndex.render';
 }
 
 
@@ -11416,17 +11412,633 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       $templateAlias3(opt_data, null, opt_ijData);
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white');
+        'class', 'container');
       ie_open('div', null, null,
           'class', 'row');
-        itext('Testimonials');
+        ie_open('div', null, null,
+            'class', 'col-md-9 bg-white pb-3');
+          ie_open('h1', null, null,
+              'class', 'display-4 pt-3');
+            itext('Functional programming in Java');
+          ie_close('h1');
+          ie_open('h1', null, null,
+              'class', 'h1 pt-3');
+            itext('Learn the main concepts of functional programming using Kotlin in a simple and practical way');
+          ie_close('h1');
+          ie_open('div', null, null,
+              'class', 'text-center');
+            ie_open('p');
+              itext('[\uD83C\uDF3D, \uD83D\uDC2E, \uD83D\uDC14].map(cook) == [\uD83C\uDF7F, \uD83C\uDF54, \uD83C\uDF73]');
+            ie_close('p');
+            ie_open('ul', null, null,
+                'class', 'list-X');
+              ie_open('li');
+                itext('Are you stuck in filter or map?');
+              ie_close('li');
+              ie_open('li');
+                itext('Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?');
+              ie_close('li');
+              ie_open('li');
+                itext('Do you think that this functional programming thing is too abstract and academic for your taste?');
+              ie_close('li');
+            ie_close('ul');
+            ie_open('p');
+              itext('If you answered YES to any of those questions, then this is the couse you\'re looking for \uD83D\uDE09');
+            ie_close('p');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'text-center');
+            ie_void('iframe', null, null,
+                'class', 'mx-auto mb-4',
+                'src', 'https://player.vimeo.com/video/236132029',
+                'width', '640',
+                'height', '360',
+                'frameborder', '0',
+                'webkitallowfullscreen', '',
+                'mozallowfullscreen', '',
+                'allowfullscreen', '');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'row');
+            ie_open('p');
+              itext('And if you still has some questions, maybe this can be helpful:');
+            ie_close('p');
+            ie_open('div');
+              ie_open('h2');
+                itext('Why should I learn Functional Programming?');
+              ie_close('h2');
+              ie_open('p');
+                itext('Well, let\'s say it will give you more tools to be a better programmer, no matter what programming language you use.');
+                ie_open('br');
+                ie_close('br');
+                itext('Maybe you can\'t use FP in your daily basis (yeah, your boss is a dinosaur), but we\'re sure that if you learn these concepts, your programming style will improve A LOT.');
+              ie_close('p');
+              ie_open('h2');
+                itext('And why should I use Kotlin to learn Functional Programming?');
+              ie_close('h2');
+              ie_open('p');
+                itext('Kotlin is the cross-platform language of the future. Google already has official support to develop Android apps, but you can use it also for backend development, given that it\'s a first-class JVM language.');
+              ie_close('p');
+              ie_open('div');
+                ie_open('p');
+                  itext('Also, Kotlin is a friendly language for ');
+                  ie_open('strong');
+                    itext('Java');
+                  ie_close('strong');
+                  itext(' developers, since it\'s an easy, concise and pragmatic language, and it supports a lot of functional constructs! Because of that, Kotlin is the perfect language to be introduced in Functional Programming!');
+                ie_close('p');
+              ie_close('div');
+              ie_open('h2');
+                itext('But, are you sure this is really useful?');
+              ie_close('h2');
+              ie_open('p');
+                itext('Sure thing! Some benefits of programming with functional style:');
+              ie_close('p');
+              ie_open('ul');
+                ie_open('li');
+                  itext('It will allow you to make some tasks that would be must harder using your traditional style. Notice that ');
+                  ie_open('a', null, null,
+                      'href', 'https://es.wikipedia.org/wiki/MapReduce',
+                      'rel', 'noopener noreferrer',
+                      'target', '_blank');
+                    itext('Google');
+                  ie_close('a');
+                  itext(' used some functional core concepts from the very begining.');
+                ie_close('li');
+                ie_open('li');
+                  itext('Your code will be cleaner, with (much) less variables, and you wouldn\'t worry by "what if this is null"');
+                ie_close('li');
+                ie_open('li');
+                  itext('Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.');
+                ie_close('li');
+                ie_open('li');
+                  itext('Your code will be more maintainable and adaptable. As ');
+                  ie_open('a', null, null,
+                      'href', 'https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/');
+                    itext('Joe Armstrong');
+                  ie_close('a');
+                  itext(' said, the inventor of Erlang, with OOP ');
+                  ie_open('em');
+                    itext('you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.');
+                  ie_close('em');
+                ie_close('li');
+              ie_close('ul');
+              ie_open('h2');
+                itext('Is it going to be difficult?');
+              ie_close('h2');
+              ie_open('p');
+                itext('It\'s not difficult, it\'s quite simple. But it\'s different to the OOP style, that you\'re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk ');
+                ie_open('a', null, null,
+                    'href', 'https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md');
+                  itext('"Simple made Easy"');
+                ie_close('a');
+                itext(' the difference between "easy" (something you\'re use to, even though it\'s a mess) and "simple" (something that can be explained and understood quickly, without effort, even though it may be quite new for you).');
+              ie_close('p');
+              ie_open('p');
+                ie_open('strong');
+                  itext('Functional Programming is simple');
+                ie_close('strong');
+                itext(', but even you\'re an experienced developers, you\'ll have to learn scratch. But we\'re sure that this isn\'t anything for PhD\'s, as you probably believed. But you\'ll have to invest enough effort: no pain, no gain, my friend...');
+              ie_close('p');
+              ie_open('h2');
+                itext('How are you going to teach it?');
+              ie_close('h2');
+              ie_open('p');
+                itext('Using short video lessons, less than 20 minutes, where you\'ll find explanations about specific concepts and techniques. They\'re usually simple concepts, but with a lot of uses and potential applications. Don\'t worry if you don\'t get it at first. That\'s normal, and you\'ll probably have to listen some videos more than once, in order to understand all the details.');
+                ie_open('br');
+                ie_close('br');
+                itext('Each video includes several practical and everyday examples. We won\'t talk about fibonacci, factorials and other mathematical examples. We\'ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.');
+              ie_close('p');
+              ie_open('h2');
+                itext('I don\'t know Kotlin, but I know how to code in X');
+              ie_close('h2');
+              ie_open('p');
+                itext('Awesome! Kotlin is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It\'s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.');
+              ie_close('p');
+              ie_open('p');
+                itext('And if you already know Java, then it will be even easier for you: this is the perfect excuse to learn Kotlin!');
+              ie_close('p');
+              ie_open('h2');
+                itext('Is there any other requirement?');
+              ie_close('h2');
+              ie_open('p');
+                itext('Not really: you need to know how to code in any language (better if it\'s an OOP language), and you need to be interested in learning Functional Programming.');
+              ie_close('p');
+              ie_open('p');
+                itext('And it\'s even better if you already tried to learn FP without success. After this couse, you\'ll realize it wasn\'t that difficult');
+              ie_close('p');
+            ie_close('div');
+          ie_close('div');
+          ie_open('h1', null, null,
+              'class', 'display-4 mt-4');
+            itext('Course details');
+          ie_close('h1');
+          ie_open('div', null, null,
+              'class', 'card bg-light');
+            ie_open('div', null, null,
+                'class', 'card-header',
+                'role', 'tab',
+                'id', 'headingOne');
+              ie_open('a', null, null,
+                  'class', 'collapsed card-title h3',
+                  'role', 'button',
+                  'data-toggle', 'collapse',
+                  'data-parent', '#accordion',
+                  'href', '#collapseOne',
+                  'aria-expanded', 'false',
+                  'aria-controls', 'collapseOne');
+                itext('Week 1: Introduction \u270C\uD83C\uDFFB');
+              ie_close('a');
+              ie_open('span', null, null,
+                  'class', 'onair');
+                itext('ON AIR (96:11)');
+              ie_close('span');
+            ie_close('div');
+            ie_open('div', null, null,
+                'id', 'collapseOne',
+                'class', 'card-collapse collapse',
+                'role', 'tabpanel',
+                'aria-labelledby', 'headingOne');
+              ie_open('div', null, null,
+                  'class', 'card-body');
+                itext('As any great story, we need to start from the very begining. In order to warm engines, we\'ll see what functional programming is and what their basic principles are. And it\'s free... What are you waiting for?');
+                ie_open('br');
+                ie_close('br');
+                ie_open('br');
+                ie_close('br');
+                ie_open('ul');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272537-what-is-functional-programming',
+                        'target', '_blank');
+                      itext('What is Functional Programming? ');
+                      ie_open('em');
+                        itext('(7:02)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272538-mutable-state-sucks',
+                        'target', '_blank');
+                      itext('Mutable State Sucks ');
+                      ie_open('em');
+                        itext('(13:37)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272539-how-to-become-stateless',
+                        'target', '_blank');
+                      itext('How to become stateless ');
+                      ie_open('em');
+                        itext('(16:37)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272540-declarative-style',
+                        'target', '_blank');
+                      itext('Declarative Style ');
+                      ie_open('em');
+                        itext('(6:57)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272541-functions-without-side-effects',
+                        'target', '_blank');
+                      itext('Functions without Side Effects ');
+                      ie_open('em');
+                        itext('(6:55)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272542-lazy-evaluation',
+                        'target', '_blank');
+                      itext('Lazy Evaluation ');
+                      ie_open('em');
+                        itext('(9:49)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272543-type-systems',
+                        'target', '_blank');
+                      itext('Type Systems ');
+                      ie_open('em');
+                        itext('(11:13)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272545-recursion',
+                        'target', '_blank');
+                      itext('Recursion ');
+                      ie_open('em');
+                        itext('(3:37)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272546-higher-order-functions',
+                        'target', '_blank');
+                      itext('Higher Order Functions ');
+                      ie_open('em');
+                        itext('(13:05)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                  ie_open('li');
+                    ie_open('a', null, null,
+                        'class', 'video-link',
+                        'href', 'http://functionalhub.thinkific.com/courses/take/introduction-functional-programming-swift/lessons/2272547-functional-patterns',
+                        'target', '_blank');
+                      itext('Functional Patterns ');
+                      ie_open('em');
+                        itext('(7:19)');
+                      ie_close('em');
+                    ie_close('a');
+                  ie_close('li');
+                ie_close('ul');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'card bg-light');
+            ie_open('div', null, null,
+                'class', 'card-header',
+                'role', 'tab',
+                'id', 'headingOne');
+              ie_open('a', null, null,
+                  'class', 'collapsed card-title h3',
+                  'role', 'button',
+                  'data-toggle', 'collapse',
+                  'data-parent', '#accordion',
+                  'href', '#collapseOne',
+                  'aria-expanded', 'false',
+                  'aria-controls', 'collapseOne');
+                itext('Week 2: Recursion');
+              ie_close('a');
+              ie_open('span', null, null,
+                  'class', 'comingsoon');
+                itext('COMING SOON');
+              ie_close('span');
+            ie_close('div');
+            ie_open('div', null, null,
+                'id', 'collapseOne',
+                'class', 'card-collapse collapse',
+                'role', 'tabpanel',
+                'aria-labelledby', 'headingOne');
+              ie_open('div', null, null,
+                  'class', 'card-body');
+                itext('In this week, you\'re already prepared to start going deeper. Since ages, recursion has been considered the ugly guy. Some (very) bad teachers encourage against it, saying that it\'s even worse than Comic Sans. In this week we\'re going to see that it\'s not as bad as some say, but it\'s one of the most powerful tools in programming in general (and in functional programming in particular). You need to learn some tricks to use it properly, and then you\'ll be ready to forget your loops forever...');
+                ie_open('br');
+                ie_close('br');
+                ie_open('br');
+                ie_close('br');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Recursion');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Recursive Functions');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Tail Recursion and Tail Call Optimization');
+                  ie_close('li');
+                ie_close('ul');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'card bg-light');
+            ie_open('div', null, null,
+                'class', 'card-header',
+                'role', 'tab',
+                'id', 'headingOne');
+              ie_open('a', null, null,
+                  'class', 'collapsed card-title h3',
+                  'role', 'button',
+                  'data-toggle', 'collapse',
+                  'data-parent', '#accordion',
+                  'href', '#collapseOne',
+                  'aria-expanded', 'false',
+                  'aria-controls', 'collapseOne');
+                itext('Week 3: Functions');
+              ie_close('a');
+              ie_open('span', null, null,
+                  'class', 'comingsoon');
+                itext('COMING SOON');
+              ie_close('span');
+            ie_close('div');
+            ie_open('div', null, null,
+                'id', 'collapseOne',
+                'class', 'card-collapse collapse',
+                'role', 'tabpanel',
+                'aria-labelledby', 'headingOne');
+              ie_open('div', null, null,
+                  'class', 'card-body');
+                itext('Functions are the cornerstone of functional programming. You already guessed it... In this week you\'ll learn new ways to deal with functions, not just to group code together, but to combine and compose several functions to create higher abstractions. You\'ll get the most from your functions');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Functions as First Class Citizens');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Lambdas');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Partial Applications and Currying');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Continuation Passing Style');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Functions Composition');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Creating expressions');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Play combine learn');
+                  ie_close('li');
+                ie_close('ul');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'card bg-light');
+            ie_open('div', null, null,
+                'class', 'card-header',
+                'role', 'tab',
+                'id', 'headingOne');
+              ie_open('a', null, null,
+                  'class', 'collapsed card-title h3',
+                  'role', 'button',
+                  'data-toggle', 'collapse',
+                  'data-parent', '#accordion',
+                  'href', '#collapseOne',
+                  'aria-expanded', 'false',
+                  'aria-controls', 'collapseOne');
+                itext('Week 4: Functional Transformations');
+              ie_close('a');
+              ie_open('span', null, null,
+                  'class', 'comingsoon');
+                itext('COMING SOON');
+              ie_close('span');
+            ie_close('div');
+            ie_open('div', null, null,
+                'id', 'collapseOne',
+                'class', 'card-collapse collapse',
+                'role', 'tabpanel',
+                'aria-labelledby', 'headingOne');
+              ie_open('div', null, null,
+                  'class', 'card-body');
+                itext('We\'re sure you already use map or reduce functions, but you\'re not so sure about how to use them properly or how they\'re implemented internally. Let\'s master these "functional functions" like nobody before');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Map');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Filter');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Fold');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('FlatMap');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Zip, Foreach, Sort/ed');
+                  ie_close('li');
+                ie_close('ul');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'card bg-light');
+            ie_open('div', null, null,
+                'class', 'card-header',
+                'role', 'tab',
+                'id', 'headingOne');
+              ie_open('a', null, null,
+                  'class', 'collapsed card-title h3',
+                  'role', 'button',
+                  'data-toggle', 'collapse',
+                  'data-parent', '#accordion',
+                  'href', '#collapseOne',
+                  'aria-expanded', 'false',
+                  'aria-controls', 'collapseOne');
+                itext('Week 5-10: Functional Patterns');
+              ie_close('a');
+              ie_open('span', null, null,
+                  'class', 'comingsoon');
+                itext('COMING SOON');
+              ie_close('span');
+            ie_close('div');
+            ie_open('div', null, null,
+                'id', 'collapseOne',
+                'class', 'card-collapse collapse',
+                'role', 'tabpanel',
+                'aria-labelledby', 'headingOne');
+              ie_open('div', null, null,
+                  'class', 'card-body');
+                ie_open('h3');
+                  itext('Week 5: Functors');
+                ie_close('h3');
+                itext('There you go! After some weeks of functional programming exposure, we\'re ready to dive into the first weird concept. But don\'t worry, it\'s not as hard as it looks: you\'ll learn what a "functor" is and you\'ll realize that you\'ve been using functors for some time without realizing it!');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Functor Option');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Collection Functor');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Result Functor');
+                  ie_close('li');
+                ie_close('ul');
+                ie_open('h3');
+                  itext('Week 6: Monoids');
+                ie_close('h3');
+                itext('It wasn\'t so hard, was it? Now you\'re going to learn your second functional pattern: the monoid. For that, we\'re going to implement a small library for validations following all your brand-new knowledge...');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Monoids');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Use return values');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Combine AND validate');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Combine validatORs');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Semigroup');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Monoid is not an insult');
+                  ie_close('li');
+                ie_close('ul');
+                ie_open('h3');
+                  itext('Week 7: Monads');
+                ie_close('h3');
+                itext('Finally! If you at some point have been scared about functional programming, chances are monads are the cause. After this week, you finally don\'t be scared anymore, and you\'ll learn how monads work, how to use them, and how to create your own ones! And most important, at the end you\'ll realize that "monads are just monoids in the category of endofunctors". It\'s true!');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('What is a monad?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Your Results are monads');
+                  ie_close('li');
+                ie_close('ul');
+                ie_open('h3');
+                  itext('Week 8: Applicatives');
+                ie_close('h3');
+                itext('Now that you know what a monad is, let\'s go for other powerful functional pattern: the applicative.');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('What is an Applicative?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Applicative for Validation');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('This is just a mess!');
+                  ie_close('li');
+                ie_close('ul');
+                ie_open('h3');
+                  itext('Weeks 9 & 10: Mixing everything together');
+                ie_close('h3');
+                itext('After these 8 weeks, you\'ve learnt a lot of new (and old) concepts. Some of them are so powerful that you\'ll need weeks (or even months) of practice to be proficient enough. So, in order to accelerate your learning, now we\'re going to use all those concepts together, in a new library to deal with asynchronous code: we\'re going to create the Future.');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Won\'t somebody please think of the asychronous code?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Functor-ize the Future');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Monad-ize the Future');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Applicat-ize the Future');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Won\'t somebody please think of the sychronous code?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Validations');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Operators of the Future');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Final Touches');
+                  ie_close('li');
+                ie_close('ul');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-3 text-white pb-3');
+          ie_open('div', null, null,
+              'class', 'px-3');
+            ie_open('h1', null, null,
+                'class', 'h3 text-center');
+              itext('Un curso de:');
+            ie_close('h1');
+            ie_open('img', null, null,
+                'class', 'img-fluid rounded-circle py-4',
+                'src', '/images/team/ahdezma.jpg');
+            ie_close('img');
+            ie_open('p');
+              itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam');
+            ie_close('p');
+            ie_open('div', null, null,
+                'class', 'py-4');
+              ie_open('a', null, null,
+                  'class', 'btn btn-lg btn-primary btn-block',
+                  'href', '/courses/');
+                itext('Buy the course');
+              ie_close('a');
+            ie_close('div');
+            ie_open('div');
+              ie_open('a', null, null,
+                  'class', 'btn btn-secondary btn-block',
+                  'href', '/courses/');
+                itext('See all courses');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
       ie_close('div');
     ie_close('div');
   ie_close('div');
 }
 exports.pageContent = $pageContent;
 if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageTestimonialsIndex.pageContent';
+  $pageContent.soyTemplateName = 'pageJavaCourseIndex.pageContent';
 }
 
 exports.render.params = [];
@@ -11438,14 +12050,18 @@ return exports;
 
 });
 
-class pageTestimonialsIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageTestimonialsIndex, templates);
+class pageJavaCourseIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageJavaCourseIndex, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
 /* 98 */,
 /* 99 */,
 /* 100 */,
@@ -11479,11 +12095,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageTestimonialsIndex
 /* 128 */,
 /* 129 */,
 /* 130 */,
-/* 131 */,
-/* 132 */,
-/* 133 */,
-/* 134 */,
-/* 135 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11507,9 +12119,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _testimonialsSoy = __webpack_require__(97);
+var _functional_javaSoy = __webpack_require__(93);
 
-var _testimonialsSoy2 = _interopRequireDefault(_testimonialsSoy);
+var _functional_javaSoy2 = _interopRequireDefault(_functional_javaSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11519,23 +12131,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageTestimonialsIndex = function (_Component) {
-  _inherits(pageTestimonialsIndex, _Component);
+var pageJavaCourseIndex = function (_Component) {
+  _inherits(pageJavaCourseIndex, _Component);
 
-  function pageTestimonialsIndex() {
-    _classCallCheck(this, pageTestimonialsIndex);
+  function pageJavaCourseIndex() {
+    _classCallCheck(this, pageJavaCourseIndex);
 
-    return _possibleConstructorReturn(this, (pageTestimonialsIndex.__proto__ || Object.getPrototypeOf(pageTestimonialsIndex)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageJavaCourseIndex.__proto__ || Object.getPrototypeOf(pageJavaCourseIndex)).apply(this, arguments));
   }
 
-  return pageTestimonialsIndex;
+  return pageJavaCourseIndex;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageTestimonialsIndex, _testimonialsSoy2.default);
+_metalSoy2.default.register(pageJavaCourseIndex, _functional_javaSoy2.default);
 
-exports.default = pageTestimonialsIndex;
+exports.default = pageJavaCourseIndex;
 
 /***/ })
-],[135]);
+],[131]);

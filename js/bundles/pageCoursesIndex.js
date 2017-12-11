@@ -60,8 +60,7 @@ exports.ElectricUpdates = _ElectricUpdates2.default;
 exports.default = _ElectricNavigation2.default;
 
 /***/ }),
-/* 5 */,
-/* 6 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -92,7 +91,7 @@ exports.Geometry = _Geometry2.default;
 exports.Position = _Position2.default;
 
 /***/ }),
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1025,6 +1024,7 @@ exports.CancellablePromise = CancellablePromise;
 exports.default = CancellablePromise;
 
 /***/ }),
+/* 7 */,
 /* 8 */,
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1050,7 +1050,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalPromise = __webpack_require__(7);
+var _metalPromise = __webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1274,7 +1274,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(7);
+var _metalPromise = __webpack_require__(6);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
@@ -1282,7 +1282,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(5);
+var _metalEvents = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3996,11 +3996,11 @@ var _metalState = __webpack_require__(8);
 
 var _metalState2 = _interopRequireDefault(_metalState);
 
-var _metalEvents = __webpack_require__(5);
+var _metalEvents = __webpack_require__(7);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
-var _metalPosition = __webpack_require__(6);
+var _metalPosition = __webpack_require__(5);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -4197,7 +4197,7 @@ var _metalUri = __webpack_require__(63);
 
 var _metalUri2 = _interopRequireDefault(_metalUri);
 
-var _metalPromise = __webpack_require__(7);
+var _metalPromise = __webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4358,9 +4358,9 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(7);
+var _metalPromise = __webpack_require__(6);
 
-var _metalPosition = __webpack_require__(6);
+var _metalPosition = __webpack_require__(5);
 
 var _AutocompleteBase2 = __webpack_require__(10);
 
@@ -5307,7 +5307,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalEvents = __webpack_require__(5);
+var _metalEvents = __webpack_require__(7);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
@@ -6863,7 +6863,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(6);
+var _metalPosition = __webpack_require__(5);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -8428,13 +8428,13 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(6);
+var _metalPosition = __webpack_require__(5);
 
 var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(5);
+var _metalEvents = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11325,7 +11325,8 @@ module.exports = function(module) {
 /* 91 */,
 /* 92 */,
 /* 93 */,
-/* 94 */
+/* 94 */,
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11386,10 +11387,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param110 = function() {
+  var param121 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param110, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param121, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11418,23 +11419,117 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           'class', 'row py-4');
         ie_open('h1', null, null,
             'class', 'col-12 display-4');
-          itext('Functional programming for Mobile developers');
+          itext('Functional Programming for Mobile Developers');
         ie_close('h1');
         ie_open('p', null, null,
             'class', 'col-12 my-4');
-          itext('Courses description, Courses description, Courses description, Courses description.');
+          itext('Swift and Kotlin are the lastest programming languages for mobile development. You know what? Both include functional constructs by default, allowing you to code in a functional style. Are you going to get stuck with filter, map and reduce?');
         ie_close('p');
         ie_open('div', null, null,
             'class', 'col-md-4');
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5',
-                'data-wow-delay', '0.3s');
+                'href', '/courses/functional_swift.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
+                'data-wow-delay', '0.6s');
               ie_open('img', null, null,
                   'src', '/images/functional_isotipo.png',
-                  'width', '80');
+                  'width', '120');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('SWIFT');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Functional Swift');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Learn functional programming in Swift in a practical way, with examples used in everyday iOS apps.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '/courses/functional_swift.html',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go to the course');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '/courses/functional_kotlin.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '120');
+              ie_close('img');
+              ie_open('h3', null, null,
+                  'class', 'align-middle mt-3');
+                itext('FUNCTIONAL');
+              ie_close('h3');
+              ie_open('h3', null, null,
+                  'class', 'align-middle');
+                ie_open('strong');
+                  itext('KOTLIN');
+                ie_close('strong');
+              ie_close('h3');
+            ie_close('a');
+            ie_open('div', null, null,
+                'class', 'card-body');
+              ie_open('h4', null, null,
+                  'class', 'card-title');
+                itext('Functional Kotlin');
+              ie_close('h4');
+              ie_open('p', null, null,
+                  'class', 'card-text');
+                itext('Learn functional programming in Kotlin in a practical way, with examples used in everyday Android apps.');
+              ie_close('p');
+              ie_open('a', null, null,
+                  'href', '/courses/functional_kotlin.html',
+                  'class', 'btn btn-outline-secondary btn-lg btn-block');
+                itext('Go to the course');
+              ie_close('a');
+            ie_close('div');
+          ie_close('div');
+        ie_close('div');
+      ie_close('div');
+    ie_close('div');
+    ie_open('div', null, null,
+        'class', 'container bg-white');
+      ie_open('div', null, null,
+          'class', 'row py-4 mt-5');
+        ie_open('h1', null, null,
+            'class', 'col-12 display-4');
+          itext('Functional Programming for Frontenders');
+        ie_close('h1');
+        ie_open('p', null, null,
+            'class', 'col-12 my-4');
+          itext('Javascript is THE language for the frontend development. But... Did you know that Mocha (then called LiveScript, JavaScript and now ECMAScript) was created to be the "Scheme in the browser"? Since Scheme is a dialect of Lisp, functional programming and Javascript has much more in common than what you would think.');
+        ie_close('p');
+        ie_open('div', null, null,
+            'class', 'col-md-4');
+          ie_open('div', null, null,
+              'class', 'card mb-3');
+            ie_open('a', null, null,
+                'href', '/courses/functional_javascript.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5');
+              ie_open('img', null, null,
+                  'src', '/images/functional_isotipo.png',
+                  'width', '120');
               ie_close('img');
               ie_open('h3', null, null,
                   'class', 'align-middle mt-3');
@@ -11451,56 +11546,16 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 'class', 'card-body');
               ie_open('h4', null, null,
                   'class', 'card-title');
-                itext('Card title');
+                itext('Functional JavaScript');
               ie_close('h4');
               ie_open('p', null, null,
                   'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+                itext('With Javascript you can learn functional programming in a practical way: familiar syntax, useful day-to-day examples and out-of-the-box functional constructions make it the perfect language to learn functional programming!');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
+                  'href', '/courses/functional_javascript.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '80');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('KOTLIN');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Card title');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
+                itext('Go to the course');
               ie_close('a');
             ie_close('div');
           ie_close('div');
@@ -11513,22 +11568,22 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           'class', 'row py-4 mt-5');
         ie_open('h1', null, null,
             'class', 'col-12 display-4');
-          itext('Frontend courses:');
+          itext('Functional Programming for Backend Developers');
         ie_close('h1');
         ie_open('p', null, null,
             'class', 'col-12 my-4');
-          itext('Courses description, Courses description, Courses description, Courses description.');
+          itext('The server-side is the natural field for functional programming. With it you\'ll get better concurrency, which is critical for a server system. However, you don\'t need to change your stack to Scala or other functional language to enjoy the benefits of functional programming. Using your language you\'ll be able to improve dramatically how you write code.');
         ie_close('p');
         ie_open('div', null, null,
             'class', 'col-md-4');
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
+                'href', '/courses/functional_java.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-csharp text-center p-5');
               ie_open('img', null, null,
                   'src', '/images/functional_isotipo.png',
-                  'width', '80');
+                  'width', '120');
               ie_close('img');
               ie_open('h3', null, null,
                   'class', 'align-middle mt-3');
@@ -11537,7 +11592,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               ie_open('h3', null, null,
                   'class', 'align-middle');
                 ie_open('strong');
-                  itext('KOTLIN');
+                  itext('C#');
                 ie_close('strong');
               ie_close('h3');
             ie_close('a');
@@ -11545,16 +11600,16 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 'class', 'card-body');
               ie_open('h4', null, null,
                   'class', 'card-title');
-                itext('Card title');
+                itext('Functional C#');
               ie_close('h4');
               ie_open('p', null, null,
                   'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+                itext('Erik Meijer, one of the architects behind C# and LINQ is one of the most strong supporters of functional programming. Because of that, C# has introduced more and more functional constructs with each version. And if you want to go one step further, you always can jump info F#');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
+                  'href', '/courses/functional_csharp.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
+                itext('Go to the course');
               ie_close('a');
             ie_close('div');
           ie_close('div');
@@ -11564,12 +11619,11 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
-                'data-wow-delay', '0.6s');
+                'href', '/courses/functional_java.html',
+                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-java text-center p-5');
               ie_open('img', null, null,
                   'src', '/images/functional_isotipo.png',
-                  'width', '80');
+                  'width', '120');
               ie_close('img');
               ie_open('h3', null, null,
                   'class', 'align-middle mt-3');
@@ -11578,7 +11632,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               ie_open('h3', null, null,
                   'class', 'align-middle');
                 ie_open('strong');
-                  itext('SWIFT');
+                  itext('JAVA');
                 ie_close('strong');
               ie_close('h3');
             ie_close('a');
@@ -11586,111 +11640,16 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 'class', 'card-body');
               ie_open('h4', null, null,
                   'class', 'card-title');
-                itext('Card title');
+                itext('Functional Java');
               ie_close('h4');
               ie_open('p', null, null,
                   'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
+                itext('Even though Java can\'t be considered a functional language, you can be introduced to most of the concepts thanks to lambdas and functional interfaces support in Java 8. Don\'t yearn a new project using Scala. You can start to learn functional programming with Java NOW.');
               ie_close('p');
               ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
+                  'href', '/courses/functional_java.html',
                   'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-      ie_close('div');
-    ie_close('div');
-    ie_open('div', null, null,
-        'class', 'container bg-white');
-      ie_open('div', null, null,
-          'class', 'row py-4 mt-5');
-        ie_open('h1', null, null,
-            'class', 'col-12 display-4');
-          itext('Frontend courses:');
-        ie_close('h1');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4');
-          itext('Courses description, Courses description, Courses description, Courses description.');
-        ie_close('p');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '80');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('KOTLIN');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Card title');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/course_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
-                'data-wow-delay', '0.6s');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '80');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('SWIFT');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Card title');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Some quick example text to build on the card title and make up the bulk of the card\'s content.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/course_kotlin.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go somewhere');
+                itext('Go to the course');
               ie_close('a');
             ie_close('div');
           ie_close('div');
@@ -11721,7 +11680,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 
 
 /***/ }),
-/* 95 */,
 /* 96 */,
 /* 97 */,
 /* 98 */,
@@ -11755,7 +11713,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 /* 126 */,
 /* 127 */,
 /* 128 */,
-/* 129 */
+/* 129 */,
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11779,7 +11738,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _indexSoy = __webpack_require__(94);
+var _indexSoy = __webpack_require__(95);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -11810,4 +11769,4 @@ _metalSoy2.default.register(pageCoursesIndex, _indexSoy2.default);
 exports.default = pageCoursesIndex;
 
 /***/ })
-],[129]);
+],[130]);
