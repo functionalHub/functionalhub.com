@@ -11721,7 +11721,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'data-wow-delay', '0.3s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
-                'width', '80');
+                'width', '120');
             ie_close('img');
             ie_open('h3', null, null,
                 'class', 'align-middle mt-3');
@@ -11739,7 +11739,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-kotlin text-center p-5');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
-                'width', '80');
+                'width', '120');
             ie_close('img');
             ie_open('h3', null, null,
                 'class', 'align-middle mt-3');
@@ -11758,7 +11758,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'data-wow-delay', '0.6s');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
-                'width', '80');
+                'width', '120');
             ie_close('img');
             ie_open('h3', null, null,
                 'class', 'align-middle mt-3');
