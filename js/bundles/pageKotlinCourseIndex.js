@@ -11417,7 +11417,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row');
         ie_open('div', null, null,
-            'class', 'col-md-9 bg-white pb-3');
+            'class', 'col-md-9 bg-white px-md-4 py-3');
           ie_open('h1', null, null,
               'class', 'display-4 pt-3');
             itext('Functional programming in Kotlin');
@@ -11428,25 +11428,25 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('h1');
           ie_open('div', null, null,
               'class', 'text-center');
-            ie_open('p');
+            ie_open('p', null, null,
+                'class', 'h1');
               itext('[\uD83C\uDF3D, \uD83D\uDC2E, \uD83D\uDC14].map(cook) == [\uD83C\uDF7F, \uD83C\uDF54, \uD83C\uDF73]');
             ie_close('p');
-            ie_open('ul', null, null,
-                'class', 'list-X');
-              ie_open('li');
-                itext('Are you stuck in filter or map?');
-              ie_close('li');
-              ie_open('li');
-                itext('Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?');
-              ie_close('li');
-              ie_open('li');
-                itext('Do you think that this functional programming thing is too abstract and academic for your taste?');
-              ie_close('li');
-            ie_close('ul');
-            ie_open('p');
-              itext('If you answered YES to any of those questions, then this is the couse you\'re looking for \uD83D\uDE09');
-            ie_close('p');
           ie_close('div');
+          ie_open('ul');
+            ie_open('li');
+              itext('Are you stuck in filter or map?');
+            ie_close('li');
+            ie_open('li');
+              itext('Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?');
+            ie_close('li');
+            ie_open('li');
+              itext('Do you think that this functional programming thing is too abstract and academic for your taste?');
+            ie_close('li');
+          ie_close('ul');
+          ie_open('p');
+            itext('If you answered YES to any of those questions, then this is the couse you\'re looking for \uD83D\uDE09');
+          ie_close('p');
           ie_open('div', null, null,
               'class', 'text-center');
             ie_void('iframe', null, null,
@@ -11459,116 +11459,113 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 'mozallowfullscreen', '',
                 'allowfullscreen', '');
           ie_close('div');
-          ie_open('div', null, null,
-              'class', 'row');
+          ie_open('p');
+            itext('And if you still has some questions, maybe this can be helpful:');
+          ie_close('p');
+          ie_open('div');
+            ie_open('h2');
+              itext('Why should I learn Functional Programming?');
+            ie_close('h2');
             ie_open('p');
-              itext('And if you still has some questions, maybe this can be helpful:');
+              itext('Well, let\'s say it will give you more tools to be a better programmer, no matter what programming language you use.');
+              ie_open('br');
+              ie_close('br');
+              itext('Maybe you can\'t use FP in your daily basis (yeah, your boss is a dinosaur), but we\'re sure that if you learn these concepts, your programming style will improve A LOT.');
+            ie_close('p');
+            ie_open('h2');
+              itext('And why should I use Kotlin to learn Functional Programming?');
+            ie_close('h2');
+            ie_open('p');
+              itext('Kotlin is the cross-platform language of the future. Google already has official support to develop Android apps, but you can use it also for backend development, given that it\'s a first-class JVM language.');
             ie_close('p');
             ie_open('div');
-              ie_open('h2');
-                itext('Why should I learn Functional Programming?');
-              ie_close('h2');
               ie_open('p');
-                itext('Well, let\'s say it will give you more tools to be a better programmer, no matter what programming language you use.');
-                ie_open('br');
-                ie_close('br');
-                itext('Maybe you can\'t use FP in your daily basis (yeah, your boss is a dinosaur), but we\'re sure that if you learn these concepts, your programming style will improve A LOT.');
-              ie_close('p');
-              ie_open('h2');
-                itext('And why should I use Kotlin to learn Functional Programming?');
-              ie_close('h2');
-              ie_open('p');
-                itext('Kotlin is the cross-platform language of the future. Google already has official support to develop Android apps, but you can use it also for backend development, given that it\'s a first-class JVM language.');
-              ie_close('p');
-              ie_open('div');
-                ie_open('p');
-                  itext('Also, Kotlin is a friendly language for ');
-                  ie_open('strong');
-                    itext('Java');
-                  ie_close('strong');
-                  itext(' developers, since it\'s an easy, concise and pragmatic language, and it supports a lot of functional constructs! Because of that, Kotlin is the perfect language to be introduced in Functional Programming!');
-                ie_close('p');
-              ie_close('div');
-              ie_open('h2');
-                itext('But, are you sure this is really useful?');
-              ie_close('h2');
-              ie_open('p');
-                itext('Sure thing! Some benefits of programming with functional style:');
-              ie_close('p');
-              ie_open('ul');
-                ie_open('li');
-                  itext('It will allow you to make some tasks that would be must harder using your traditional style. Notice that ');
-                  ie_open('a', null, null,
-                      'href', 'https://es.wikipedia.org/wiki/MapReduce',
-                      'rel', 'noopener noreferrer',
-                      'target', '_blank');
-                    itext('Google');
-                  ie_close('a');
-                  itext(' used some functional core concepts from the very begining.');
-                ie_close('li');
-                ie_open('li');
-                  itext('Your code will be cleaner, with (much) less variables, and you wouldn\'t worry by "what if this is null"');
-                ie_close('li');
-                ie_open('li');
-                  itext('Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.');
-                ie_close('li');
-                ie_open('li');
-                  itext('Your code will be more maintainable and adaptable. As ');
-                  ie_open('a', null, null,
-                      'href', 'https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/');
-                    itext('Joe Armstrong');
-                  ie_close('a');
-                  itext(' said, the inventor of Erlang, with OOP ');
-                  ie_open('em');
-                    itext('you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.');
-                  ie_close('em');
-                ie_close('li');
-              ie_close('ul');
-              ie_open('h2');
-                itext('Is it going to be difficult?');
-              ie_close('h2');
-              ie_open('p');
-                itext('It\'s not difficult, it\'s quite simple. But it\'s different to the OOP style, that you\'re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk ');
-                ie_open('a', null, null,
-                    'href', 'https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md');
-                  itext('"Simple made Easy"');
-                ie_close('a');
-                itext(' the difference between "easy" (something you\'re use to, even though it\'s a mess) and "simple" (something that can be explained and understood quickly, without effort, even though it may be quite new for you).');
-              ie_close('p');
-              ie_open('p');
+                itext('Also, Kotlin is a friendly language for ');
                 ie_open('strong');
-                  itext('Functional Programming is simple');
+                  itext('Kotlin');
                 ie_close('strong');
-                itext(', but even you\'re an experienced developers, you\'ll have to learn scratch. But we\'re sure that this isn\'t anything for PhD\'s, as you probably believed. But you\'ll have to invest enough effort: no pain, no gain, my friend...');
-              ie_close('p');
-              ie_open('h2');
-                itext('How are you going to teach it?');
-              ie_close('h2');
-              ie_open('p');
-                itext('Using short video lessons, less than 20 minutes, where you\'ll find explanations about specific concepts and techniques. They\'re usually simple concepts, but with a lot of uses and potential applications. Don\'t worry if you don\'t get it at first. That\'s normal, and you\'ll probably have to listen some videos more than once, in order to understand all the details.');
-                ie_open('br');
-                ie_close('br');
-                itext('Each video includes several practical and everyday examples. We won\'t talk about fibonacci, factorials and other mathematical examples. We\'ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.');
-              ie_close('p');
-              ie_open('h2');
-                itext('I don\'t know Kotlin, but I know how to code in X');
-              ie_close('h2');
-              ie_open('p');
-                itext('Awesome! Kotlin is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It\'s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.');
-              ie_close('p');
-              ie_open('p');
-                itext('And if you already know Java, then it will be even easier for you: this is the perfect excuse to learn Kotlin!');
-              ie_close('p');
-              ie_open('h2');
-                itext('Is there any other requirement?');
-              ie_close('h2');
-              ie_open('p');
-                itext('Not really: you need to know how to code in any language (better if it\'s an OOP language), and you need to be interested in learning Functional Programming.');
-              ie_close('p');
-              ie_open('p');
-                itext('And it\'s even better if you already tried to learn FP without success. After this couse, you\'ll realize it wasn\'t that difficult');
+                itext(' developers, since it\'s an easy, concise and pragmatic language, and it supports a lot of functional constructs! Because of that, Kotlin is the perfect language to be introduced in Functional Programming!');
               ie_close('p');
             ie_close('div');
+            ie_open('h2');
+              itext('But, are you sure this is really useful?');
+            ie_close('h2');
+            ie_open('p');
+              itext('Sure thing! Some benefits of programming with functional style:');
+            ie_close('p');
+            ie_open('ul');
+              ie_open('li');
+                itext('It will allow you to make some tasks that would be must harder using your traditional style. Notice that ');
+                ie_open('a', null, null,
+                    'href', 'https://es.wikipedia.org/wiki/MapReduce',
+                    'rel', 'noopener noreferrer',
+                    'target', '_blank');
+                  itext('Google');
+                ie_close('a');
+                itext(' used some functional core concepts from the very begining.');
+              ie_close('li');
+              ie_open('li');
+                itext('Your code will be cleaner, with (much) less variables, and you wouldn\'t worry by "what if this is null"');
+              ie_close('li');
+              ie_open('li');
+                itext('Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.');
+              ie_close('li');
+              ie_open('li');
+                itext('Your code will be more maintainable and adaptable. As ');
+                ie_open('a', null, null,
+                    'href', 'https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/');
+                  itext('Joe Armstrong');
+                ie_close('a');
+                itext(' said, the inventor of Erlang, with OOP ');
+                ie_open('em');
+                  itext('you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.');
+                ie_close('em');
+              ie_close('li');
+            ie_close('ul');
+            ie_open('h2');
+              itext('Is it going to be difficult?');
+            ie_close('h2');
+            ie_open('p');
+              itext('It\'s not difficult, it\'s quite simple. But it\'s different to the OOP style, that you\'re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk ');
+              ie_open('a', null, null,
+                  'href', 'https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md');
+                itext('"Simple made Easy"');
+              ie_close('a');
+              itext(' the difference between "easy" (something you\'re use to, even though it\'s a mess) and "simple" (something that can be explained and understood quickly, without effort, even though it may be quite new for you).');
+            ie_close('p');
+            ie_open('p');
+              ie_open('strong');
+                itext('Functional Programming is simple');
+              ie_close('strong');
+              itext(', but even you\'re an experienced developers, you\'ll have to learn scratch. But we\'re sure that this isn\'t anything for PhD\'s, as you probably believed. But you\'ll have to invest enough effort: no pain, no gain, my friend...');
+            ie_close('p');
+            ie_open('h2');
+              itext('How are you going to teach it?');
+            ie_close('h2');
+            ie_open('p');
+              itext('Using short video lessons, less than 20 minutes, where you\'ll find explanations about specific concepts and techniques. They\'re usually simple concepts, but with a lot of uses and potential applications. Don\'t worry if you don\'t get it at first. That\'s normal, and you\'ll probably have to listen some videos more than once, in order to understand all the details.');
+              ie_open('br');
+              ie_close('br');
+              itext('Each video includes several practical and everyday examples. We won\'t talk about fibonacci, factorials and other mathematical examples. We\'ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.');
+            ie_close('p');
+            ie_open('h2');
+              itext('I don\'t know Kotlin, but I know how to code in X');
+            ie_close('h2');
+            ie_open('p');
+              itext('Awesome! Kotlin is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It\'s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.');
+            ie_close('p');
+            ie_open('p');
+              itext('And if you already know Java, then it will be even easier for you: this is the perfect excuse to learn Kotlin!');
+            ie_close('p');
+            ie_open('h2');
+              itext('Is there any other requirement?');
+            ie_close('h2');
+            ie_open('p');
+              itext('Not really: you need to know how to code in any language (better if it\'s an OOP language), and you need to be interested in learning Functional Programming.');
+            ie_close('p');
+            ie_open('p');
+              itext('And it\'s even better if you already tried to learn FP without success. After this couse, you\'ll realize it wasn\'t that difficult');
+            ie_close('p');
           ie_close('div');
           ie_open('h1', null, null,
               'class', 'display-4 mt-4');
@@ -11584,7 +11581,6 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                   'class', 'collapsed card-title h3',
                   'role', 'button',
                   'data-toggle', 'collapse',
-                  'data-parent', '#accordion',
                   'href', '#collapseOne',
                   'aria-expanded', 'false',
                   'aria-controls', 'collapseOne');
@@ -11727,27 +11723,26 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'card-header',
                 'role', 'tab',
-                'id', 'headingOne');
+                'id', 'headingOne2');
               ie_open('a', null, null,
                   'class', 'collapsed card-title h3',
                   'role', 'button',
                   'data-toggle', 'collapse',
-                  'data-parent', '#accordion',
-                  'href', '#collapseOne',
+                  'href', '#collapseOne2',
                   'aria-expanded', 'false',
-                  'aria-controls', 'collapseOne');
+                  'aria-controls', 'collapseOne2');
                 itext('Week 2: Recursion');
               ie_close('a');
               ie_open('span', null, null,
                   'class', 'comingsoon');
-                itext('COMING SOON');
+                itext(' COMING SOON');
               ie_close('span');
             ie_close('div');
             ie_open('div', null, null,
-                'id', 'collapseOne',
+                'id', 'collapseOne2',
                 'class', 'card-collapse collapse',
                 'role', 'tabpanel',
-                'aria-labelledby', 'headingOne');
+                'aria-labelledby', 'headingOne2');
               ie_open('div', null, null,
                   'class', 'card-body');
                 itext('In this week, you\'re already prepared to start going deeper. Since ages, recursion has been considered the ugly guy. Some (very) bad teachers encourage against it, saying that it\'s even worse than Comic Sans. In this week we\'re going to see that it\'s not as bad as some say, but it\'s one of the most powerful tools in programming in general (and in functional programming in particular). You need to learn some tricks to use it properly, and then you\'ll be ready to forget your loops forever...');
@@ -11774,27 +11769,26 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'card-header',
                 'role', 'tab',
-                'id', 'headingOne');
+                'id', 'headingOne3');
               ie_open('a', null, null,
                   'class', 'collapsed card-title h3',
                   'role', 'button',
                   'data-toggle', 'collapse',
-                  'data-parent', '#accordion',
-                  'href', '#collapseOne',
+                  'href', '#collapseOne3',
                   'aria-expanded', 'false',
-                  'aria-controls', 'collapseOne');
+                  'aria-controls', 'collapseOne3');
                 itext('Week 3: Functions');
               ie_close('a');
               ie_open('span', null, null,
                   'class', 'comingsoon');
-                itext('COMING SOON');
+                itext(' COMING SOON');
               ie_close('span');
             ie_close('div');
             ie_open('div', null, null,
-                'id', 'collapseOne',
+                'id', 'collapseOne3',
                 'class', 'card-collapse collapse',
                 'role', 'tabpanel',
-                'aria-labelledby', 'headingOne');
+                'aria-labelledby', 'headingOne3');
               ie_open('div', null, null,
                   'class', 'card-body');
                 itext('Functions are the cornerstone of functional programming. You already guessed it... In this week you\'ll learn new ways to deal with functions, not just to group code together, but to combine and compose several functions to create higher abstractions. You\'ll get the most from your functions');
@@ -11829,27 +11823,26 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'card-header',
                 'role', 'tab',
-                'id', 'headingOne');
+                'id', 'headingOne4');
               ie_open('a', null, null,
                   'class', 'collapsed card-title h3',
                   'role', 'button',
                   'data-toggle', 'collapse',
-                  'data-parent', '#accordion',
-                  'href', '#collapseOne',
+                  'href', '#collapseOne4',
                   'aria-expanded', 'false',
-                  'aria-controls', 'collapseOne');
+                  'aria-controls', 'collapseOne4');
                 itext('Week 4: Functional Transformations');
               ie_close('a');
               ie_open('span', null, null,
                   'class', 'comingsoon');
-                itext('COMING SOON');
+                itext(' COMING SOON');
               ie_close('span');
             ie_close('div');
             ie_open('div', null, null,
-                'id', 'collapseOne',
+                'id', 'collapseOne4',
                 'class', 'card-collapse collapse',
                 'role', 'tabpanel',
-                'aria-labelledby', 'headingOne');
+                'aria-labelledby', 'headingOne4');
               ie_open('div', null, null,
                   'class', 'card-body');
                 itext('We\'re sure you already use map or reduce functions, but you\'re not so sure about how to use them properly or how they\'re implemented internally. Let\'s master these "functional functions" like nobody before');
@@ -11878,27 +11871,26 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_open('div', null, null,
                 'class', 'card-header',
                 'role', 'tab',
-                'id', 'headingOne');
+                'id', 'headingOne5');
               ie_open('a', null, null,
                   'class', 'collapsed card-title h3',
                   'role', 'button',
                   'data-toggle', 'collapse',
-                  'data-parent', '#accordion',
-                  'href', '#collapseOne',
+                  'href', '#collapseOne5',
                   'aria-expanded', 'false',
-                  'aria-controls', 'collapseOne');
+                  'aria-controls', 'collapseOne5');
                 itext('Week 5-10: Functional Patterns');
               ie_close('a');
               ie_open('span', null, null,
                   'class', 'comingsoon');
-                itext('COMING SOON');
+                itext(' COMING SOON');
               ie_close('span');
             ie_close('div');
             ie_open('div', null, null,
-                'id', 'collapseOne',
+                'id', 'collapseOne5',
                 'class', 'card-collapse collapse',
                 'role', 'tabpanel',
-                'aria-labelledby', 'headingOne');
+                'aria-labelledby', 'headingOne5');
               ie_open('div', null, null,
                   'class', 'card-body');
                 ie_open('h3');

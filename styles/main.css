@@ -6071,6 +6071,13 @@ video {
 .cutomers img {
   max-width: 120px; }
 
+.Testimonials .img-fluid.rounded-circle {
+  margin-top: -80px; }
+  @media (min-width: 768px) {
+    .Testimonials .img-fluid.rounded-circle {
+      margin-left: -40px;
+      margin-top: 0; } }
+
 body {
   background-color: #383737;
   font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }

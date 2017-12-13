@@ -11427,70 +11427,61 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             itext('Why FP?');
           ie_close('h1');
           ie_open('p');
-            itext('Hola de nuevo! \uD83D\uDC4B\uD83C\uDFFB');
+            itext('In these days, it looks like functional programming is the new kid in town, something trendy and cool that you have to know. At least until the next cool thing arrives. But actually, functional programming is quite old. Probably older than you!');
           ie_close('p');
           ie_open('p');
-            itext('Aunque as\u00ED lo parezca, me temo que la programaci\u00F3n no tiene nada de moda \uD83D\uDC85\uD83C\uDFFC, y mucho menos de "nueva"... en realidad la programaci\u00F3n funcional es muy vieja. Mucho m\u00E1s que t\u00FA.');
+            itext('Let\'s look back at the past, to the forefathers of computing, in order to understand the present, but also to be able to anticipate the future.');
           ie_close('p');
           ie_open('p');
-            itext('Hoy vamos a mirar al pasado, a los pioneros de la inform\u00E1tica, para entender el presente, y sobre todo, para ser capaces de anticiparnos al futuro. \uD83D\uDD2E');
+            itext('Functional programming and imperative programming were born almost at the same time, at least the mathematical theories behing them. In the 30s, Alonzo Church defined ');
+            ie_open('i');
+              itext('Lambda Calculus');
+            ie_close('i');
+            itext(', which is considered the theory behind functional programming. At the same time, Alan Turing defined his Turing Machine, which is in turn the theory that made imperative programming possible. It was a kind of clash of the titans. A perfect race to define the mathematical model to solve universal computability problems (what we call right now "programs").');
           ie_close('p');
           ie_open('p');
-            itext('La programaci\u00F3n funcional y la programaci\u00F3n imperativa nacieron al mismo tiempo, al menos a nivel te\u00F3rico, all\u00E1 por los a\u00F1os 30. Mientras Alonzo Church defin\u00EDa su C\u00E1lculo Lambda \u019B, que es la base te\u00F3rica de la programaci\u00F3n funcional, Alan Turing hac\u00EDa lo propio con su M\u00E1quina de Turing \uD83C\uDFB0, que es a su vez la teor\u00EDa matem\u00E1tica sobre la que se basa la programaci\u00F3n imperativa. Era un duelo de titanes, para ver quien defin\u00EDa el modelo te\u00F3rico (a nivel matem\u00E1tico) que mejor pudiese resolver problemas computables universales (vamos, programas).');
+            itext('In the 50s, the race moved to the practical implementations of those theories. John Backus, an IBM employee, created FORTRAN as one of the first "high level" imperative programming languages. In the same years, John McCarthy created Lisp in the MIT, as a practical implementation of Lambda Calculus theory.');
           ie_close('p');
           ie_open('p');
-            itext('Ya en los a\u00F1os 50, la carrera se movi\u00F3 al plano m\u00E1s pr\u00E1ctico. John Backus, un trabajador de IBM, cre\u00F3 FORTRAN como implementaci\u00F3n real de ese modelo te\u00F3rico de computaci\u00F3n imperativa que defini\u00F3 Turing. M\u00E1s o menos al mismo tiempo, en el MIT de Boston, John McCarthy hizo algo parecido creando Lisp, pero basado en el C\u00E1lculo Lambda de Church. Otra vez la batalla estaba servida.');
-          ie_close('p');
-          ie_open('p');
-            itext('Podr\u00EDamos decir que FORTRAN es el tatarabuelo de todos los lenguajes de programaci\u00F3n imperativos, y Lisp ocupa un lugar parecido para todos los lenguajes funcionales.');
+            itext('So we can say that FORTRAN is the great-grandfather of all imperative programming languages, while Lisp can be considered the same ancestor of all functional programming languages.');
           ie_close('p');
           ie_open('img', null, null,
               'class', 'img-fluid',
               'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/af043d11-ac22-413b-a089-4700e22095f3.jpg');
           ie_close('img');
           ie_open('p');
-            itext('Es importante fijarse el contexto donde nacen ambos proyectos: por un lado IBM, que como empresa pura y dura, busca soluciones econ\u00F3micamente viables a problemas de sus clientes. Y por otro lado el MIT, que es el laboratorio donde se conciben las ideas m\u00E1s revolucionarias y futuristas del mundo. Esto es importante tenerlo en cuenta \uD83E\uDD14');
+            itext('But notice the context of both projects: in one hand, IBM wanted a language that solved a business problem, programmers productivity, while Lisp goals were quite different: solve complex computing problems, AI related mainly (yes, McCarthy is the father of the AI also)');
           ie_close('p');
           ie_open('p');
-            itext('Durante a\u00F1os, ambos lenguajes compitieron por liderar la incipiente industria de la inform\u00E1tica. Sin embargo, un "peque\u00F1o detalle" hizo inclinar la balanza: las m\u00E1quinas eran car\u00EDsimas en aquellos a\u00F1os, as\u00ED que se programaba con papel y boli, y luego se alquilaban una m\u00E1quina por horas (cloud computing?) para que alguien, normalmente una se\u00F1orita (s\u00ED amigos, las mujeres fueron las primeras programadoras \uD83D\uDC69\uD83C\uDFFB\u200D\uD83D\uDCBB), introdujese el programa en el ordenador, lo compilase y lo ejecutase, imprimiendo el resultado con una impresora matricial \uD83D\uDDA8');
-          ie_close('p');
-          ie_open('p');
-            itext('Lo que inclin\u00F3 la balanza fue que un programa escrito en FORTRAN (con estilo imperativo), se compilaba y ejecutaba infinitamente m\u00E1s r\u00E1pido que el mismo programa escrito en Lisp (con estilo funcional). Backus hab\u00EDa hecho un compilador muy eficiente para la \u00E9poca, ya que a IBM le preocupaba, y mucho, el aspecto econ\u00F3mico \uD83D\uDCB8 Ponte en su lugar: si tu programa en estilo imperativo tarda minutos en compilarse, pero el mismo programa en estilo funcional tarda horas o hasta d\u00EDas, y tienes que pagar por ese tiempo de procesamiento, t\u00FA tambi\u00E9n dejar\u00EDas de lado el estilo funcional \u00BFverdad? \uD83E\uDD11');
-          ie_close('p');
-          ie_open('p');
-            itext('As\u00ED que en los siguientes a\u00F1os, Lisp se fue dejando como la herramienta para resolver problemas especialmente complejos (como la inteligencia artificial), donde la rentabilidad econ\u00F3mica no era tan importante como conseguir una soluci\u00F3n a tu problema.');
+            itext('Both languages competed in the early days of the computer science. But the industry chose the winner quickly: computers (mainframes) where super expensive in those years, and people had to rent machine-time on demand (hello elastic cloud computing). Since the computing time was so expensive, it was critical to save the time wasted compiling and running wrong programs. And given that most of the code was written using punch cards or machine code, most of the programs contained several errors, so most of the computing time was wasted. And FORTRAN compiler were much faster than any other in those years, including the Lisp one. Backus created a super efficient compiler and most of the programmers started to move from machine code to FORTRAN, leaving Lisp (and functional programming) only for some specific problems related to symbolic computation and primitive AI research.');
           ie_close('p');
           ie_open('img', null, null,
               'class', 'img-fluid',
               'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/20127c27-af47-4bb9-bbb2-df2bc9aa3a9e.jpeg');
           ie_close('img');
           ie_open('p');
-            itext('Y llegamos al a\u00F1o 1977, donde Backus recibi\u00F3 el premio Turing (el Nobel de los inform\u00E1ticos) por su trabajo en el \u00E1rea de compiladores. Realmente el compilador de FORTRAN era muy bueno y avanzado. Pero para sorpresa de todos, en su discurso de la entrega del premio, en vez de sacar pecho, lo que hizo fue criticar duramente a los lenguajes imperativos y present\u00F3 a los lenguajes funcionales como la alternativa correcta. \u00A1Estaba entonando un mea-culpa, tirando por tierra su propia creaci\u00F3n, por la que le estaban dando su premio m\u00E1s importante! \uD83D\uDE35');
+            itext('But something happened in 1977: Backus received the Turing Award, (which is considered the Nobel prize in computing) for his work in high-level programming languages and FORTRAN. But to everyone\'s surprise, Backus\' Turing Award lecture was focused on how functional programming is the right way to go, instead of using imperative programming and languages like FORTRAN. It was an apology for creating FORTRAN and making imperative programming the standard de-facto in those years.');
           ie_close('p');
           ie_open('p');
-            itext('Pero ya era tarde: la industria ya hab\u00EDa elegido el camino m\u00E1s rentable y pragm\u00E1tico, las primeras generaciones de programadores se hab\u00EDan forjado en el modelo imperativo (recuerda, el \u00FAnico viable para el hardware de la \u00E9poca), Unix y sus heroes, marcaron la pauta a partir de aquellos a\u00F1os, C se volvi\u00F3 el lenguaje de referencia... y el resto ya es historia.');
+            itext('But it was already too late: most of the industry were already using imperative programming because it was more profitable than functional programming. First generations of programmers were shaped around imperative programming ideas, Unix and C were the way-to-go, next generations of programmers followed that trail... and the rest is history.');
           ie_close('p');
           ie_open('p');
-            itext('Y as\u00ED hemos llegado hasta el d\u00EDa de hoy, donde, en cierta manera, todos los desarrolladores actuales somos hijos de C y nietos de FORTRAN, pero sin haberlo elegido. Lo que resulta llamativo es que ya no tenemos esas restricciones de hardware, pero seguimos utilizando un modelo de programaci\u00F3n propio de los a\u00F1os 50. Es duro decirlo, pero es as\u00ED. \uD83C\uDFDA');
+            itext('And this is the way we\'ve arrived to these days, where somehow we all developers are sons of C and grandsons of FORTRAN... without choosing it. But what is socking is that we\'re still using the same programming model for the last 50 years, even though today\'s hardware allows us to use better paradigms. Why are we stuck in the past?');
           ie_close('p');
           ie_open('p');
-            itext('Y desde hace unos cuantos a\u00F1os, muchos programadores se est\u00E1n haciendo la misma pregunta... \u00BFno es el momento ya de retomar esa \u201Cvieja idea\u201D de la programaci\u00F3n funcional? Todos sabemos lo inmanejables que se vuelven los proyectos de software cuando crecen... y eso no deber\u00EDa ser as\u00ED. La programaci\u00F3n funcional aporta muchas ventajas a la hora de resolver problemas muy actuales, como el crecimiento y mantenimiento del software, o la ejecuci\u00F3n de c\u00F3digo as\u00EDncrono, en paralelo o de forma concurrente, y nuestro hardware es capaz de compilar en segundos cualquier programa en estilo funcional \uD83C\uDFC3');
-          ie_close('p');
-          ie_open('p');
-            itext('As\u00ED que ahora ya sabes por qu\u00E9 aprendiste a programar en C, Pascal o Java, no fue por casualidad\u2026 ma\u00F1ana te contar\u00E9 m\u00E1s sobre lo que te est\u00E1s perdiendo por no usar programaci\u00F3n funcional.');
-          ie_close('p');
-          ie_open('p');
-            itext('Y recuerda \u00A1el viernes un regalo para t\u00ED! \uD83C\uDF81');
-          ie_close('p');
+            itext('In these years, some programmers out there are wondering: Isn\'t it today the right time to revisit that "old idea" of functional programming? In a world where compilers take seconds to complete their task, and complexity in software is probably the main challenge nowadays, wouldn\'t be functional programming a feasible approach to achieve better concurrency, testeability and maintainability?');
+            ie_open('p');
+              itext('So, now you know that if you\'ve learnt C, Pascal or Java it wasn\'t by coincidence!');
+            ie_close('p');
+          ie_close('div');
         ie_close('div');
       ie_close('div');
     ie_close('div');
-  ie_close('div');
-}
-exports.pageContent = $pageContent;
-if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageWhyFPIndex.pageContent';
-}
+  }
+  exports.pageContent = $pageContent;
+  if (goog.DEBUG) {
+    $pageContent.soyTemplateName = 'pageWhyFPIndex.pageContent';
+  }
 
 exports.render.params = [];
 exports.render.types = {};

@@ -11418,8 +11418,70 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
     ie_open('div', null, null,
         'class', 'container bg-white');
       ie_open('div', null, null,
-          'class', 'row');
-        itext('Testimonials');
+          'class', 'row p-4');
+        ie_open('div', null, null,
+            'class', 'col-md-8 col-lg-6 mx-auto pb-4');
+          ie_open('h1', null, null,
+              'class', 'display-4 mt-5 mb-4 text-center text-secondary');
+            itext('Testimonials');
+          ie_close('h1');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,');
+          ie_open('small');
+            ie_open('b');
+              itext('Name');
+            ie_close('b');
+          ie_close('small');
+          ie_open('p', null, null,
+              'class', 'small');
+            itext('Name');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/team/ahdezma.jpg');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,');
+          ie_open('small');
+            ie_open('b');
+              itext('Name');
+            ie_close('b');
+          ie_close('small');
+          ie_open('p', null, null,
+              'class', 'small');
+            itext('Name');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/team/ahdezma.jpg');
+          ie_close('img');
+        ie_close('div');
       ie_close('div');
     ie_close('div');
   ie_close('div');
