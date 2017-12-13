@@ -1,0 +1,10 @@
+.Testimonials {
+	.img-fluid.rounded-circle {
+		margin-top: -80px;
+
+		@include media-breakpoint-up(md) {
+			margin-left: -40px;
+			margin-top: 0;
+		}
+	}
+}
