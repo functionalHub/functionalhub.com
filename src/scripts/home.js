@@ -31,3 +31,9 @@ malarkey(elem, opts).type('Swift')
 					.type('JavaScript')
 					.pause()
 					.delete();
+					.type('Java')
+					.pause()
+					.delete();
+					.type('C#')
+					.pause()
+					.delete();
