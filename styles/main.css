@@ -6083,7 +6083,11 @@ body {
   font-family: "Source Sans Pro", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 p {
-  line-height: 1.8; }
+  line-height: 1.8;
+  font-size: 1.2em; }
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: rgba(0, 0, 0, 0.1); }
 
 .img-fluided {
   width: 100%;

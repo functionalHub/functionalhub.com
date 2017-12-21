@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([2],[
+webpackJsonppageComponent([1],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -60,7 +60,8 @@ exports.ElectricUpdates = _ElectricUpdates2.default;
 exports.default = _ElectricNavigation2.default;
 
 /***/ }),
-/* 5 */
+/* 5 */,
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -91,7 +92,7 @@ exports.Geometry = _Geometry2.default;
 exports.Position = _Position2.default;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1024,7 +1025,6 @@ exports.CancellablePromise = CancellablePromise;
 exports.default = CancellablePromise;
 
 /***/ }),
-/* 7 */,
 /* 8 */,
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1050,7 +1050,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1274,7 +1274,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
@@ -1282,7 +1282,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2176,7 +2176,7 @@ function $header(opt_data, opt_ignored, opt_ijData) {
           'href', '/');
         ie_open('img', null, null,
             'src', '/images/functional_hub_logo.png',
-            'width', '250');
+            'width', '300');
         ie_close('img');
       ie_close('a');
       ie_open('button', null, null,
@@ -2190,6 +2190,31 @@ function $header(opt_data, opt_ignored, opt_ijData) {
         ie_open('ul', null, null,
             'class', 'navbar-nav ml-auto');
           $templateAlias2({section: opt_data.site.index}, null, opt_ijData);
+          ie_open('li', null, null,
+              'class', 'position-relative');
+            ie_open('button', null, null,
+                'class', 'btn btn-light btn-sm dropdown-toggle m-2 ml-3',
+                'type', 'button',
+                'id', 'dropdownMenu2',
+                'data-toggle', 'dropdown',
+                'aria-haspopup', 'true',
+                'aria-expanded', 'false');
+              itext('English');
+            ie_close('button');
+            ie_open('div', null, null,
+                'class', 'dropdown-menu',
+                'aria-labelledby', 'dropdownMenu2');
+              ie_open('a', null, null,
+                  'class', 'dropdown-item active');
+                itext('English');
+              ie_close('a');
+              ie_open('a', null, null,
+                  'href', 'https://functionalhub.es',
+                  'class', 'dropdown-item');
+                itext('Espa\u00F1ol');
+              ie_close('a');
+            ie_close('div');
+          ie_close('li');
         ie_close('ul');
       ie_close('div');
     ie_close('nav');
@@ -4028,11 +4053,11 @@ var _metalState = __webpack_require__(8);
 
 var _metalState2 = _interopRequireDefault(_metalState);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -4229,7 +4254,7 @@ var _metalUri = __webpack_require__(63);
 
 var _metalUri2 = _interopRequireDefault(_metalUri);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4390,9 +4415,9 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _AutocompleteBase2 = __webpack_require__(10);
 
@@ -5339,7 +5364,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
@@ -6895,7 +6920,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -8460,13 +8485,13 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11889,8 +11914,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageIndex, templates)
 /* 130 */,
 /* 131 */,
 /* 132 */,
-/* 133 */,
-/* 134 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11945,4 +11969,4 @@ _metalSoy2.default.register(pageIndex, _indexSoy2.default);
 exports.default = pageIndex;
 
 /***/ })
-],[134]);
+],[133]);

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([6],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -60,7 +60,8 @@ exports.ElectricUpdates = _ElectricUpdates2.default;
 exports.default = _ElectricNavigation2.default;
 
 /***/ }),
-/* 5 */
+/* 5 */,
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -91,7 +92,7 @@ exports.Geometry = _Geometry2.default;
 exports.Position = _Position2.default;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1024,7 +1025,6 @@ exports.CancellablePromise = CancellablePromise;
 exports.default = CancellablePromise;
 
 /***/ }),
-/* 7 */,
 /* 8 */,
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1050,7 +1050,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1274,7 +1274,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 var _metalPromise2 = _interopRequireDefault(_metalPromise);
 
@@ -1282,7 +1282,7 @@ var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2176,7 +2176,7 @@ function $header(opt_data, opt_ignored, opt_ijData) {
           'href', '/');
         ie_open('img', null, null,
             'src', '/images/functional_hub_logo.png',
-            'width', '250');
+            'width', '300');
         ie_close('img');
       ie_close('a');
       ie_open('button', null, null,
@@ -2190,6 +2190,31 @@ function $header(opt_data, opt_ignored, opt_ijData) {
         ie_open('ul', null, null,
             'class', 'navbar-nav ml-auto');
           $templateAlias2({section: opt_data.site.index}, null, opt_ijData);
+          ie_open('li', null, null,
+              'class', 'position-relative');
+            ie_open('button', null, null,
+                'class', 'btn btn-light btn-sm dropdown-toggle m-2 ml-3',
+                'type', 'button',
+                'id', 'dropdownMenu2',
+                'data-toggle', 'dropdown',
+                'aria-haspopup', 'true',
+                'aria-expanded', 'false');
+              itext('English');
+            ie_close('button');
+            ie_open('div', null, null,
+                'class', 'dropdown-menu',
+                'aria-labelledby', 'dropdownMenu2');
+              ie_open('a', null, null,
+                  'class', 'dropdown-item active');
+                itext('English');
+              ie_close('a');
+              ie_open('a', null, null,
+                  'href', 'https://functionalhub.es',
+                  'class', 'dropdown-item');
+                itext('Espa\u00F1ol');
+              ie_close('a');
+            ie_close('div');
+          ie_close('li');
         ie_close('ul');
       ie_close('div');
     ie_close('nav');
@@ -4028,11 +4053,11 @@ var _metalState = __webpack_require__(8);
 
 var _metalState2 = _interopRequireDefault(_metalState);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -4229,7 +4254,7 @@ var _metalUri = __webpack_require__(63);
 
 var _metalUri2 = _interopRequireDefault(_metalUri);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4390,9 +4415,9 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPromise = __webpack_require__(6);
+var _metalPromise = __webpack_require__(7);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _AutocompleteBase2 = __webpack_require__(10);
 
@@ -5339,7 +5364,7 @@ var _metal = __webpack_require__(2);
 
 var _metal2 = _interopRequireDefault(_metal);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 var _metalEvents2 = _interopRequireDefault(_metalEvents);
 
@@ -6895,7 +6920,7 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalPosition2 = _interopRequireDefault(_metalPosition);
 
@@ -8460,13 +8485,13 @@ var _metalDom = __webpack_require__(3);
 
 var _metalDom2 = _interopRequireDefault(_metalDom);
 
-var _metalPosition = __webpack_require__(5);
+var _metalPosition = __webpack_require__(6);
 
 var _metalComponent = __webpack_require__(1);
 
 var _metalComponent2 = _interopRequireDefault(_metalComponent);
 
-var _metalEvents = __webpack_require__(7);
+var _metalEvents = __webpack_require__(5);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11454,44 +11479,64 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-8 col-lg-6 mx-auto pb-4');
           ie_open('h1', null, null,
               'class', 'display-4 mt-5 mb-4 text-center text-secondary');
-            itext('Only learn FP');
+            itext('Why FP?');
           ie_close('h1');
-          ie_open('div', null, null,
-              'class', 'd-flex justify-content-between text-secondary my-4');
-            ie_open('small');
-              itext('by: ');
-              ie_open('strong');
-                itext('Jose Manuel');
-              ie_close('strong');
-            ie_close('small');
-            ie_open('small');
-              itext('13/05/2017');
-            ie_close('small');
+          ie_open('p');
+            itext('In these days, it looks like functional programming is the new kid in town, something trendy and cool that you have to know. At least until the next cool thing arrives. But actually, functional programming is quite old. Probably older than you!');
+          ie_close('p');
+          ie_open('p');
+            itext('Let\'s look back at the past, to the forefathers of computing, in order to understand the present, but also to be able to anticipate the future.');
+          ie_close('p');
+          ie_open('p');
+            itext('Functional programming and imperative programming were born almost at the same time, at least the mathematical theories behing them. In the 30s, Alonzo Church defined ');
+            ie_open('i');
+              itext('Lambda Calculus');
+            ie_close('i');
+            itext(', which is considered the theory behind functional programming. At the same time, Alan Turing defined his Turing Machine, which is in turn the theory that made imperative programming possible. It was a kind of clash of the titans. A perfect race to define the mathematical model to solve universal computability problems (what we call right now "programs").');
+          ie_close('p');
+          ie_open('p');
+            itext('In the 50s, the race moved to the practical implementations of those theories. John Backus, an IBM employee, created FORTRAN as one of the first "high level" imperative programming languages. In the same years, John McCarthy created Lisp in the MIT, as a practical implementation of Lambda Calculus theory.');
+          ie_close('p');
+          ie_open('p');
+            itext('So we can say that FORTRAN is the great-grandfather of all imperative programming languages, while Lisp can be considered the same ancestor of all functional programming languages.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/af043d11-ac22-413b-a089-4700e22095f3.jpg');
+          ie_close('img');
+          ie_open('p');
+            itext('But notice the context of both projects: in one hand, IBM wanted a language that solved a business problem, programmers productivity, while Lisp goals were quite different: solve complex computing problems, AI related mainly (yes, McCarthy is the father of the AI also)');
+          ie_close('p');
+          ie_open('p');
+            itext('Both languages competed in the early days of the computer science. But the industry chose the winner quickly: computers (mainframes) where super expensive in those years, and people had to rent machine-time on demand (hello elastic cloud computing). Since the computing time was so expensive, it was critical to save the time wasted compiling and running wrong programs. And given that most of the code was written using punch cards or machine code, most of the programs contained several errors, so most of the computing time was wasted. And FORTRAN compiler were much faster than any other in those years, including the Lisp one. Backus created a super efficient compiler and most of the programmers started to move from machine code to FORTRAN, leaving Lisp (and functional programming) only for some specific problems related to symbolic computation and primitive AI research.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/20127c27-af47-4bb9-bbb2-df2bc9aa3a9e.jpeg');
+          ie_close('img');
+          ie_open('p');
+            itext('But something happened in 1977: Backus received the Turing Award, (which is considered the Nobel prize in computing) for his work in high-level programming languages and FORTRAN. But to everyone\'s surprise, Backus\' Turing Award lecture was focused on how functional programming is the right way to go, instead of using imperative programming and languages like FORTRAN. It was an apology for creating FORTRAN and making imperative programming the standard de-facto in those years.');
+          ie_close('p');
+          ie_open('p');
+            itext('But it was already too late: most of the industry were already using imperative programming because it was more profitable than functional programming. First generations of programmers were shaped around imperative programming ideas, Unix and C were the way-to-go, next generations of programmers followed that trail... and the rest is history.');
+          ie_close('p');
+          ie_open('p');
+            itext('And this is the way we\'ve arrived to these days, where somehow we all developers are sons of C and grandsons of FORTRAN... without choosing it. But what is socking is that we\'re still using the same programming model for the last 50 years, even though today\'s hardware allows us to use better paradigms. Why are we stuck in the past?');
+          ie_close('p');
+          ie_open('p');
+            itext('In these years, some programmers out there are wondering: Isn\'t it today the right time to revisit that "old idea" of functional programming? In a world where compilers take seconds to complete their task, and complexity in software is probably the main challenge nowadays, wouldn\'t be functional programming a feasible approach to achieve better concurrency, testeability and maintainability?');
+            ie_open('p');
+              itext('So, now you know that if you\'ve learnt C, Pascal or Java it wasn\'t by coincidence!');
+            ie_close('p');
           ie_close('div');
-          ie_open('p');
-            itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum condimentum eros ante, nec sagittis arcu venenatis eget. Donec at sollicitudin leo. Phasellus egestas metus eu urna euismod, non iaculis neque auctor. Vivamus congue convallis arcu, at dapibus quam. Nulla facilisi. Aliquam varius rhoncus odio quis cursus. Nunc placerat, nulla id sodales ornare, risus ligula tempor urna, consequat tincidunt eros libero sed diam. Aliquam tempor orci dignissim malesuada aliquam. Praesent elit turpis, tincidunt sed justo vel, dapibus feugiat risus. Nullam lobortis purus sed volutpat facilisis.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nulla at neque nec purus maximus iaculis non sit amet magna. Fusce pulvinar placerat volutpat. Vivamus ac nisi velit. Cras sodales dolor ut euismod vulputate. Sed tempus justo dui, quis rhoncus mi sagittis quis. Phasellus sem nibh, euismod eget felis id, tincidunt viverra ligula. In euismod elementum porttitor. Aenean ut sodales tellus. Nulla facilisi. Donec porttitor eros nec nisl iaculis, in sodales nisl pellentesque. Mauris non ullamcorper ipsum, sit amet placerat enim. Suspendisse tristique vel sem at tincidunt');
-          ie_close('p');
-          ie_open('p');
-            itext('Curabitur quis faucibus augue, consequat venenatis lacus. Aliquam et arcu vitae nisi dictum rhoncus quis nec orci. Cras libero eros, lobortis id orci eu, commodo egestas nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget felis libero. Sed placerat orci vel maximus accumsan. Vestibulum sagittis dui non facilisis lacinia. Etiam fringilla sollicitudin nisl vitae lobortis.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nullam sed eros justo. Donec sit amet convallis libero. Aliquam ac sapien sed nisl tincidunt dignissim eget et mi. Praesent ut iaculis est. Suspendisse blandit tempus hendrerit. Phasellus commodo, dolor at finibus commodo, massa elit maximus tellus, eu iaculis lectus est ut magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer bibendum ut nibh vitae venenatis. Cras ac felis nec metus accumsan congue et nec nulla. In hac habitasse platea dictumst. Aenean leo nulla, luctus eget mattis quis, tempor ac urna. Quisque enim elit, mattis quis suscipit quis, mollis nec sem. Sed sit amet ex a ex eleifend varius. Fusce dignissim urna sed odio malesuada lacinia et ac ligula. Quisque diam nibh, mollis efficitur cursus ut, ultricies ut metus.');
-          ie_close('p');
-          ie_open('p');
-            itext('Nulla nec egestas neque. In vel odio urna. In eu sollicitudin ante. Sed dictum mollis felis ut porta. Nullam id velit egestas, molestie lacus vitae, elementum ante. Suspendisse ut ligula dolor. In rutrum tortor risus, sed hendrerit odio tincidunt at. Sed sollicitudin quam malesuada, venenatis ipsum sed, tristique lectus. Cras eu tincidunt turpis. Aenean ac nisi sed nulla tincidunt consectetur. In laoreet felis nec velit euismod, at tincidunt felis mollis.');
-          ie_close('p');
         ie_close('div');
       ie_close('div');
     ie_close('div');
-  ie_close('div');
-}
-exports.pageContent = $pageContent;
-if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageBlogIndex.pageContent';
-}
+  }
+  exports.pageContent = $pageContent;
+  if (goog.DEBUG) {
+    $pageContent.soyTemplateName = 'pageBlogIndex.pageContent';
+  }
 
 exports.render.params = [];
 exports.render.types = {};
@@ -11549,8 +11594,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 /* 129 */,
 /* 130 */,
 /* 131 */,
-/* 132 */,
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11605,4 +11649,4 @@ _metalSoy2.default.register(pageBlogIndex, _blogSoy2.default);
 exports.default = pageBlogIndex;
 
 /***/ })
-],[133]);
+],[132]);
