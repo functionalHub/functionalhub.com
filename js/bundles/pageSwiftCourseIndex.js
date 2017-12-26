@@ -12075,7 +12075,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                                           'class', 'px-3');
                                         ie_open('img', null, null,
                                             'class', 'img-fluid rounded-circle py-4',
-                                            'src', '/images/logos/Swift-logo.png',
+                                            'src', '/images/logos/swift-logo.png',
                                             'width', '350',
                                             'height', '350');
                                         ie_close('img');
