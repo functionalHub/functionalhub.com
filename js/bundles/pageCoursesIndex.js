@@ -11479,7 +11479,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           itext('Functional Programming for Mobile Developers');
         ie_close('h1');
         ie_open('p', null, null,
-            'class', 'col-12 my-4');
+            'class', 'col-12 my-4 lead');
           itext('Swift and Kotlin are the lastest programming languages for mobile development. You know what? Both include functional constructs by default, allowing you to code in a functional style. Are you going to get stuck with filter, map and reduce?');
         ie_close('p');
         ie_open('div', null, null,
