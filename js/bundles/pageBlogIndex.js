@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([6],[
+webpackJsonppageComponent([8],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2077,7 +2077,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-kotlin');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_kotlin.html');
+            'href', '/courses/functional_kotlin.html');
           ie_open('img', null, null,
               'src', '/images/Logo_kotlin.png',
               'width', '32');
@@ -2092,7 +2092,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-swift');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_swift.html');
+            'href', '/courses/functional_swift.html');
           ie_open('img', null, null,
               'src', '/images/Logo_swift.png',
               'width', '32');
@@ -2107,7 +2107,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_js.html');
+            'href', '/courses/functional_javascript.html');
           ie_open('img', null, null,
               'src', '/images/Logo_JS.png',
               'width', '32');
@@ -2122,7 +2122,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_java.html',
+            'href', '/courses/functional_java.html',
             'style', 'padding: 0.5rem 0.8rem;');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
@@ -2138,7 +2138,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_csharp.html',
+            'href', '/courses/functional_csharp.html',
             'style', 'padding: 0.5rem 0.9rem;');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
@@ -11441,10 +11441,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param31 = function() {
+  var param52 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param31, elementClasses: 'News'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param52, elementClasses: 'News'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11596,7 +11596,11 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 /* 131 */,
 /* 132 */,
 /* 133 */,
-/* 134 */
+/* 134 */,
+/* 135 */,
+/* 136 */,
+/* 137 */,
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11651,4 +11655,4 @@ _metalSoy2.default.register(pageBlogIndex, _blogSoy2.default);
 exports.default = pageBlogIndex;
 
 /***/ })
-],[134]);
+],[138]);

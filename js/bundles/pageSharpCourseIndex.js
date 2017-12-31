@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([2],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11381,17 +11381,12 @@ module.exports = function(module) {
 /* 90 */,
 /* 91 */,
 /* 92 */,
-/* 93 */,
-/* 94 */,
-/* 95 */,
-/* 96 */,
-/* 97 */,
-/* 98 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageCoursesIndex", function() { return pageCoursesIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageSharpCourseIndex", function() { return pageSharpCourseIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11403,15 +11398,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from index.soy.
+// This file was automatically generated from functional_csharp.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageCoursesIndex.
+ * @fileoverview Templates in namespace pageSharpCourseIndex.
  * @public
  */
 
-goog.module('pageCoursesIndex.incrementaldom');
+goog.module('pageSharpCourseIndex.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11447,14 +11442,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param143 = function() {
+  var param88 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param143, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'CSharp Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageCoursesIndex.render';
+  $render.soyTemplateName = 'pageSharpCourseIndex.render';
 }
 
 
@@ -11474,276 +11469,365 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       $templateAlias3(opt_data, null, opt_ijData);
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white');
+        'class', 'container');
       ie_open('div', null, null,
-          'class', 'row py-4');
-        ie_open('h1', null, null,
-            'class', 'col-12 display-4');
-          itext('Functional programming for everyone');
-        ie_close('h1');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4 lead');
-          itext('Functional programming used to be a difficult thing to learn: composition, currying, functors or monads can be intimidating words. On top of that, most of the contents you can find in the Internet are too academic or use pure languages with weird syntax like Haskell or Lisp.');
-        ie_close('p');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4 lead');
-          itext('We tried to learn FP a few years ago, and we realized there was a lack of practical courses using hybrid and mainstream languages. After all, if you want to learn new concepts, it\'s better to learn them in your own language. If not, you probably will get lost in the new syntax.');
-        ie_close('p');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4 lead');
-          itext('So, no matter what language you work on, you can learn functional programming with us!');
-        ie_close('p');
-      ie_close('div');
-    ie_close('div');
-    ie_open('div', null, null,
-        'class', 'container bg-white');
-      ie_open('div', null, null,
-          'class', 'row py-4');
-        ie_open('h1', null, null,
-            'class', 'col-12 display-4');
-          itext('For Mobile Developers');
-        ie_close('h1');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4 lead');
-          itext('Swift and Kotlin are the lastest programming languages for mobile development. You know what? Both include functional constructs by default, allowing you to code in a functional style. Are you going to get stuck with filter, map and reduce?');
-        ie_close('p');
+          'class', 'row');
         ie_open('div', null, null,
-            'class', 'col-md-4');
+            'class', 'col-md-9 bg-white px-md-4 py-3');
+          ie_open('h1', null, null,
+              'class', 'display-4 pt-3');
+            itext('Functional Programming');
+          ie_close('h1');
+          ie_open('h1', null, null,
+              'class', 'display-4 pt-3');
+            itext('for C# Developers');
+          ie_close('h1');
+          ie_open('h1', null, null,
+              'class', 'h1 pt-3');
+            itext('Learn the main concepts of functional programming using C# in a simple and practical way');
+          ie_close('h1');
           ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/functional_swift.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-swift text-center p-5',
-                'data-wow-delay', '0.6s');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '120');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('SWIFT');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
+              'class', 'py-5');
             ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Functional Swift');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Learn functional programming in Swift in a practical way, with examples used in everyday iOS apps.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/functional_swift.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go to the course');
-              ie_close('a');
+                'class', 'card bg-light card-body py-4');
+              ie_open('h3');
+                itext('Subscribe now and ');
+                ie_open('strong');
+                  itext('get 25% off');
+                ie_close('strong');
+                itext(' when the course is ready!');
+              ie_close('h3');
+              ie_open('form', null, null,
+                  'action', 'https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&id=2367989b21',
+                  'method', 'post',
+                  'id', 'mc-embedded-subscribe-form',
+                  'name', 'mc-embedded-subscribe-form',
+                  'class', 'validate',
+                  'target', '_blank',
+                  'novalidate', '');
+                ie_open('div', null, null,
+                    'id', 'mc_embed_signup_scroll');
+                  ie_open('input', null, null,
+                      'type', 'email',
+                      'value', '',
+                      'name', 'EMAIL',
+                      'class', 'form-control form-control-lg',
+                      'id', 'mce-EMAIL',
+                      'placeholder', 'Email',
+                      'required', '');
+                  ie_close('input');
+                  ie_open('div', null, null,
+                      'class', 'sr-only',
+                      'aria-hidden', 'true');
+                    ie_open('input', null, null,
+                        'type', 'text',
+                        'name', 'b_8f33dd73453553d27fb4d0fe8_2367989b21',
+                        'tabindex', '-1',
+                        'value', '');
+                    ie_close('input');
+                  ie_close('div');
+                ie_close('div');
+                ie_open('input', null, null,
+                    'type', 'submit',
+                    'value', 'Subscribe!',
+                    'name', 'subscribe',
+                    'id', 'mc-embedded-subscribe',
+                    'class', 'btn btn-lg btn-primary btn-block mt-3');
+                ie_close('input');
+              ie_close('form');
+            ie_close('div');
+          ie_close('div');
+          ie_open('div', null, null,
+              'class', 'text-center');
+            ie_open('br/');
+              ie_open('br/');
+                ie_open('p', null, null,
+                    'class', 'h1');
+                  itext('[\uD83C\uDF3D, \uD83D\uDC2E, \uD83D\uDC14].map(cook) == [\uD83C\uDF7F, \uD83C\uDF54, \uD83C\uDF73]');
+                ie_close('p');
+                ie_open('br/');
+                ie_close('div');
+                ie_open('ul');
+                  ie_open('li');
+                    itext('Are you stuck in filter or map?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?');
+                  ie_close('li');
+                  ie_open('li');
+                    itext('Do you think that functional programming is too abstract and academic for your taste?');
+                  ie_close('li');
+                ie_close('ul');
+                ie_open('p');
+                  itext('If you answered YES to any of those questions, then this is the couse you\'re looking for \uD83D\uDE09');
+                ie_close('p');
+                ie_open('div', null, null,
+                    'class', 'py-5');
+                  ie_open('div', null, null,
+                      'class', 'card bg-light card-body py-4');
+                    ie_open('h3');
+                      itext('Subscribe now and ');
+                      ie_open('strong');
+                        itext('get 25% off');
+                      ie_close('strong');
+                      itext(' when the course is ready!');
+                    ie_close('h3');
+                    ie_open('form', null, null,
+                        'action', 'https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&id=2367989b21',
+                        'method', 'post',
+                        'id', 'mc-embedded-subscribe-form',
+                        'name', 'mc-embedded-subscribe-form',
+                        'class', 'validate',
+                        'target', '_blank',
+                        'novalidate', '');
+                      ie_open('div', null, null,
+                          'id', 'mc_embed_signup_scroll');
+                        ie_open('input', null, null,
+                            'type', 'email',
+                            'value', '',
+                            'name', 'EMAIL',
+                            'class', 'form-control form-control-lg',
+                            'id', 'mce-EMAIL',
+                            'placeholder', 'Email',
+                            'required', '');
+                        ie_close('input');
+                        ie_open('div', null, null,
+                            'class', 'sr-only',
+                            'aria-hidden', 'true');
+                          ie_open('input', null, null,
+                              'type', 'text',
+                              'name', 'b_8f33dd73453553d27fb4d0fe8_2367989b21',
+                              'tabindex', '-1',
+                              'value', '');
+                          ie_close('input');
+                        ie_close('div');
+                      ie_close('div');
+                      ie_open('input', null, null,
+                          'type', 'submit',
+                          'value', 'Subscribe!',
+                          'name', 'subscribe',
+                          'id', 'mc-embedded-subscribe',
+                          'class', 'btn btn-lg btn-primary btn-block mt-3');
+                      ie_close('input');
+                    ie_close('form');
+                  ie_close('div');
+                ie_close('div');
+                ie_open('p');
+                  itext('And if you still has some questions, maybe this can be helpful:');
+                ie_close('p');
+                ie_open('div');
+                  ie_open('h2');
+                    itext('Why should I learn functional programming?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Well, let\'s say it will give you more tools to be a better programmer, no matter what programming language you use.');
+                    ie_open('br');
+                    ie_close('br');
+                    itext('Maybe you can\'t use FP in your daily basis (yeah, your boss is a dinosaur), but we\'re sure that if you learn these concepts, your programming style will improve A LOT.');
+                  ie_close('p');
+                  ie_open('h2');
+                    itext('And why should I use C# to learn functional programming?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Erik Meijer, one of the architects behind C# and LINQ is one of the most strong supporters of functional programming. Because of that, C# has introduced more and more functional constructs with each version. This means that C# is the perfect language to explore the new fields of functional programming without leaving the confort of your language. And after doing this course, it will be easier than ever to jump into F#');
+                  ie_close('p');
+                  ie_open('h2');
+                    itext('But, are you sure this is really useful?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Sure thing! Some benefits of programming with functional style:');
+                  ie_close('p');
+                  ie_open('ul');
+                    ie_open('li');
+                      itext('It will allow you to make some tasks that would be must harder using your traditional style. Notice that ');
+                      ie_open('a', null, null,
+                          'href', 'https://es.wikipedia.org/wiki/MapReduce',
+                          'rel', 'noopener noreferrer',
+                          'target', '_blank');
+                        itext('Google');
+                      ie_close('a');
+                      itext(' used some functional core concepts from the very begining.');
+                    ie_close('li');
+                    ie_open('li');
+                      itext('Your code will be cleaner, with (much) less variables, and you wouldn\'t worry by "what if this is null"');
+                    ie_close('li');
+                    ie_open('li');
+                      itext('Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.');
+                    ie_close('li');
+                    ie_open('li');
+                      itext('Your code will be more maintainable and adaptable. As ');
+                      ie_open('a', null, null,
+                          'href', 'https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/');
+                        itext('Joe Armstrong');
+                      ie_close('a');
+                      itext(' said, the inventor of Erlang, with OOP ');
+                      ie_open('em');
+                        itext('you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.');
+                      ie_close('em');
+                    ie_close('li');
+                  ie_close('ul');
+                  ie_open('h2');
+                    itext('Is it going to be difficult?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('It\'s not difficult, it\'s quite simple. But it\'s different to the OOP style, that you\'re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk ');
+                    ie_open('a', null, null,
+                        'href', 'https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md');
+                      itext('"Simple made Easy"');
+                    ie_close('a');
+                    itext(' the difference between "easy" (something you\'re use to, even though it\'s a mess) and "simple" (something that can be explained and understood quickly, without effort, even though it may be quite new for you).');
+                  ie_close('p');
+                  ie_open('p');
+                    ie_open('strong');
+                      itext('Functional programming is simple');
+                    ie_close('strong');
+                    itext(', but even you\'re an experienced developers, you\'ll have to learn scratch. But we\'re sure that this isn\'t anything for PhD\'s, as you probably believed. But you\'ll have to invest enough effort: no pain, no gain, my friend...');
+                  ie_close('p');
+                  ie_open('h2');
+                    itext('How are you going to teach it?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Using short video lessons, less than 20 minutes, where you\'ll find explanations about specific concepts and techniques. They\'re usually simple concepts, but with a lot of uses and potential applications. Don\'t worry if you don\'t get it at first. That\'s normal, and you\'ll probably have to listen some videos more than once, in order to understand all the details.');
+                    ie_open('br');
+                    ie_close('br');
+                    itext('Each video includes several practical and everyday examples. We won\'t talk about fibonacci, factorials and other mathematical examples. We\'ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.');
+                  ie_close('p');
+                  ie_open('h2');
+                    itext('I don\'t know C#, but I know how to code in X');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Awesome! C# is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It\'s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.');
+                  ie_close('p');
+                  ie_open('h2');
+                    itext('Is there any other requirement?');
+                  ie_close('h2');
+                  ie_open('p');
+                    itext('Not really: you need to know how to code in any language (better if it\'s an OOP language), and you need to be interested in learning functional programming.');
+                  ie_close('p');
+                  ie_open('p');
+                    itext('And it\'s even better if you already tried to learn FP without success. After this couse, you\'ll realize it wasn\'t that difficult');
+                  ie_close('p');
+                ie_close('div');
+                ie_open('div', null, null,
+                    'class', 'py-5');
+                  ie_open('div', null, null,
+                      'class', 'card bg-light card-body py-4');
+                    ie_open('h3');
+                      itext('Subscribe now and ');
+                      ie_open('strong');
+                        itext('get 25% off');
+                      ie_close('strong');
+                      itext(' when the course is ready!');
+                    ie_close('h3');
+                    ie_open('form', null, null,
+                        'action', 'https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&id=2367989b21',
+                        'method', 'post',
+                        'id', 'mc-embedded-subscribe-form',
+                        'name', 'mc-embedded-subscribe-form',
+                        'class', 'validate',
+                        'target', '_blank',
+                        'novalidate', '');
+                      ie_open('div', null, null,
+                          'id', 'mc_embed_signup_scroll');
+                        ie_open('input', null, null,
+                            'type', 'email',
+                            'value', '',
+                            'name', 'EMAIL',
+                            'class', 'form-control form-control-lg',
+                            'id', 'mce-EMAIL',
+                            'placeholder', 'Email',
+                            'required', '');
+                        ie_close('input');
+                        ie_open('div', null, null,
+                            'class', 'sr-only',
+                            'aria-hidden', 'true');
+                          ie_open('input', null, null,
+                              'type', 'text',
+                              'name', 'b_8f33dd73453553d27fb4d0fe8_2367989b21',
+                              'tabindex', '-1',
+                              'value', '');
+                          ie_close('input');
+                        ie_close('div');
+                      ie_close('div');
+                      ie_open('input', null, null,
+                          'type', 'submit',
+                          'value', 'Subscribe!',
+                          'name', 'subscribe',
+                          'id', 'mc-embedded-subscribe',
+                          'class', 'btn btn-lg btn-primary btn-block mt-3');
+                      ie_close('input');
+                    ie_close('form');
+                  ie_close('div');
+                ie_close('div');
+              ie_close('div');
+              ie_open('div', null, null,
+                  'class', 'col-md-3 text-white pb-3');
+                ie_open('div', null, null,
+                    'class', 'px-3');
+                  ie_open('img', null, null,
+                      'class', 'img-fluid rounded-circle py-4',
+                      'src', '/images/logos/csharp-logo.png',
+                      'width', '350',
+                      'height', '350');
+                  ie_close('img');
+                  ie_open('p');
+                    itext('We\'re working on the course, so subscribe now and you\'ll ');
+                    ie_open('strong');
+                      itext('get 25% off');
+                    ie_close('strong');
+                    itext(' as soon as it\'s ready!');
+                  ie_close('p');
+                  ie_open('div', null, null,
+                      'class', 'py-4');
+                    ie_open('form', null, null,
+                        'action', 'https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&id=2367989b21',
+                        'method', 'post',
+                        'id', 'mc-embedded-subscribe-form',
+                        'name', 'mc-embedded-subscribe-form',
+                        'class', 'validate',
+                        'target', '_blank',
+                        'novalidate', '');
+                      ie_open('div', null, null,
+                          'id', 'mc_embed_signup_scroll');
+                        ie_open('input', null, null,
+                            'type', 'email',
+                            'value', '',
+                            'name', 'EMAIL',
+                            'class', 'form-control',
+                            'id', 'mce-EMAIL',
+                            'placeholder', 'Email',
+                            'required', '');
+                        ie_close('input');
+                        ie_open('div', null, null,
+                            'class', 'sr-only',
+                            'aria-hidden', 'true');
+                          ie_open('input', null, null,
+                              'type', 'text',
+                              'name', 'b_8f33dd73453553d27fb4d0fe8_2367989b21',
+                              'tabindex', '-1',
+                              'value', '');
+                          ie_close('input');
+                        ie_close('div');
+                      ie_close('div');
+                      ie_open('input', null, null,
+                          'type', 'submit',
+                          'value', 'Subscribe!',
+                          'name', 'subscribe',
+                          'id', 'mc-embedded-subscribe',
+                          'class', 'btn btn-lg btn-primary btn-block');
+                      ie_close('input');
+                    ie_close('form');
+                  ie_close('div');
+                ie_close('div');
+              ie_close('div');
             ie_close('div');
           ie_close('div');
         ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/functional_kotlin.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-kotlin text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '120');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('KOTLIN');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Functional Kotlin');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Learn functional programming in Kotlin in a practical way, with examples used in everyday Android apps.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/functional_kotlin.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go to the course');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-      ie_close('div');
-    ie_close('div');
-    ie_open('div', null, null,
-        'class', 'container bg-white');
-      ie_open('div', null, null,
-          'class', 'row py-4 mt-5');
-        ie_open('h1', null, null,
-            'class', 'col-12 display-4');
-          itext('For Frontend Developers');
-        ie_close('h1');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4');
-          itext('Javascript is THE language for the frontend development. But... Did you know that Mocha (then called LiveScript, JavaScript and now ECMAScript) was created to be the "Scheme in the browser"? Since Scheme is a dialect of Lisp, functional programming and Javascript has much more in common than what you would think.');
-        ie_close('p');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/functional_javascript.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-js text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '120');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('JavaScript');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Functional JavaScript');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('With Javascript you can learn functional programming in a practical way: familiar syntax, useful day-to-day examples and out-of-the-box functional constructions make it the perfect language to learn functional programming!');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/functional_javascript.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go to the course');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-      ie_close('div');
-    ie_close('div');
-    ie_open('div', null, null,
-        'class', 'container bg-white');
-      ie_open('div', null, null,
-          'class', 'row py-4 mt-5');
-        ie_open('h1', null, null,
-            'class', 'col-12 display-4');
-          itext('For Backend Developers');
-        ie_close('h1');
-        ie_open('p', null, null,
-            'class', 'col-12 my-4');
-          itext('The server-side is the natural field for functional programming. With it you\'ll get better concurrency, which is critical for a server system. However, you don\'t need to change your stack to Scala or other functional language to enjoy the benefits of functional programming. Using your own language you\'ll be able to improve dramatically how you write code.');
-        ie_close('p');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/functional_java.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-csharp text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '120');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('C#');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Functional C#');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Erik Meijer, one of the architects behind C# and LINQ is one of the most strong supporters of functional programming. Because of that, C# has introduced more and more functional constructs with each version. And if you want to go one step further, you always can jump info F#');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/functional_csharp.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go to the course');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-md-4');
-          ie_open('div', null, null,
-              'class', 'card mb-3');
-            ie_open('a', null, null,
-                'href', '/courses/functional_java.html',
-                'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-java text-center p-5');
-              ie_open('img', null, null,
-                  'src', '/images/functional_isotipo.png',
-                  'width', '120');
-              ie_close('img');
-              ie_open('h3', null, null,
-                  'class', 'align-middle mt-3');
-                itext('FUNCTIONAL');
-              ie_close('h3');
-              ie_open('h3', null, null,
-                  'class', 'align-middle');
-                ie_open('strong');
-                  itext('JAVA');
-                ie_close('strong');
-              ie_close('h3');
-            ie_close('a');
-            ie_open('div', null, null,
-                'class', 'card-body');
-              ie_open('h4', null, null,
-                  'class', 'card-title');
-                itext('Functional Java');
-              ie_close('h4');
-              ie_open('p', null, null,
-                  'class', 'card-text');
-                itext('Even though Java can\'t be considered a functional language, you can be introduced to most of the concepts thanks to lambdas and functional interfaces support in Java 8. Don\'t yearn a new project using Scala. You can start to learn functional programming with Java NOW.');
-              ie_close('p');
-              ie_open('a', null, null,
-                  'href', '/courses/functional_java.html',
-                  'class', 'btn btn-outline-secondary btn-lg btn-block');
-                itext('Go to the course');
-              ie_close('a');
-            ie_close('div');
-          ie_close('div');
-        ie_close('div');
-      ie_close('div');
-    ie_close('div');
-  ie_close('div');
-}
-exports.pageContent = $pageContent;
-if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageCoursesIndex.pageContent';
-}
+      }
+      exports.pageContent = $pageContent;
+      if (goog.DEBUG) {
+        $pageContent.soyTemplateName = 'pageSharpCourseIndex.pageContent';
+      }
 
 exports.render.params = [];
 exports.render.types = {};
@@ -11754,14 +11838,19 @@ return exports;
 
 });
 
-class pageCoursesIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, templates);
+class pageSharpCourseIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageSharpCourseIndex, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 94 */,
+/* 95 */,
+/* 96 */,
+/* 97 */,
+/* 98 */,
 /* 99 */,
 /* 100 */,
 /* 101 */,
@@ -11795,7 +11884,11 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 /* 129 */,
 /* 130 */,
 /* 131 */,
-/* 132 */
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11819,9 +11912,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _indexSoy = __webpack_require__(98);
+var _functional_csharpSoy = __webpack_require__(93);
 
-var _indexSoy2 = _interopRequireDefault(_indexSoy);
+var _functional_csharpSoy2 = _interopRequireDefault(_functional_csharpSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11831,23 +11924,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageCoursesIndex = function (_Component) {
-  _inherits(pageCoursesIndex, _Component);
+var pageSharpCourseIndex = function (_Component) {
+  _inherits(pageSharpCourseIndex, _Component);
 
-  function pageCoursesIndex() {
-    _classCallCheck(this, pageCoursesIndex);
+  function pageSharpCourseIndex() {
+    _classCallCheck(this, pageSharpCourseIndex);
 
-    return _possibleConstructorReturn(this, (pageCoursesIndex.__proto__ || Object.getPrototypeOf(pageCoursesIndex)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageSharpCourseIndex.__proto__ || Object.getPrototypeOf(pageSharpCourseIndex)).apply(this, arguments));
   }
 
-  return pageCoursesIndex;
+  return pageSharpCourseIndex;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageCoursesIndex, _indexSoy2.default);
+_metalSoy2.default.register(pageSharpCourseIndex, _functional_csharpSoy2.default);
 
-exports.default = pageCoursesIndex;
+exports.default = pageSharpCourseIndex;
 
 /***/ })
-],[132]);
+],[136]);

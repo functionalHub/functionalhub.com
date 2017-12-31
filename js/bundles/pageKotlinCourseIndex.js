@@ -2077,7 +2077,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-kotlin');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_kotlin.html');
+            'href', '/courses/functional_kotlin.html');
           ie_open('img', null, null,
               'src', '/images/Logo_kotlin.png',
               'width', '32');
@@ -2092,7 +2092,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-swift');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_swift.html');
+            'href', '/courses/functional_swift.html');
           ie_open('img', null, null,
               'src', '/images/Logo_swift.png',
               'width', '32');
@@ -2107,7 +2107,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-js');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_js.html');
+            'href', '/courses/functional_javascript.html');
           ie_open('img', null, null,
               'src', '/images/Logo_JS.png',
               'width', '32');
@@ -2122,7 +2122,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_java.html',
+            'href', '/courses/functional_java.html',
             'style', 'padding: 0.5rem 0.8rem;');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
@@ -2138,7 +2138,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/course_csharp.html',
+            'href', '/courses/functional_csharp.html',
             'style', 'padding: 0.5rem 0.9rem;');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
@@ -11382,7 +11382,9 @@ module.exports = function(module) {
 /* 91 */,
 /* 92 */,
 /* 93 */,
-/* 94 */
+/* 94 */,
+/* 95 */,
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11443,10 +11445,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param99 = function() {
+  var param121 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param121, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11477,7 +11479,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-9 bg-white px-md-4 py-3');
           ie_open('h1', null, null,
               'class', 'display-4 pt-3');
-            itext('Functional programming');
+            itext('Functional Programming');
           ie_close('h1');
           ie_open('h1', null, null,
               'class', 'display-4 pt-3');
@@ -12129,8 +12131,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageKotlinCourseIndex
 
 
 /***/ }),
-/* 95 */,
-/* 96 */,
 /* 97 */,
 /* 98 */,
 /* 99 */,
@@ -12166,7 +12166,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageKotlinCourseIndex
 /* 129 */,
 /* 130 */,
 /* 131 */,
-/* 132 */
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12190,7 +12193,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _functional_kotlinSoy = __webpack_require__(94);
+var _functional_kotlinSoy = __webpack_require__(96);
 
 var _functional_kotlinSoy2 = _interopRequireDefault(_functional_kotlinSoy);
 
@@ -12221,4 +12224,4 @@ _metalSoy2.default.register(pageKotlinCourseIndex, _functional_kotlinSoy2.defaul
 exports.default = pageKotlinCourseIndex;
 
 /***/ })
-],[132]);
+],[135]);
