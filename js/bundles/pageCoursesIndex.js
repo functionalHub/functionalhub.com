@@ -11661,7 +11661,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('div', null, null,
               'class', 'card mb-3');
             ie_open('a', null, null,
-                'href', '/courses/functional_java.html',
+                'href', '/courses/functional_csharp.html',
                 'class', 'd-flex flex-column align-items-center justify-content-center card-box text-white bg-csharp text-center p-5');
               ie_open('img', null, null,
                   'src', '/images/functional_isotipo.png',
