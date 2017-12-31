@@ -1,0 +1,151 @@
+---
+title: "Functional C#"
+headTitle: "Functional programming with C# course"
+description: "Learn functional programming in C# language for Android"
+keywords: "C#, functional programming, learn, course, training, linq, optional, recursion, map, flatmap, filter, reduce, monad, monoid, functor, applicative"
+weight: 0
+---
+
+{namespace pageSharpCourseIndex}
+
+/**
+ *
+ */
+{template .render}
+  {call main.sidebar data="all" /}
+	{call main.render data="all"}
+		{param content kind="html"}
+			{call .pageContent data="all" /}
+		{/param}
+		{param elementClasses: 'CSharp Course' /}
+	{/call}
+{/template}
+
+/**
+ *
+ */
+{template .pageContent}
+	<div class="container-full-height">
+		<div class="container">
+			// Header nav
+			{call main.header data="all" /}
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 bg-white px-md-4 py-3">
+                    //
+                    <h1 class="display-4 pt-3">Functional Programming</h1>
+                    <h1 class="display-4 pt-3">for C# Developers</h1>
+                    <h1 class="h1 pt-3">Learn the main concepts of functional programming using C# in a simple and practical way</h1>
+
+                    <div class="py-5">
+                        <div class="card bg-light card-body py-4">
+                            <h3>Subscribe now and <strong>get 25% off</strong> when the course is ready!</h3>
+                            <form action="https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&amp;id=2367989b21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="form-control form-control-lg" id="mce-EMAIL" placeholder="Email" required="">
+                                    <div class="sr-only" aria-hidden="true"><input type="text" name="b_8f33dd73453553d27fb4d0fe8_2367989b21" tabindex="-1" value=""></div>
+                                </div>
+                                <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary btn-block mt-3">
+                            </form>
+                        </div>
+                    </div>                    
+
+                    <div class="text-center">
+                    	<br/><br/>
+                        <p class="h1">[🌽, 🐮, 🐔].map(cook) == [🍿, 🍔, 🍳]</p>
+                    	<br/>
+                    </div>
+                    <ul>
+                        <li>Are you stuck in filter or map?</li>
+                        <li>Are you tired of reading that "A monad is just a monoid in the category of endofunctors"?</li>
+                        <li>Do you think that functional programming is too abstract and academic for your taste?</li>
+                    </ul>
+                    <p>If you answered YES to any of those questions, then this is the couse you're looking for 😉</p>
+
+                    
+                    <div class="py-5">
+                        <div class="card bg-light card-body py-4">
+                            <h3>Subscribe now and <strong>get 25% off</strong> when the course is ready!</h3>
+                            <form action="https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&amp;id=2367989b21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="form-control form-control-lg" id="mce-EMAIL" placeholder="Email" required="">
+                                    <div class="sr-only" aria-hidden="true"><input type="text" name="b_8f33dd73453553d27fb4d0fe8_2367989b21" tabindex="-1" value=""></div>
+                                </div>
+                                <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary btn-block mt-3">
+                            </form>
+                        </div>
+                    </div>                    
+
+                    <p>And if you still has some questions, maybe this can be helpful:</p>
+                    <div>
+                        <h2>Why should I learn functional programming?</h2>
+                        <p>Well, let&#39;s say it will give you more tools to be a better programmer, no matter what programming language you use.
+                        <br>Maybe you can&#39;t use FP in your daily basis (yeah, your boss is a dinosaur), but we&#39;re sure that if you learn these concepts, your programming style will improve A LOT.</p>
+
+                        <h2>And why should I use C# to learn functional programming?</h2>
+                        <p>Erik Meijer, one of the architects behind C# and LINQ is one of the most strong supporters of functional programming. Because of that, C# has introduced more and more functional constructs with each version. This means that C# is the perfect language to explore the new fields of functional programming without leaving the confort of your language. And after doing this course, it will be easier than ever to jump into F#</p>
+
+                        <h2>But, are you sure this is really useful?</h2>
+                        <p>Sure thing! Some benefits of programming with functional style:</p>
+
+                        <ul>
+                            <li>It will allow you to make some tasks that would be must harder using your traditional style. Notice that <a href="https://es.wikipedia.org/wiki/MapReduce" rel="noopener noreferrer" target="_blank">Google</a> used some functional core concepts from the very begining.</li>
+                            <li>Your code will be cleaner, with (much) less variables, and you wouldn&#39;t worry by &quot;what if this is null&quot;</li>
+                            <li>Your code will be more robust, will much less errors. The compiler will detect much more errors for you following the functional style. Also, your coding style will allow you to detect errors faster and easier.</li>
+                            <li>Your code will be more maintainable and adaptable. As <a href="https://www.johndcook.com/blog/2011/07/19/you-wanted-banana/">Joe Armstrong</a> said, the inventor of Erlang, with OOP <em>you wanted a banana but what you got was a gorilla holding the banana and the entire jungle.</em></li>
+                        </ul>
+
+                        <h2>Is it going to be difficult?</h2>
+                        <p>It&#39;s not difficult, it&#39;s quite simple. But it&#39;s different to the OOP style, that you&#39;re probably used to. Rich Hickey, the inventor of Clojure, explained in his famous talk <a href="https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/SimpleMadeEasy.md">&quot;Simple made Easy&quot;</a> the difference between &quot;easy&quot; (something you&#39;re use to, even though it&#39;s a mess) and &quot;simple&quot; (something that can be explained and understood quickly, without effort, even though it may be quite new for you).</p>
+                        <p><strong>Functional programming is simple</strong>, but even you&#39;re an experienced developers, you&#39;ll have to learn scratch. But we&#39;re sure that this isn&#39;t anything for PhD&#39;s, as you probably believed. But you&#39;ll have to invest enough effort: no pain, no gain, my friend...</p>
+
+                        <h2>How are you going to teach it?</h2>
+                        <p>Using short video lessons, less than 20 minutes, where you&#39;ll find explanations about specific concepts and techniques. They&#39;re usually simple concepts, but with a lot of uses and potential applications. Don&#39;t worry if you don&#39;t get it at first. That&#39;s normal, and you&#39;ll probably have to listen some videos more than once, in order to understand all the details.
+                        <br>Each video includes several practical and everyday examples. We won&#39;t talk about fibonacci, factorials and other mathematical examples. We&#39;ll use daily situations and challenges, but solved differently. And if next you want to jump into pure functional languages, it will be much easier for you.</p>
+
+                        <h2>I don&#39;t know C#, but I know how to code in X</h2>
+                        <p>Awesome! C# is just the vehicle, but the important thing is the payload. Our code is quite easy to read and we use the simplest features of the language. It&#39;s in fact a good way to be introduced in a new language from a different side: instead of focusing on the syntax, focusing on the style.</p>
+
+                        <h2>Is there any other requirement?</h2>
+                        <p>Not really: you need to know how to code in any language (better if it&#39;s an OOP language), and you need to be interested in learning functional programming.</p>
+                        <p>And it&#39;s even better if you already tried to learn FP without success. After this couse, you&#39;ll realize it wasn&#39;t that difficult</p>
+                    </div>
+                    
+                    <div class="py-5">
+                        <div class="card bg-light card-body py-4">
+                            <h3>Subscribe now and <strong>get 25% off</strong> when the course is ready!</h3>
+                            <form action="https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&amp;id=2367989b21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="form-control form-control-lg" id="mce-EMAIL" placeholder="Email" required="">
+                                    <div class="sr-only" aria-hidden="true"><input type="text" name="b_8f33dd73453553d27fb4d0fe8_2367989b21" tabindex="-1" value=""></div>
+                                </div>
+                                <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary btn-block mt-3">
+                            </form>
+                        </div>
+                    </div>                    
+                </div>
+
+				<div class="col-md-3 text-white pb-3">
+					<div class="px-3">
+						<img class="img-fluid rounded-circle py-4" src="/images/logos/csharp-logo.png" width="350" height="350" />
+						<p>
+							We're working on the course, so subscribe now and you'll <strong>get 25% off</strong> as soon as it's ready!
+						</p>
+						<div class="py-4">
+                            <form action="https://swiftfuncional.us14.list-manage.com/subscribe/post?u=8f33dd73453553d27fb4d0fe8&amp;id=2367989b21" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Email" required="">
+                                    <div class="sr-only" aria-hidden="true"><input type="text" name="b_8f33dd73453553d27fb4d0fe8_2367989b21" tabindex="-1" value=""></div>
+                                </div>
+                                <input type="submit" value="Subscribe!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg btn-primary btn-block">
+                            </form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+{/template}
