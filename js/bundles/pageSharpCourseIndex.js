@@ -11443,10 +11443,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param99 = function() {
+  var param88 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'CSharp Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'CSharp Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11891,7 +11891,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageSharpCourseIndex,
 /* 136 */,
 /* 137 */,
 /* 138 */,
-/* 139 */
+/* 139 */,
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11946,4 +11947,4 @@ _metalSoy2.default.register(pageSharpCourseIndex, _functional_csharpSoy2.default
 exports.default = pageSharpCourseIndex;
 
 /***/ })
-],[139]);
+],[140]);

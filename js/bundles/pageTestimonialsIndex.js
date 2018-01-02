@@ -11406,7 +11406,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from testimonials.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
@@ -11450,10 +11450,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param77 = function() {
+  var param154 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param77, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11824,6 +11824,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
         ie_close('div');
       ie_close('div');
+      ie_open('div', null, null,
+          'class', 'p-4 mb-4');
+        ie_open('p');
+          ie_open('a', null, null,
+              'href', 'testimonials.html');
+            itext('Read all testimonials...');
+          ie_close('a');
+        ie_close('p');
+      ie_close('div');
     ie_close('div');
   ie_close('div');
 }
@@ -11890,7 +11899,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageTestimonialsIndex
 /* 140 */,
 /* 141 */,
 /* 142 */,
-/* 143 */
+/* 143 */,
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11914,9 +11924,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _testimonialsSoy = __webpack_require__(101);
+var _indexSoy = __webpack_require__(101);
 
-var _testimonialsSoy2 = _interopRequireDefault(_testimonialsSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11940,9 +11950,9 @@ var pageTestimonialsIndex = function (_Component) {
 
 ;
 
-_metalSoy2.default.register(pageTestimonialsIndex, _testimonialsSoy2.default);
+_metalSoy2.default.register(pageTestimonialsIndex, _indexSoy2.default);
 
 exports.default = pageTestimonialsIndex;
 
 /***/ })
-],[143]);
+],[144]);

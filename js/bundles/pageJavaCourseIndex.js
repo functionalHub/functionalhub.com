@@ -11444,10 +11444,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param110 = function() {
+  var param99 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param110, elementClasses: 'Java Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Java Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -12233,7 +12233,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageJavaCourseIndex, 
 /* 133 */,
 /* 134 */,
 /* 135 */,
-/* 136 */
+/* 136 */,
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12288,4 +12289,4 @@ _metalSoy2.default.register(pageJavaCourseIndex, _functional_javaSoy2.default);
 exports.default = pageJavaCourseIndex;
 
 /***/ })
-],[136]);
+],[137]);

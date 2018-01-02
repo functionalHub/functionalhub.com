@@ -11407,7 +11407,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from all_testimonials.soy.
+// This file was automatically generated from testimonials.soy.
 // Please don't edit this file by hand.
 
 /**
@@ -13356,8 +13356,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageAllTestimonialsIn
 /* 140 */,
 /* 141 */,
 /* 142 */,
-/* 143 */,
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13381,9 +13380,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _all_testimonialsSoy = __webpack_require__(102);
+var _testimonialsSoy = __webpack_require__(102);
 
-var _all_testimonialsSoy2 = _interopRequireDefault(_all_testimonialsSoy);
+var _testimonialsSoy2 = _interopRequireDefault(_testimonialsSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13407,9 +13406,9 @@ var pageAllTestimonialsIndex = function (_Component) {
 
 ;
 
-_metalSoy2.default.register(pageAllTestimonialsIndex, _all_testimonialsSoy2.default);
+_metalSoy2.default.register(pageAllTestimonialsIndex, _testimonialsSoy2.default);
 
 exports.default = pageAllTestimonialsIndex;
 
 /***/ })
-],[144]);
+],[143]);

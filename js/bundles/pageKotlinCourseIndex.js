@@ -11446,10 +11446,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param132 = function() {
+  var param121 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param132, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param121, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -12172,7 +12172,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageKotlinCourseIndex
 /* 135 */,
 /* 136 */,
 /* 137 */,
-/* 138 */
+/* 138 */,
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12227,4 +12228,4 @@ _metalSoy2.default.register(pageKotlinCourseIndex, _functional_kotlinSoy2.defaul
 exports.default = pageKotlinCourseIndex;
 
 /***/ })
-],[138]);
+],[139]);

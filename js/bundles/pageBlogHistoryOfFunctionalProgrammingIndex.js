@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([9],[
+webpackJsonppageComponent([10],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11380,8 +11380,7 @@ module.exports = function(module) {
 /* 89 */,
 /* 90 */,
 /* 91 */,
-/* 92 */,
-/* 93 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11442,10 +11441,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param88 = function() {
+  var param66 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param66, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11557,6 +11556,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogHistoryOfFunc
 
 
 /***/ }),
+/* 93 */,
 /* 94 */,
 /* 95 */,
 /* 96 */,
@@ -11621,7 +11621,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _history_of_functional_programmingSoy = __webpack_require__(93);
+var _history_of_functional_programmingSoy = __webpack_require__(92);
 
 var _history_of_functional_programmingSoy2 = _interopRequireDefault(_history_of_functional_programmingSoy);
 

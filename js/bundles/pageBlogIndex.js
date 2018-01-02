@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([10],[
+webpackJsonppageComponent([9],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11380,7 +11380,8 @@ module.exports = function(module) {
 /* 89 */,
 /* 90 */,
 /* 91 */,
-/* 92 */
+/* 92 */,
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11397,7 +11398,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from blog.soy.
+// This file was automatically generated from index.soy.
 // Please don't edit this file by hand.
 
 /**
@@ -11441,10 +11442,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param52 = function() {
+  var param77 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param52, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param77, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11482,7 +11483,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('p');
           ie_open('p');
             ie_open('a', null, null,
-                'href', 'blog/history_of_functional_programming.html');
+                'href', 'history_of_functional_programming.html');
               itext('Read the rest...');
             ie_close('a');
           ie_close('p');
@@ -11513,7 +11514,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 
 
 /***/ }),
-/* 93 */,
 /* 94 */,
 /* 95 */,
 /* 96 */,
@@ -11555,13 +11555,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 /* 132 */,
 /* 133 */,
 /* 134 */,
-/* 135 */,
-/* 136 */,
-/* 137 */,
-/* 138 */,
-/* 139 */,
-/* 140 */,
-/* 141 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11585,9 +11579,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _blogSoy = __webpack_require__(92);
+var _indexSoy = __webpack_require__(93);
 
-var _blogSoy2 = _interopRequireDefault(_blogSoy);
+var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11611,9 +11605,9 @@ var pageBlogIndex = function (_Component) {
 
 ;
 
-_metalSoy2.default.register(pageBlogIndex, _blogSoy2.default);
+_metalSoy2.default.register(pageBlogIndex, _indexSoy2.default);
 
 exports.default = pageBlogIndex;
 
 /***/ })
-],[141]);
+],[135]);
