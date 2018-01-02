@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([7],[
+webpackJsonppageComponent([8],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11381,7 +11381,8 @@ module.exports = function(module) {
 /* 90 */,
 /* 91 */,
 /* 92 */,
-/* 93 */
+/* 93 */,
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11442,10 +11443,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param88 = function() {
+  var param99 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'CSharp Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'CSharp Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11846,7 +11847,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageSharpCourseIndex,
 
 
 /***/ }),
-/* 94 */,
 /* 95 */,
 /* 96 */,
 /* 97 */,
@@ -11888,7 +11888,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageSharpCourseIndex,
 /* 133 */,
 /* 134 */,
 /* 135 */,
-/* 136 */
+/* 136 */,
+/* 137 */,
+/* 138 */,
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11912,7 +11915,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _functional_csharpSoy = __webpack_require__(93);
+var _functional_csharpSoy = __webpack_require__(94);
 
 var _functional_csharpSoy2 = _interopRequireDefault(_functional_csharpSoy);
 
@@ -11943,4 +11946,4 @@ _metalSoy2.default.register(pageSharpCourseIndex, _functional_csharpSoy2.default
 exports.default = pageSharpCourseIndex;
 
 /***/ })
-],[136]);
+],[139]);

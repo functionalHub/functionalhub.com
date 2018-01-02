@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([10],[
+webpackJsonppageComponent([9],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11380,12 +11380,13 @@ module.exports = function(module) {
 /* 89 */,
 /* 90 */,
 /* 91 */,
-/* 92 */
+/* 92 */,
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageBlogIndex", function() { return pageBlogIndex; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pageBlogHistoryOfFunctionalProgrammingIndex", function() { return pageBlogHistoryOfFunctionalProgrammingIndex; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11397,15 +11398,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var templates;
 goog.loadModule(function(exports) {
 
-// This file was automatically generated from blog.soy.
+// This file was automatically generated from history_of_functional_programming.soy.
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace pageBlogIndex.
+ * @fileoverview Templates in namespace pageBlogHistoryOfFunctionalProgrammingIndex.
  * @public
  */
 
-goog.module('pageBlogIndex.incrementaldom');
+goog.module('pageBlogHistoryOfFunctionalProgrammingIndex.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11441,14 +11442,14 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param52 = function() {
+  var param88 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param52, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'Blog'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'pageBlogIndex.render';
+  $render.soyTemplateName = 'pageBlogHistoryOfFunctionalProgrammingIndex.render';
 }
 
 
@@ -11471,6 +11472,10 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         'class', 'container bg-white');
       ie_open('div', null, null,
           'class', 'row');
+        ie_open('img', null, null,
+            'class', 'img-fluided',
+            'src', '/images/blog/hommer.png');
+        ie_close('img');
         ie_open('div', null, null,
             'class', 'col-md-8 col-lg-6 mx-auto pb-4');
           ie_open('h1', null, null,
@@ -11481,10 +11486,49 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             itext('In these days, it looks like functional programming is the new kid in town, something trendy and cool that you have to know. At least until the next cool thing arrives. But actually, functional programming is quite old. Probably older than you!');
           ie_close('p');
           ie_open('p');
-            ie_open('a', null, null,
-                'href', 'blog/history_of_functional_programming.html');
-              itext('Read the rest...');
-            ie_close('a');
+            itext('Let\'s look back at the past, to the forefathers of computing, in order to understand the present, but also to be able to anticipate the future.');
+          ie_close('p');
+          ie_open('p');
+            itext('Functional programming and imperative programming were born almost at the same time, at least the mathematical theories behing them. In the 30s, Alonzo Church defined ');
+            ie_open('i');
+              itext('Lambda Calculus');
+            ie_close('i');
+            itext(', which is considered the theory behind functional programming. At the same time, Alan Turing defined his Turing Machine, which is in turn the theory that made imperative programming possible. It was a kind of clash of the titans. A perfect race to define the mathematical model to solve universal computability problems (what we call right now "programs").');
+          ie_close('p');
+          ie_open('p');
+            itext('In the 50s, the race moved to the practical implementations of those theories. John Backus, an IBM employee, created FORTRAN as one of the first "high level" imperative programming languages. In the same years, John McCarthy created Lisp in the MIT, as a practical implementation of Lambda Calculus theory.');
+          ie_close('p');
+          ie_open('p');
+            itext('So we can say that FORTRAN is the great-grandfather of all imperative programming languages, while Lisp can be considered the same ancestor of all functional programming languages.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/af043d11-ac22-413b-a089-4700e22095f3.jpg');
+          ie_close('img');
+          ie_open('p');
+            itext('But notice the context of both projects: in one hand, IBM wanted a language that solved a business problem, programmers productivity, while Lisp goals were quite different: solve complex computing problems, AI related mainly (yes, McCarthy is the father of the AI also)');
+          ie_close('p');
+          ie_open('p');
+            itext('Both languages competed in the early days of the computer science. But the industry chose the winner quickly: computers (mainframes) where super expensive in those years, and people had to rent machine-time on demand (hello elastic cloud computing). Since the computing time was so expensive, it was critical to save the time wasted compiling and running wrong programs. And given that most of the code was written using punch cards or machine code, most of the programs contained several errors, so most of the computing time was wasted. And FORTRAN compiler were much faster than any other in those years, including the Lisp one. Backus created a super efficient compiler and most of the programmers started to move from machine code to FORTRAN, leaving Lisp (and functional programming) only for some specific problems related to symbolic computation and primitive AI research.');
+          ie_close('p');
+          ie_open('img', null, null,
+              'class', 'img-fluid',
+              'src', 'https://gallery.mailchimp.com/8f33dd73453553d27fb4d0fe8/images/20127c27-af47-4bb9-bbb2-df2bc9aa3a9e.jpeg');
+          ie_close('img');
+          ie_open('p');
+            itext('But something happened in 1977: Backus received the Turing Award, (which is considered the Nobel prize in computing) for his work in high-level programming languages and FORTRAN. But to everyone\'s surprise, Backus\' Turing Award lecture was focused on how functional programming is the right way to go, instead of using imperative programming and languages like FORTRAN. It was an apology for creating FORTRAN and making imperative programming the standard de-facto in those years.');
+          ie_close('p');
+          ie_open('p');
+            itext('But it was already too late: most of the industry were already using imperative programming because it was more profitable than functional programming. First generations of programmers were shaped around imperative programming ideas, Unix and C were the way-to-go, next generations of programmers followed that trail... and the rest is history.');
+          ie_close('p');
+          ie_open('p');
+            itext('And this is the way we\'ve arrived to these days, where somehow we all developers are sons of C and grandsons of FORTRAN... without choosing it. But what is socking is that we\'re still using the same programming model for the last 50 years, even though today\'s hardware allows us to use better paradigms. Why are we stuck in the past?');
+          ie_close('p');
+          ie_open('p');
+            itext('In these years, some programmers out there are wondering: Isn\'t it today the right time to revisit that "old idea" of functional programming? In a world where compilers take seconds to complete their task, and complexity in software is probably the main challenge nowadays, wouldn\'t be functional programming a feasible approach to achieve better concurrency, testeability and maintainability?');
+          ie_close('p');
+          ie_open('p');
+            itext('So, now you know that if you\'ve learnt C, Pascal or Java it wasn\'t by coincidence!');
           ie_close('p');
         ie_close('div');
       ie_close('div');
@@ -11493,7 +11537,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
 }
 exports.pageContent = $pageContent;
 if (goog.DEBUG) {
-  $pageContent.soyTemplateName = 'pageBlogIndex.pageContent';
+  $pageContent.soyTemplateName = 'pageBlogHistoryOfFunctionalProgrammingIndex.pageContent';
 }
 
 exports.render.params = [];
@@ -11505,15 +11549,14 @@ return exports;
 
 });
 
-class pageBlogIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templates);
+class pageBlogHistoryOfFunctionalProgrammingIndex extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogHistoryOfFunctionalProgrammingIndex, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
-/* 93 */,
 /* 94 */,
 /* 95 */,
 /* 96 */,
@@ -11554,14 +11597,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageBlogIndex, templa
 /* 131 */,
 /* 132 */,
 /* 133 */,
-/* 134 */,
-/* 135 */,
-/* 136 */,
-/* 137 */,
-/* 138 */,
-/* 139 */,
-/* 140 */,
-/* 141 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11585,9 +11621,9 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _blogSoy = __webpack_require__(92);
+var _history_of_functional_programmingSoy = __webpack_require__(93);
 
-var _blogSoy2 = _interopRequireDefault(_blogSoy);
+var _history_of_functional_programmingSoy2 = _interopRequireDefault(_history_of_functional_programmingSoy);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11597,23 +11633,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var pageBlogIndex = function (_Component) {
-  _inherits(pageBlogIndex, _Component);
+var pageBlogHistoryOfFunctionalProgrammingIndex = function (_Component) {
+  _inherits(pageBlogHistoryOfFunctionalProgrammingIndex, _Component);
 
-  function pageBlogIndex() {
-    _classCallCheck(this, pageBlogIndex);
+  function pageBlogHistoryOfFunctionalProgrammingIndex() {
+    _classCallCheck(this, pageBlogHistoryOfFunctionalProgrammingIndex);
 
-    return _possibleConstructorReturn(this, (pageBlogIndex.__proto__ || Object.getPrototypeOf(pageBlogIndex)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (pageBlogHistoryOfFunctionalProgrammingIndex.__proto__ || Object.getPrototypeOf(pageBlogHistoryOfFunctionalProgrammingIndex)).apply(this, arguments));
   }
 
-  return pageBlogIndex;
+  return pageBlogHistoryOfFunctionalProgrammingIndex;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(pageBlogIndex, _blogSoy2.default);
+_metalSoy2.default.register(pageBlogHistoryOfFunctionalProgrammingIndex, _history_of_functional_programmingSoy2.default);
 
-exports.default = pageBlogIndex;
+exports.default = pageBlogHistoryOfFunctionalProgrammingIndex;
 
 /***/ })
-],[141]);
+],[134]);

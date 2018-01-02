@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([6],[
+webpackJsonppageComponent([7],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11382,7 +11382,8 @@ module.exports = function(module) {
 /* 91 */,
 /* 92 */,
 /* 93 */,
-/* 94 */
+/* 94 */,
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11443,10 +11444,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param99 = function() {
+  var param110 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Java Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param110, elementClasses: 'Java Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -12192,7 +12193,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageJavaCourseIndex, 
 
 
 /***/ }),
-/* 95 */,
 /* 96 */,
 /* 97 */,
 /* 98 */,
@@ -12230,7 +12230,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageJavaCourseIndex, 
 /* 130 */,
 /* 131 */,
 /* 132 */,
-/* 133 */
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12254,7 +12257,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _functional_javaSoy = __webpack_require__(94);
+var _functional_javaSoy = __webpack_require__(95);
 
 var _functional_javaSoy2 = _interopRequireDefault(_functional_javaSoy);
 
@@ -12285,4 +12288,4 @@ _metalSoy2.default.register(pageJavaCourseIndex, _functional_javaSoy2.default);
 exports.default = pageJavaCourseIndex;
 
 /***/ })
-],[133]);
+],[136]);

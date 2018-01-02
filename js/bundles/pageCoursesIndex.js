@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([2],[
+webpackJsonppageComponent([3],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11386,7 +11386,8 @@ module.exports = function(module) {
 /* 95 */,
 /* 96 */,
 /* 97 */,
-/* 98 */
+/* 98 */,
+/* 99 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11447,10 +11448,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param143 = function() {
+  var param154 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param143, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11762,7 +11763,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 
 
 /***/ }),
-/* 99 */,
 /* 100 */,
 /* 101 */,
 /* 102 */,
@@ -11795,7 +11795,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageCoursesIndex, tem
 /* 129 */,
 /* 130 */,
 /* 131 */,
-/* 132 */
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11819,7 +11822,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _indexSoy = __webpack_require__(98);
+var _indexSoy = __webpack_require__(99);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -11850,4 +11853,4 @@ _metalSoy2.default.register(pageCoursesIndex, _indexSoy2.default);
 exports.default = pageCoursesIndex;
 
 /***/ })
-],[132]);
+],[135]);

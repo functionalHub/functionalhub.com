@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11384,7 +11384,8 @@ module.exports = function(module) {
 /* 93 */,
 /* 94 */,
 /* 95 */,
-/* 96 */
+/* 96 */,
+/* 97 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11445,10 +11446,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param121 = function() {
+  var param132 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param121, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param132, elementClasses: 'Kotlin Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -12131,7 +12132,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageKotlinCourseIndex
 
 
 /***/ }),
-/* 97 */,
 /* 98 */,
 /* 99 */,
 /* 100 */,
@@ -12169,7 +12169,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageKotlinCourseIndex
 /* 132 */,
 /* 133 */,
 /* 134 */,
-/* 135 */
+/* 135 */,
+/* 136 */,
+/* 137 */,
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12193,7 +12196,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _functional_kotlinSoy = __webpack_require__(96);
+var _functional_kotlinSoy = __webpack_require__(97);
 
 var _functional_kotlinSoy2 = _interopRequireDefault(_functional_kotlinSoy);
 
@@ -12224,4 +12227,4 @@ _metalSoy2.default.register(pageKotlinCourseIndex, _functional_kotlinSoy2.defaul
 exports.default = pageKotlinCourseIndex;
 
 /***/ })
-],[135]);
+],[138]);

@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([0],[
+webpackJsonppageComponent([1],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -11388,7 +11388,8 @@ module.exports = function(module) {
 /* 97 */,
 /* 98 */,
 /* 99 */,
-/* 100 */
+/* 100 */,
+/* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11452,7 +11453,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
   var param77 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param77, elementClasses: 'News'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param77, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11483,7 +11484,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-8 col-lg-6 mx-auto pb-4');
           ie_open('h1', null, null,
               'class', 'display-4 mt-5 mb-4 text-center text-secondary');
-            itext('Testimonials');
+            itext('What do our students say?');
           ie_close('h1');
         ie_close('div');
       ie_close('div');
@@ -11496,33 +11497,31 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'width', '30',
               'class', 'py-2');
           ie_close('img');
-          itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,');
-          ie_open('small', null, null,
-              'class', 'py-3');
-            ie_open('b');
-              itext('Mauricio Hern\u00E1ndez Oyarz\u00E1bal');
-            ie_close('b');
-          ie_close('small');
+          itext('Without doubt, the best course you\'ll find about functional programming. With clear explanations and very good examples. At the end, you\'ll wonder how you managed to work without monads all this time.');
           ie_open('p', null, null,
               'class', 'small');
+            ie_open('b');
+              itext('Miguel S\u00E1nchez Marcos');
+            ie_close('b');
+            itext('\u00A0\u00A0');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
           ie_close('p');
@@ -11531,7 +11530,9 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-2 mr-md-auto p-5 p-md-2');
           ie_open('img', null, null,
               'class', 'img-fluid rounded-circle',
-              'src', '/images/team/ahdezma.jpg');
+              'src', '/images/testimonials/miki.png',
+              'width', '100',
+              'height', '100');
           ie_close('img');
         ie_close('div');
       ie_close('div');
@@ -11544,33 +11545,31 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'width', '30',
               'class', 'py-2');
           ie_close('img');
-          itext('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,');
-          ie_open('small', null, null,
-              'class', 'py-3');
-            ie_open('b');
-              itext('Mauricio Hern\u00E1ndez Oyarz\u00E1bal');
-            ie_close('b');
-          ie_close('small');
+          itext('I really liked it! The best was the method to learn new concepts, using real wold examples. Totally recommended, even for people like me, who never coded with functional programming style.');
           ie_open('p', null, null,
               'class', 'small');
+            ie_open('b');
+              itext('Roberto G\u00F3mez');
+            ie_close('b');
+            itext('\u00A0\u00A0');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
             ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-128.png',
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
                 'width', '24');
             ie_close('img');
           ie_close('p');
@@ -11579,7 +11578,249 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             'class', 'col-md-2 mr-md-auto p-5 p-md-2');
           ie_open('img', null, null,
               'class', 'img-fluid rounded-circle',
-              'src', '/images/team/ahdezma.jpg');
+              'src', '/images/testimonials/roberto.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('I have been reading about functional programming since a while, but I thought it was difficult. Thanks to this course, I could understand the core conceptos in an easy way, using a programming language I already knew. Totally recomended!');
+          ie_open('p', null, null,
+              'class', 'small');
+            ie_open('b');
+              itext('Victor Gal\u00E1n');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/victor.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('After several attempts to learn functional programming, I was about to give up: I thought this was a thing too theoretical and abstract for me. Until I found this course, and thanks to it, I finally managed to learn the "weird" concepts, with practical examples that can be applied in your daily job. I wish I could find it before!');
+          ie_open('p', null, null,
+              'class', 'small');
+            ie_open('b');
+              itext('Daniel Mart\u00EDn Garc\u00EDa');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/daniel.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('It starts from the most basic thigs of functional programming, and it adds more and more concepts in a clear way. Very recommended.');
+          ie_open('p', null, null,
+              'class', 'small');
+            ie_open('b');
+              itext('Edgar Mir\u00F3');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/edgar.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('The first day someone told me about functional programming, I couldn\'t understand it. Six months and a couple of talks later, I understood even less! But now, with this course, I realized it\'s much easier than I thought. Each chapter helps you to understand this paradigm in clear and fun way.');
+          ie_open('p', null, null,
+              'class', 'small');
+            ie_open('b');
+              itext('Sergio Muriana');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/sergio.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '30',
+              'class', 'py-2');
+          ie_close('img');
+          itext('After watching the introduction course, I wanted to learn much more about functional programming. The course approaches the concepts in a easy-going and light way. At the same time, it uses a lot of real world scenarios to explain the concepts. Congratulations!');
+          ie_open('p', null, null,
+              'class', 'small');
+            ie_open('b');
+              itext('Mikel Balduciel Diaz');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/mikel.png',
+              'width', '100',
+              'height', '100');
           ie_close('img');
         ie_close('div');
       ie_close('div');
@@ -11608,7 +11849,6 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageTestimonialsIndex
 
 
 /***/ }),
-/* 101 */,
 /* 102 */,
 /* 103 */,
 /* 104 */,
@@ -11647,7 +11887,10 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(pageTestimonialsIndex
 /* 137 */,
 /* 138 */,
 /* 139 */,
-/* 140 */
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11671,7 +11914,7 @@ __webpack_require__(15);
 
 __webpack_require__(13);
 
-var _testimonialsSoy = __webpack_require__(100);
+var _testimonialsSoy = __webpack_require__(101);
 
 var _testimonialsSoy2 = _interopRequireDefault(_testimonialsSoy);
 
@@ -11702,4 +11945,4 @@ _metalSoy2.default.register(pageTestimonialsIndex, _testimonialsSoy2.default);
 exports.default = pageTestimonialsIndex;
 
 /***/ })
-],[140]);
+],[143]);
