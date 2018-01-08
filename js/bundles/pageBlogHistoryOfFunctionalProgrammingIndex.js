@@ -2060,17 +2060,20 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate');
         ie_open('span', null, null,
             'class', 'nav-link');
-          ie_open('img', null, null,
-              'src', '/images/functional_hub_isotipo.png',
-              'width', '32');
-          ie_close('img');
-          ie_open('span', null, null,
-              'class', 'magic logo pl-2');
-            itext('FUNCTIONAL ');
-            ie_open('strong');
-              itext('HUB');
-            ie_close('strong');
-          ie_close('span');
+          ie_open('a', null, null,
+              'href', '/');
+            ie_open('img', null, null,
+                'src', '/images/functional_hub_isotipo.png',
+                'width', '32');
+            ie_close('img');
+            ie_open('span', null, null,
+                'class', 'magic logo pl-2');
+              itext('FUNCTIONAL ');
+              ie_open('strong');
+                itext('HUB');
+              ie_close('strong');
+            ie_close('span');
+          ie_close('a');
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
@@ -2122,8 +2125,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_java.html',
-            'style', 'padding: 0.5rem 0.8rem;');
+            'href', '/courses/functional_java.html');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
               'width', '40');
@@ -2138,8 +2140,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_csharp.html',
-            'style', 'padding: 0.5rem 0.9rem;');
+            'href', '/courses/functional_csharp.html');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
               'width', '36');
@@ -11472,15 +11473,24 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row');
         ie_open('img', null, null,
-            'class', 'img-fluided',
+            'class', 'img-fluided p-4',
             'src', '/images/blog/hommer.png');
         ie_close('img');
         ie_open('div', null, null,
-            'class', 'col-md-8 col-lg-6 mx-auto pb-4');
+            'class', 'col-md-8 mx-auto pb-4');
           ie_open('h1', null, null,
               'class', 'display-4 mt-5 mb-4 text-center text-secondary');
             itext('A bit of history about functional programming');
           ie_close('h1');
+          ie_open('small');
+            ie_open('b');
+              itext('Ahutor: JM');
+            ie_close('b');
+          ie_close('small');
+          ie_open('p', null, null,
+              'class', 'small');
+            itext('08/01/2018');
+          ie_close('p');
           ie_open('p');
             itext('In these days, it looks like functional programming is the new kid in town, something trendy and cool that you have to know. At least until the next cool thing arrives. But actually, functional programming is quite old. Probably older than you!');
           ie_close('p');

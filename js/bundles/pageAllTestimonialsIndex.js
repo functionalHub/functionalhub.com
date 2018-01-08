@@ -2060,17 +2060,20 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate');
         ie_open('span', null, null,
             'class', 'nav-link');
-          ie_open('img', null, null,
-              'src', '/images/functional_hub_isotipo.png',
-              'width', '32');
-          ie_close('img');
-          ie_open('span', null, null,
-              'class', 'magic logo pl-2');
-            itext('FUNCTIONAL ');
-            ie_open('strong');
-              itext('HUB');
-            ie_close('strong');
-          ie_close('span');
+          ie_open('a', null, null,
+              'href', '/');
+            ie_open('img', null, null,
+                'src', '/images/functional_hub_isotipo.png',
+                'width', '32');
+            ie_close('img');
+            ie_open('span', null, null,
+                'class', 'magic logo pl-2');
+              itext('FUNCTIONAL ');
+              ie_open('strong');
+                itext('HUB');
+              ie_close('strong');
+            ie_close('span');
+          ie_close('a');
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
@@ -2122,8 +2125,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_java.html',
-            'style', 'padding: 0.5rem 0.8rem;');
+            'href', '/courses/functional_java.html');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
               'width', '40');
@@ -2138,8 +2140,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_csharp.html',
-            'style', 'padding: 0.5rem 0.9rem;');
+            'href', '/courses/functional_csharp.html');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
               'width', '36');
@@ -11451,10 +11452,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param165 = function() {
+  var param99 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param165, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11490,7 +11491,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('El nivel del curso es excelente y la manera de transmitirlo muy cercana y de f\u00E1cil seguimiento. En mi opini\u00F3n este es un "must-know" que cualquier desarrollador, que quiera o necesite elevar su nivel, deber\u00EDa tener en cuenta.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Victor Vargas Fari\u00F1as');
             ie_close('b');
@@ -11538,7 +11539,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Tanto si tienes algunas nociones sobre programaci\u00F3n funcional, como si es la primera toma de contacto con el paradigma. Conceptos muy claros, con ejemplos reales que se pueden usar en el d\u00EDa a d\u00EDa y lo que es m\u00E1s importante, ENTENDIENDOLO. Si quieres aprender/afianzar programaci\u00F3n funcional, \u00A1no lo dudes! \u00A1Este es tu curso!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Carlos M. Vicente Herrero');
             ie_close('b');
@@ -11586,7 +11587,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Curso muy recomendable para iniciarse en la programaci\u00F3n funcional. Incluir\u00EDa alg\u00FAn ejemplo de desarrollo de una aplicaci\u00F3n completa fuera del playground, aunque sea sencilla, por ejemplo en iOS, que de una visi\u00F3n pr\u00E1ctica del uso de la programaci\u00F3n funcional en un caso real.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jose Humanes Humanes');
             ie_close('b');
@@ -11630,7 +11631,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Sin duda, el mejor curso en espa\u00F1ol que encontrar\u00E1s sobre programaci\u00F3n funcional. Con explicaciones claras y ejemplos muy bien pensados. Al acabar, te preguntar\u00E1s c\u00F3mo has podido trabajar sin m\u00F3nadas todo ese tiempo.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Miguel S\u00E1nchez Marcos');
             ie_close('b');
@@ -11678,7 +11679,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('\u00A1Me ha encantado el curso! Sobre todo por la forma de aprender los conceptos, aplic\u00E1ndolos a ejemplos reales. Totalmente recomendable incluso para personas como yo, que no hab\u00EDa programado nunca en programaci\u00F3n funcional.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Roberto G\u00F3mez');
             ie_close('b');
@@ -11726,7 +11727,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Hace ya tiempo que me llamaba la atenci\u00F3n la programaci\u00F3n funcional, pero lo ve\u00EDa como algo complicado y lioso. Gracias a este curso he podido entender los conceptos de manera muy sencilla usando un lenguaje familiar para mi. \u00A1Totalmente recomendable!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Victor Gal\u00E1n');
             ie_close('b');
@@ -11774,7 +11775,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Tras varios intentos de aprender las bases de la programaci\u00F3n funcional, ya estaba a punto de tirar la toalla: pensaba que este era un tema demasiado te\u00F3rico y abstracto para mi. Hasta que encontr\u00E9 este curso y gracias a \u00E9l, por fin he conseguido entender todos los conceptos "oscuros", con ejemplos pr\u00E1cticos y 100% aplicables. \u00A1Ojal\u00E1 lo hubiera encontrado antes!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Daniel Mart\u00EDn Garc\u00EDa');
             ie_close('b');
@@ -11822,7 +11823,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Clear explanations listing the main eight principles of functional programming. I will definitely join the complete course!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Rodrigo L\u00F3pez-Romero Guijarro');
             ie_close('b');
@@ -11870,7 +11871,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Sab\u00EDa algo acerca de los principios de la programaci\u00F3n funcional, ha estado muy bien repasarlos y ampliarlos. Muy bien explicados los conceptos, supongo que se ampliar\u00E1n m\u00E1s todav\u00EDa en el curso completo. Solo un pero, en algunos ejemplos con los playgrounds hab\u00EDa ocasiones en las que se perd\u00EDa de vista lo que se quer\u00EDa ense\u00F1ar, por hacer scroll o similar, pero no afecta demasiado.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jose Luis Nieto');
             ie_close('b');
@@ -11918,7 +11919,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('El curso introductorio es muy completo y suficiente para animar a comprar el curso completo.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Cristian Alex Palomino Rivera');
             ie_close('b');
@@ -11966,7 +11967,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Curso 100% recomendable. Sobre todo por la forma de aprender los conceptos. Antes oir hablar de programacion funcional me parecia de otro planeta, pero desde luego puedo decir que todo lo contrario.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Eloy Sanz');
             ie_close('b');
@@ -12014,7 +12015,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Para ser una introducci\u00F3n es muy clara y completa. Adem\u00E1s las explicaciones son muy amenas y dejan con ganas de m\u00E1s... Espero poder hacer el completo');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Fco Jos\u00E9 P\u00E9rez');
             ie_close('b');
@@ -12062,7 +12063,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Me parece bastante util, al inicio es algo confuso para entender pero poco a poco vas captando');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Manuel Salinas');
             ie_close('b');
@@ -12106,7 +12107,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Conceptos claros y bien explicados. Accesible para cualquiera con nociones b\u00E1sicas de Swift. Recomendado.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jorge D. Ortiz Fuentes');
             ie_close('b');
@@ -12154,7 +12155,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Totalmente recomendable, un curso muy ameno y con los conceptos clave muy bien explicados. Enhorabuena ;-)');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jos\u00E9 Sancho Monrabal');
             ie_close('b');
@@ -12202,7 +12203,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Este curso ha servido para llamar mi atenci\u00F3n sobre el uso de la programaci\u00F3n funcional y su aplicaci\u00F3n a problemas del d\u00EDa a d\u00EDa, esto con ayuda de Kotlin. \u00A1No puedo esperar para estudiar el siguiente curso!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Mauricio Hern\u00E1ndez Oyarz\u00E1bal');
             ie_close('b');
@@ -12250,7 +12251,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Inicio desde lo m\u00E1s b\u00E1sico de la programaci\u00F3n funcional y ampliando conceptos de un modo muy claro. Muy recomendable.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Edgar Mir\u00F3');
             ie_close('b');
@@ -12298,7 +12299,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Me ha parecido una buena introducci\u00F3n, quiz\u00E1s algunos de los video se pod\u00EDan extender un poco mas porque incluso siendo introducci\u00F3n son bastante b\u00E1sicos. Pero en general esta muy bien, la voz del video es relajada y ayuda a entender bien la informaci\u00F3n que se da. Si se cliquea en el siguiente video cuando se ha visto mas de la mitad o tres cuartos se deber\u00EDa preguntar si se quiere marcar como visto. En mi caso, cuando estaba casi al final y quedaban 10 o 20 segundos cliqueaba en el siguiente pero cuando iba por el octavo me di cuenta que ninguno de los anteriores estaba marcado como visto as\u00ED que tube que ir uno a uno clickando en siguiente. Cuando se cliquea en siguiente aparece uno bot\u00F3n verde por unos instantes al lado, tiene algo escrito de dice "...nota..." o algo as\u00ED pero desaparece enseguida as\u00ED que debe de ser un bug. Estar\u00EDa bien que al terminar el ultimo video se diera la option de comprar el curso automaticamente y que el siguiente video del curso comenzara nada mas hacer la transacci\u00F3n.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Javier Pardo');
             ie_close('b');
@@ -12342,7 +12343,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Una gran introducci\u00F3n a los conceptos b\u00E1sicos de la programaci\u00F3n funcional. Se me ha hecho corto, esperando el curso completo!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jes\u00FAs Soria Seco');
             ie_close('b');
@@ -12390,7 +12391,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Se explica todo de forma muy experta y sencilla. Sin perderse en detalles pero no dejando nada en el aire. Todo se clarifica perfectamente en los ejemplos.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Ismael Florit Zacarias');
             ie_close('b');
@@ -12438,7 +12439,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Simplemente el curso no tiene desperdicios. Aun que en mi d\u00EDa a d\u00EDa, no trabajo con lenguajes funcionales puros, la introducci\u00F3n me abri\u00F3 el apetito por ellos. Luego de este curso me siento mejor programador, ahora comprendo la utilidad de la programaci\u00F3n funcional y por qu\u00E9 su gran auge y la tendencia al uso de librer\u00EDas como Reactive Extensions. Aprop\u00F3sito, me encanta la forma en que explican los temas \u00A1Muy simple y directo al punto! \u00A1Muy buen trabajo!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Arturo Mejia');
             ie_close('b');
@@ -12486,7 +12487,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Se explican muy bien los conceptos b\u00E1sicos de la FP, y el contenido del curso restante tiene muy buena pinta.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Patxi Bocos');
             ie_close('b');
@@ -12534,7 +12535,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Muy buena introducci\u00F3n a programaci\u00F3n funcional. He compartido este curso en mis redes sociales me parece una introducci\u00F3n necesaria para poder exprimir Kotlin como nuevo lenguaje soportado oficialmente para Android.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Roberto Carlos Gonzalez Flores');
             ie_close('b');
@@ -12582,7 +12583,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Estoy verdaderamente contento con las explicaciones, duraci\u00F3n, claridad y ejemplos en este curso introductorio. Espero con ansias poder ver el curso completo, ya que personalmente la FP me ha interesado mucho desde que la conoc\u00ED e igualmente Kotlin.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Ricardo Quiroz Bazan');
             ie_close('b');
@@ -12630,7 +12631,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('La introducci\u00F3n tiene muy buena pinta, promete. Espero que lo publiquen pronto.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Daniel Garc\u00EDa Rivas');
             ie_close('b');
@@ -12678,7 +12679,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('La introducci\u00F3n al curso me ha dejado con ganas de aprender mucho m\u00E1s sobre programaci\u00F3n funcional. Enfoca muy bien los temas que se van a tratar y no se hace para nada pesado. A su vez orientar el temario a situaciones reales de uso es un puntazo. Mis felicitaciones.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Mikel Balduciel Diaz');
             ie_close('b');
@@ -12726,7 +12727,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('El primer d\u00EDa que alguien me habl\u00F3 de programaci\u00F3n funcional no entend\u00EDa nada, 6 meses despues y un par de charlas entend\u00EDa menos a\u00FAn, ahora con este curso he visto que es mucho m\u00E1s sencillo de lo que pensaba, cada c\u00E1pitulo te ayuda a entender este paradigma de forma muy amena y con un gran contenido did\u00E1ctico.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Sergio Muriana');
             ie_close('b');
@@ -12774,7 +12775,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Gran curso de introducci\u00F3n que te mantiene siempre expectativo. Adem\u00E1s, explica los conceptos de forma clara y concisa.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Fco Javier Rodr\u00EDguez Crespo');
             ie_close('b');
@@ -12822,7 +12823,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Trabajo como desarrollador Android, y llevo ya un cierto tiempo introduci\u00E9ndome en el mundo de la programaci\u00F3n funcional y en Kotlin. He le\u00EDdo bastantes art\u00EDculos y seguido diversos tutoriales acerca de ambas materias, y he quedado gratamente sorprendido con la introducci\u00F3n al curso. Los v\u00EDdeos tienen una duraci\u00F3n razonable, los contenidos est\u00E1n bien explicados, y los ejemplos pr\u00E1cticos resultan muy \u00FAltiles. Destaco entre todos, el snippet para convertir una serie de m\u00E9todos y llamadas en stateless; gran trabajo! Solo he echado en falta que en esta introducci\u00F3n no se haya hecho menci\u00F3n a las "Funciones de Extensi\u00F3n", que es sin duda uno de los aspectos m\u00E1s innovadores que he visto en Kotlin. De salir pronto, y tras revisar los contenidos, estar\u00EDa interesado en hacer el curso. Muchas gracias, and keep it up!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('P S');
             ie_close('b');
@@ -12870,7 +12871,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Conceptos claros con ejemplos muy f\u00E1ciles de seguir, que hacen que este curso de introducci\u00F3n sea de 10!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Jorge Castrejon');
             ie_close('b');
@@ -12918,7 +12919,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('He disfrutado con el material proporcionado. Para los que tenemos una m\u00EDnima experiencia en Kotlin se hace muy ameno y entretenido adem\u00E1s de \u00FAtil.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Angel V\u00E1zquez V\u00E1zquez');
             ie_close('b');
@@ -12966,7 +12967,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Los videos est\u00E1n muy bien enfocados y, a\u00FAn solo siendo una introducci\u00F3n, ense\u00F1a muchas de las ventajas de la programaci\u00F3n funcional. Un material muy ameno y recomendable.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Daniel Garc\u00EDa Frias');
             ie_close('b');
@@ -13014,7 +13015,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Ha sido MUY AMENO y entretenido! Como critica constructiva, se me ha hecho demasiado corto!!!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('RAFAEL Carmona Grande');
             ie_close('b');
@@ -13062,7 +13063,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Estupenda iniciativa. Un curso realmente apetecible. Si el curso es tan did\u00E1ctico y ameno como lo visto hasta ahora creo que por fin voy a dar el salto y el cambio de paradigma a la funcional. Saludos');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Antonio Carabantes Mill\u00E1n');
             ie_close('b');
@@ -13110,7 +13111,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Una excelente presentaci\u00F3n y una estructura que te van introduciendo poco a poco y de manera ordenada en el mundo de la programaci\u00F3n funcional. \u00A1Sin duda estos chicos se lo han currado!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Fernando Vega');
             ie_close('b');
@@ -13158,7 +13159,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Es una introducci\u00F3n que a pesar de lo corta es profunda y, al mismo, tiempo accesible para personas con poco o ning\u00FAn conocimiento de funcional. Sin duda una genial puerta de entrada a este mundo y, \u00A1En nuestro idioma!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Pau Arlandis Martinez');
             ie_close('b');
@@ -13206,7 +13207,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Conceptos muy bien explicados, buenos ejemplos, y videos muy amenos de seguir y cuidados al detalle con zoom al c\u00F3digo cuando corresponde.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Al B.');
             ie_close('b');
@@ -13254,7 +13255,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_close('img');
           itext('Muy buenos videos. Bien explicados y amenos. Buen ritmo, buen tono y muy buenos ejemplos.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small pt-4');
             ie_open('b');
               itext('Pedro R\u00EDos P\u00E9rez');
             ie_close('b');

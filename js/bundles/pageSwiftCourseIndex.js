@@ -2060,17 +2060,20 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate');
         ie_open('span', null, null,
             'class', 'nav-link');
-          ie_open('img', null, null,
-              'src', '/images/functional_hub_isotipo.png',
-              'width', '32');
-          ie_close('img');
-          ie_open('span', null, null,
-              'class', 'magic logo pl-2');
-            itext('FUNCTIONAL ');
-            ie_open('strong');
-              itext('HUB');
-            ie_close('strong');
-          ie_close('span');
+          ie_open('a', null, null,
+              'href', '/');
+            ie_open('img', null, null,
+                'src', '/images/functional_hub_isotipo.png',
+                'width', '32');
+            ie_close('img');
+            ie_open('span', null, null,
+                'class', 'magic logo pl-2');
+              itext('FUNCTIONAL ');
+              ie_open('strong');
+                itext('HUB');
+              ie_close('strong');
+            ie_close('span');
+          ie_close('a');
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
@@ -2122,8 +2125,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_java.html',
-            'style', 'padding: 0.5rem 0.8rem;');
+            'href', '/courses/functional_java.html');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
               'width', '40');
@@ -2138,8 +2140,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_csharp.html',
-            'style', 'padding: 0.5rem 0.9rem;');
+            'href', '/courses/functional_csharp.html');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
               'width', '36');
@@ -11447,10 +11448,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param132 = function() {
+  var param154 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param132, elementClasses: 'Swift Course'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Swift Course'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11478,7 +11479,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row');
         ie_open('div', null, null,
-            'class', 'col-md-9 bg-white px-md-4 py-3');
+            'class', 'col-md-9 bg-white p-md-5');
           ie_open('h1', null, null,
               'class', 'display-4 pt-3');
             itext('Functional Programming');

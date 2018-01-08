@@ -2060,17 +2060,20 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate');
         ie_open('span', null, null,
             'class', 'nav-link');
-          ie_open('img', null, null,
-              'src', '/images/functional_hub_isotipo.png',
-              'width', '32');
-          ie_close('img');
-          ie_open('span', null, null,
-              'class', 'magic logo pl-2');
-            itext('FUNCTIONAL ');
-            ie_open('strong');
-              itext('HUB');
-            ie_close('strong');
-          ie_close('span');
+          ie_open('a', null, null,
+              'href', '/');
+            ie_open('img', null, null,
+                'src', '/images/functional_hub_isotipo.png',
+                'width', '32');
+            ie_close('img');
+            ie_open('span', null, null,
+                'class', 'magic logo pl-2');
+              itext('FUNCTIONAL ');
+              ie_open('strong');
+                itext('HUB');
+              ie_close('strong');
+            ie_close('span');
+          ie_close('a');
         ie_close('span');
       ie_close('li');
       ie_open('li', null, null,
@@ -2122,8 +2125,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-java');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_java.html',
-            'style', 'padding: 0.5rem 0.8rem;');
+            'href', '/courses/functional_java.html');
           ie_open('img', null, null,
               'src', '/images/Logo_java.svg',
               'width', '40');
@@ -2138,8 +2140,7 @@ function $sidebar(opt_data, opt_ignored, opt_ijData) {
           'class', 'nav-item text-truncate bg-csharp');
         ie_open('a', null, null,
             'class', 'nav-link text-white',
-            'href', '/courses/functional_csharp.html',
-            'style', 'padding: 0.5rem 0.9rem;');
+            'href', '/courses/functional_csharp.html');
           ie_open('img', null, null,
               'src', '/images/Logo_csharp.svg',
               'width', '36');
@@ -11449,11 +11450,11 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param52 = function() {
+  var param31 = function() {
     $pageContent(opt_data, null, opt_ijData);
     $footer(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param52, elementClasses: 'home'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param31, elementClasses: 'home'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11777,7 +11778,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
         ie_open('div', null, null,
             'class', 'row');
           ie_open('a', null, null,
-              'href', '#',
+              'href', '/courses/functional_javascript.html',
               'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-js text-center p-5',
               'data-wow-delay', '0.3s');
             ie_open('img', null, null,
@@ -11796,7 +11797,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_close('h3');
           ie_close('a');
           ie_open('a', null, null,
-              'href', '#',
+              'href', '/courses/functional_kotlin.html',
               'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-kotlin text-center p-5');
             ie_open('img', null, null,
                 'src', '/images/functional_isotipo.png',
@@ -11814,7 +11815,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
             ie_close('h3');
           ie_close('a');
           ie_open('a', null, null,
-              'href', '#',
+              'href', '/courses/functional_swift.html',
               'class', 'col-md-4 d-flex flex-column align-items-center justify-content-center card-box card-height text-white bg-swift text-center p-5',
               'data-wow-delay', '0.6s');
             ie_open('img', null, null,
