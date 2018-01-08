@@ -68,8 +68,24 @@ p {
 
 .bg-java {
 	background: radial-gradient($color-java-a, $color-java-b);
+
+	&.nav-item a.nav-link {
+		padding: 0.3rem 0.5rem;
+
+		@include media-breakpoint-up(md) {
+			padding: 0.5rem 0.8rem;
+		}
+	}
 }
 
 .bg-csharp {
 	background: radial-gradient($color-csharp-a, $color-csharp-b);
+
+	&.nav-item a.nav-link {
+		padding: 0.3rem 0.6rem;
+
+		@include media-breakpoint-up(md) {
+			padding: 0.5rem 0.9rem;
+		}
+	}
 }
