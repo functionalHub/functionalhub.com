@@ -11451,10 +11451,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param88 = function() {
+  var param154 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11492,15 +11492,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('Without doubt, the best course you\'ll find about functional programming. With clear explanations and very good examples. At the end, you\'ll wonder how you managed to work without monads all this time.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Miguel S\u00E1nchez Marcos');
             ie_close('b');
@@ -11540,15 +11540,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('I really liked it! The best was the method to learn new concepts, using real wold examples. Totally recommended, even for people like me, who never coded with functional programming style.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Roberto G\u00F3mez');
             ie_close('b');
@@ -11588,15 +11588,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('I have been reading about functional programming since a while, but I thought it was difficult. Thanks to this course, I could understand the core conceptos in an easy way, using a programming language I already knew. Totally recomended!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Victor Gal\u00E1n');
             ie_close('b');
@@ -11636,15 +11636,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('After several attempts to learn functional programming, I was about to give up: I thought this was a thing too theoretical and abstract for me. Until I found this course, and thanks to it, I finally managed to learn the "weird" concepts, with practical examples that can be applied in your daily job. I wish I could find it before!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Daniel Mart\u00EDn Garc\u00EDa');
             ie_close('b');
@@ -11684,15 +11684,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('It starts from the most basic thigs of functional programming, and it adds more and more concepts in a clear way. Very recommended.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Edgar Mir\u00F3');
             ie_close('b');
@@ -11732,15 +11732,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('The first day someone told me about functional programming, I couldn\'t understand it. Six months and a couple of talks later, I understood even less! But now, with this course, I realized it\'s much easier than I thought. Each chapter helps you to understand this paradigm in clear and fun way.');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Sergio Muriana');
             ie_close('b');
@@ -11780,15 +11780,15 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4');
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
           ie_open('img', null, null,
               'src', '/images/comillas.svg',
-              'width', '30',
+              'width', '25',
               'class', 'py-2');
           ie_close('img');
           itext('After watching the introduction course, I wanted to learn much more about functional programming. The course approaches the concepts in a easy-going and light way. At the same time, it uses a lot of real world scenarios to explain the concepts. Congratulations!');
           ie_open('p', null, null,
-              'class', 'small');
+              'class', 'small mt-3');
             ie_open('b');
               itext('Mikel Balduciel Diaz');
             ie_close('b');
@@ -11829,6 +11829,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           'class', 'p-4 mb-4');
         ie_open('p');
           ie_open('a', null, null,
+              'class', 'btn btn-primary',
               'href', 'testimonials.html');
             itext('Read all testimonials...');
           ie_close('a');
