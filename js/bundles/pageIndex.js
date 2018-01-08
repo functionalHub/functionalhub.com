@@ -11857,7 +11857,8 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_void('script', null, null,
           'src', '/scripts/malarkey.min.js');
       ie_void('script', null, null,
-          'src', '/scripts/home.js');
+          'src', '/scripts/home.js',
+          'data-senna-track', 'temporary');
     }
     exports.footer = $footer;
     if (goog.DEBUG) {
