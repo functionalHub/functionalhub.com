@@ -11451,10 +11451,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param154 = function() {
+  var param88 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11834,7 +11834,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'width', '25',
               'class', 'py-2');
           ie_close('img');
-          itext('This course is for you both you already know a bit about functional programming or this is your first time. Very clear ideas, real samples that you can use in your daily-basis, and what is even more important: with a total UNDERSTANDING! If you want to learn or consolidate your skill about functional programming, Don\'t hesitate!');
+          itext('This course is for you either you already know a bit about functional programming or this is you\'re a first timer. Very clear ideas, real world samples that you can use in your daily-basis, and what is even more important: with a total UNDERSTANDING! If you want to learn or consolidate your skill about functional programming, Don\'t hesitate!');
           ie_open('p', null, null,
               'class', 'small pt-3');
             ie_open('b');
