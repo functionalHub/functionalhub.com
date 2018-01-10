@@ -11449,10 +11449,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param165 = function() {
+  var param143 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param165, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param143, elementClasses: 'Courses'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11498,7 +11498,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_close('div');
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white p-md-5');
+        'class', 'container bg-white p-md-5 mt-5');
       ie_open('div', null, null,
           'class', 'row py-4');
         ie_open('h1', null, null,
@@ -11539,7 +11539,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Functional Swift');
               ie_close('h4');
               ie_open('p', null, null,
-                  'class', 'card-text');
+                  'class', 'card-text lead');
                 itext('Learn functional programming in Swift in a practical way, with examples used in everyday iOS apps.');
               ie_close('p');
               ie_open('a', null, null,
@@ -11579,7 +11579,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Functional Kotlin');
               ie_close('h4');
               ie_open('p', null, null,
-                  'class', 'card-text');
+                  'class', 'card-text lead');
                 itext('Learn functional programming in Kotlin in a practical way, with examples used in everyday Android apps.');
               ie_close('p');
               ie_open('a', null, null,
@@ -11593,7 +11593,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_close('div');
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white p-md-5');
+        'class', 'container bg-white p-md-5 mt-5');
       ie_open('div', null, null,
           'class', 'row py-4 mt-5');
         ie_open('h1', null, null,
@@ -11633,7 +11633,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Functional JavaScript');
               ie_close('h4');
               ie_open('p', null, null,
-                  'class', 'card-text');
+                  'class', 'card-text lead');
                 itext('With Javascript you can learn functional programming in a practical way: familiar syntax, useful day-to-day examples and out-of-the-box functional constructions make it the perfect language to learn functional programming!');
               ie_close('p');
               ie_open('a', null, null,
@@ -11647,7 +11647,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       ie_close('div');
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white p-md-5');
+        'class', 'container bg-white p-md-5 mt-5');
       ie_open('div', null, null,
           'class', 'row py-4 mt-5');
         ie_open('h1', null, null,
@@ -11687,7 +11687,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Functional C#');
               ie_close('h4');
               ie_open('p', null, null,
-                  'class', 'card-text');
+                  'class', 'card-text lead');
                 itext('Erik Meijer, one of the architects behind C# and LINQ is one of the most strong supporters of functional programming. Because of that, C# has introduced more and more functional constructs with each version. And if you want to go one step further, you always can jump info F#');
               ie_close('p');
               ie_open('a', null, null,
@@ -11727,7 +11727,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
                 itext('Functional Java');
               ie_close('h4');
               ie_open('p', null, null,
-                  'class', 'card-text');
+                  'class', 'card-text lead');
                 itext('Even though Java can\'t be considered a functional language, you can be introduced to most of the concepts thanks to lambdas and functional interfaces support in Java 8. Don\'t yearn a new project using Scala. You can start to learn functional programming with Java NOW.');
               ie_close('p');
               ie_open('a', null, null,

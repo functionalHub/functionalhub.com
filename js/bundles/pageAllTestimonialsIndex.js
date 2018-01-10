@@ -11452,10 +11452,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param99 = function() {
+  var param165 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param99, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param165, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11479,7 +11479,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
       $templateAlias3(opt_data, null, opt_ijData);
     ie_close('div');
     ie_open('div', null, null,
-        'class', 'container bg-white');
+        'class', 'container bg-white py-md-5');
       ie_open('div', null, null,
           'class', 'row testimonial p-4 mb-4');
         ie_open('div', null, null,
@@ -11494,54 +11494,6 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'class', 'small pt-3');
             ie_open('b');
               itext('Victor Vargas Fari\u00F1as');
-            ie_close('b');
-            itext('\u00A0\u00A0');
-            ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
-                'width', '24');
-            ie_close('img');
-            ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
-                'width', '24');
-            ie_close('img');
-            ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
-                'width', '24');
-            ie_close('img');
-            ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
-                'width', '24');
-            ie_close('img');
-            ie_open('img', null, null,
-                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
-                'width', '24');
-            ie_close('img');
-          ie_close('p');
-        ie_close('div');
-        ie_open('div', null, null,
-            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
-          ie_open('img', null, null,
-              'class', 'img-fluid rounded-circle',
-              'src', '/images/logos/swift-logo.png',
-              'width', '100',
-              'height', '100');
-          ie_close('img');
-        ie_close('div');
-      ie_close('div');
-      ie_open('div', null, null,
-          'class', 'row testimonial p-4 mb-4');
-        ie_open('div', null, null,
-            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
-          ie_open('img', null, null,
-              'src', '/images/comillas.svg',
-              'width', '25',
-              'class', 'py-2');
-          ie_close('img');
-          itext('Tanto si tienes algunas nociones sobre programaci\u00F3n funcional, como si es la primera toma de contacto con el paradigma. Conceptos muy claros, con ejemplos reales que se pueden usar en el d\u00EDa a d\u00EDa y lo que es m\u00E1s importante, ENTENDIENDOLO. Si quieres aprender/afianzar programaci\u00F3n funcional, \u00A1no lo dudes! \u00A1Este es tu curso!');
-          ie_open('p', null, null,
-              'class', 'small pt-3');
-            ie_open('b');
-              itext('Carlos M. Vicente Herrero');
             ie_close('b');
             itext('\u00A0\u00A0');
             ie_open('img', null, null,

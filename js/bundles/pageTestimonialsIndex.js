@@ -11451,10 +11451,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
 function $render(opt_data, opt_ignored, opt_ijData) {
   opt_data = opt_data || {};
   $templateAlias1(opt_data, null, opt_ijData);
-  var param88 = function() {
+  var param154 = function() {
     $pageContent(opt_data, null, opt_ijData);
   };
-  $templateAlias2(soy.$$assignDefaults({content: param88, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
+  $templateAlias2(soy.$$assignDefaults({content: param154, elementClasses: 'Testimonials'}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
@@ -11786,7 +11786,7 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'width', '25',
               'class', 'py-2');
           ie_close('img');
-          itext('After watching the introduction course, I wanted to learn much more about functional programming. The course approaches the concepts in a easy-going and light way. At the same time, it uses a lot of real world scenarios to explain the concepts. Congratulations!');
+          itext('After watching the introduction course, I wanted to learn much more about functional programming. The course approaches the concepts in a easy-going and relaxed way. At the same time, it uses a lot of real world scenarios to explain the concepts. Congratulations!');
           ie_open('p', null, null,
               'class', 'small mt-3');
             ie_open('b');
@@ -11820,6 +11820,54 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
           ie_open('img', null, null,
               'class', 'img-fluid rounded-circle',
               'src', '/images/testimonials/mikel.png',
+              'width', '100',
+              'height', '100');
+          ie_close('img');
+        ie_close('div');
+      ie_close('div');
+      ie_open('div', null, null,
+          'class', 'row testimonial p-4 mb-4');
+        ie_open('div', null, null,
+            'class', 'col-md-6 ml-auto card rounded p-md-4 pr-md-5');
+          ie_open('img', null, null,
+              'src', '/images/comillas.svg',
+              'width', '25',
+              'class', 'py-2');
+          ie_close('img');
+          itext('This course is for you both you already know a bit about functional programming or this is your first time. Very clear ideas, real samples that you can use in your daily-basis, and what is even more important: with a total UNDERSTANDING! If you want to learn or consolidate your skill about functional programming, Don\'t hesitate!');
+          ie_open('p', null, null,
+              'class', 'small pt-3');
+            ie_open('b');
+              itext('Carlos M. Vicente Herrero');
+            ie_close('b');
+            itext('\u00A0\u00A0');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+            ie_open('img', null, null,
+                'src', 'https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-24.png',
+                'width', '24');
+            ie_close('img');
+          ie_close('p');
+        ie_close('div');
+        ie_open('div', null, null,
+            'class', 'col-md-2 mr-md-auto p-5 p-md-2');
+          ie_open('img', null, null,
+              'class', 'img-fluid rounded-circle',
+              'src', '/images/testimonials/carlos.png',
               'width', '100',
               'height', '100');
           ie_close('img');

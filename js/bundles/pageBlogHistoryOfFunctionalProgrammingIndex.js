@@ -11482,15 +11482,32 @@ function $pageContent(opt_data, opt_ignored, opt_ijData) {
               'class', 'display-4 mt-5 mb-4 text-center text-secondary');
             itext('A bit of history about functional programming');
           ie_close('h1');
-          ie_open('small');
-            ie_open('b');
-              itext('Ahutor: JM');
-            ie_close('b');
-          ie_close('small');
-          ie_open('p', null, null,
-              'class', 'small');
-            itext('08/01/2018');
-          ie_close('p');
+          ie_open('div', null, null,
+              'class', 'container');
+            ie_open('div', null, null,
+                'class', 'row');
+              ie_open('div', null, null,
+                  'class', 'col-auto p-1');
+                ie_open('img', null, null,
+                    'class', 'img-fluid rounded-circle',
+                    'src', '/images/testimonials/victor.png',
+                    'width', '40');
+                ie_close('img');
+              ie_close('div');
+              ie_open('div', null, null,
+                  'class', 'col');
+                ie_open('small');
+                  ie_open('b');
+                    itext('Ahutor: JM');
+                  ie_close('b');
+                ie_close('small');
+                ie_open('p', null, null,
+                    'class', 'small');
+                  itext('08/01/2018');
+                ie_close('p');
+              ie_close('div');
+            ie_close('div');
+          ie_close('div');
           ie_open('p');
             itext('In these days, it looks like functional programming is the new kid in town, something trendy and cool that you have to know. At least until the next cool thing arrives. But actually, functional programming is quite old. Probably older than you!');
           ie_close('p');
